@@ -9,6 +9,7 @@ Menu::Menu(float width, float height)
 	{
 		// handle error
 	}
+	
 	logo.setFont(font);
 	logo.setColor(sf::Color::White);
 	logo.setString("LUDO MASTER");

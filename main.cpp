@@ -24,7 +24,7 @@ void menuAction(RenderWindow *window, Menu *menu){
 
 int main()
 {
-	RenderWindow window(VideoMode(1000, 800), "SFML WORK!");
+	RenderWindow window(VideoMode(1000, 800), "Ludo Master - Dominik Klodzinski & Maciej Laszewski");
 
 	Menu menu(window.getSize().x, window.getSize().y);
 
@@ -73,10 +73,6 @@ int main()
 
 		window.clear();
 
-		menu.draw(window);
-		
-		window.clear();
-		
 		menu.draw(window);
 
 		window.display();

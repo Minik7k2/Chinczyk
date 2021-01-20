@@ -19,6 +19,10 @@ Board::Board(float width, float height)
 	}
 }
 
+Board::~Board()
+{
+}
+
 void Board::draw(sf::RenderWindow &window)
 {
 	for (int i = 0; i < ROW_NUMBER_OF_PIECES; i++)

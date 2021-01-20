@@ -55,7 +55,10 @@ int main()
 		}
 
 		window.clear();
-		menu.draw(window);
+		Board board(window.getSize().x, window.getSize().y);
+			
+			board.draw(window);
+		//menu.draw(window);
 
 		window.display();
 	}

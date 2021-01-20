@@ -101,9 +101,12 @@ void Menu::MenuAction(sf::RenderWindow *window, Menu *menu){
 	switch (menu->GetPressedItem())
 	{
 		case 0:
+			{
 			cout << "Play button has been pressed" << endl;
 			Board board(window->getSize().x, window->getSize().y);
-			
+			window->clear();
+			board.draw(*window);
+			}			
 			break;
 		case 1:
 			cout << "Option button has been pressed" << endl;

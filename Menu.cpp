@@ -1,4 +1,6 @@
 #include "Menu.h"
+#include <iostream>
+using namespace std;
 
 
 Menu::Menu(float width, float height)
@@ -9,7 +11,6 @@ Menu::Menu(float width, float height)
 	{
 		// handle error
 	}
-	
 	logo.setFont(font);
 	logo.setColor(sf::Color::White);
 	logo.setString("LUDO MASTER");
@@ -76,4 +77,25 @@ void Menu::MoveDown()
 		selectedItemIndex++;
 		menu[selectedItemIndex].setColor(sf::Color::Red);
 	}
+}
+
+void Menu::CheckCursorFocus(float m_x, float m_y)
+{
+	sf::Vector2f mousePosition(m_x, m_y);
+	
+	
+	
+	for(int i=0; i<MAX_NUMBER_OF_ITEMS; i++){
+		sf::Vector2f menuTextPos = menu[i].getPosition();
+		float textWidth = menu[i].getLocalBounds().width;
+		float textHeight = menu[i].getLocalBounds().height;
+		
+		if ((mousePosition.y >= (menuTextPos.y-(textHeight/2))) && (mousePosition.y <= (menuTextPos.y+textHeight/2)) && (mousePosition.x >= (menuTextPos.x-textWidth/2)) && (mousePosition.x <= (menuTextPos.x+textWidth/2)))
+		{
+			menu[selectedItemIndex].setColor(sf::Color::White);
+			selectedItemIndex = i;
+			menu[selectedItemIndex].setColor(sf::Color::Red);
+		}
+	}
+	
 }

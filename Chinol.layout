@@ -7,12 +7,12 @@ CursorRow=15
 TopLine=1
 LeftChar=1
 [Editor_1]
-CursorCol=16
-CursorRow=10
+CursorCol=3
+CursorRow=24
 TopLine=1
 LeftChar=1
 [Editor_2]
-CursorCol=20
-CursorRow=55
-TopLine=64
+CursorCol=4
+CursorRow=98
+TopLine=40
 LeftChar=1

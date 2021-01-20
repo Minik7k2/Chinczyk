@@ -1,12 +1,10 @@
 #include "Menu.h"
+#include "Board.h"
 #include <iostream>
 using namespace std;
 
-
 Menu::Menu(float width, float height)
 {
-	
-	
 	if (!font.loadFromFile("Lato-black.ttf"))
 	{
 		// handle error
@@ -42,7 +40,7 @@ Menu::Menu(float width, float height)
 	menu[3].setOrigin(menu[3].getLocalBounds().width/2, menu[3].getLocalBounds().height/2);
 	menu[3].setPosition(sf::Vector2f(width / 2, height / (MAX_NUMBER_OF_ITEMS + 1) * 3));
 
-	selectedItemIndex = 0;
+	selectedItemIndex = -1;
 }
 
 
@@ -98,4 +96,23 @@ void Menu::CheckCursorFocus(float m_x, float m_y)
 		}
 	}
 	
+}
+void Menu::MenuAction(sf::RenderWindow *window, Menu *menu){
+	switch (menu->GetPressedItem())
+	{
+		case 0:
+			cout << "Play button has been pressed" << endl;
+			Board board(window->getSize().x, window->getSize().y);
+			
+			break;
+		case 1:
+			cout << "Option button has been pressed" << endl;
+			break;
+		case 2:
+			cout << "Authors button has been pressed" << endl;
+			break;
+		case 3:
+			window->close();
+			break;
+	}
 }

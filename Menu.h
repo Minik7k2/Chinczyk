@@ -14,6 +14,7 @@ public:
 	void MoveDown();
 	void CheckCursorFocus(float m_x, float m_y);
 	int GetPressedItem() { return selectedItemIndex; }
+	void MenuAction(sf::RenderWindow *window, Menu *menu);
 
 private:
 	int selectedItemIndex;

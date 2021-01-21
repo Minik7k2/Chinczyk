@@ -1,0 +1,1613 @@
+21.01.2021 00:36:00: Creating log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+mingw32-make.exe: Nothing to be done for 'all'.
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,06s
+
+21.01.2021 00:36:35: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Menu.cpp -o object/Menu.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+sources/Menu.cpp: In constructor 'Menu::Menu(float, float)':
+sources/Menu.cpp:15:28: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  logo.setColor(Color::White);
+                            ^
+sources/Menu.cpp:22:29: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[0].setColor(Color::Red);
+                             ^
+sources/Menu.cpp:28:31: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[1].setColor(Color::White);
+                               ^
+sources/Menu.cpp:34:31: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[2].setColor(Color::White);
+                               ^
+sources/Menu.cpp:40:31: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[3].setColor(Color::White);
+                               ^
+sources/Menu.cpp: In member function 'void Menu::MoveUp()':
+sources/Menu.cpp:66:48: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::White);
+                                                ^
+sources/Menu.cpp:68:46: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::Red);
+                                              ^
+sources/Menu.cpp: In member function 'void Menu::MoveDown()':
+sources/Menu.cpp:76:48: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::White);
+                                                ^
+sources/Menu.cpp:78:46: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::Red);
+                                              ^
+sources/Menu.cpp: In member function 'void Menu::CheckCursorFocus(float, float)':
+sources/Menu.cpp:93:49: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+    menu[selectedItemIndex].setColor(Color::White);
+                                                 ^
+sources/Menu.cpp:95:47: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+    menu[selectedItemIndex].setColor(Color::Red);
+                                               ^
+sources/Menu.cpp: In member function 'void Menu::MenuAction(sf::RenderWindow*, Menu*, Game*)':
+sources/Menu.cpp:107:10: error: request for member 'set_isRun' in 'game', which is of pointer type 'Game*' (maybe you meant to use '->' ?)
+     game.set_isRun();
+          ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:37: recipe for target 'object/Menu.o' failed
+mingw32-make.exe: *** [object/Menu.o] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 11
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,28s
+
+21.01.2021 00:37:50: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Menu.cpp -o object/Menu.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+sources/Menu.cpp: In constructor 'Menu::Menu(float, float)':
+sources/Menu.cpp:16:28: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  logo.setColor(Color::White);
+                            ^
+sources/Menu.cpp:23:29: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[0].setColor(Color::Red);
+                             ^
+sources/Menu.cpp:29:31: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[1].setColor(Color::White);
+                               ^
+sources/Menu.cpp:35:31: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[2].setColor(Color::White);
+                               ^
+sources/Menu.cpp:41:31: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[3].setColor(Color::White);
+                               ^
+sources/Menu.cpp: In member function 'void Menu::MoveUp()':
+sources/Menu.cpp:67:48: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::White);
+                                                ^
+sources/Menu.cpp:69:46: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::Red);
+                                              ^
+sources/Menu.cpp: In member function 'void Menu::MoveDown()':
+sources/Menu.cpp:77:48: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::White);
+                                                ^
+sources/Menu.cpp:79:46: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::Red);
+                                              ^
+sources/Menu.cpp: In member function 'void Menu::CheckCursorFocus(float, float)':
+sources/Menu.cpp:94:49: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+    menu[selectedItemIndex].setColor(Color::White);
+                                                 ^
+sources/Menu.cpp:96:47: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+    menu[selectedItemIndex].setColor(Color::Red);
+                                               ^
+sources/Menu.cpp: In member function 'void Menu::MenuAction(sf::RenderWindow*, Menu*, Game*)':
+sources/Menu.cpp:108:10: error: request for member 'set_isRun' in 'game', which is of pointer type 'Game*' (maybe you meant to use '->' ?)
+     game.set_isRun();
+          ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:37: recipe for target 'object/Menu.o' failed
+mingw32-make.exe: *** [object/Menu.o] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 11
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,28s
+
+21.01.2021 00:38:05: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Menu.cpp -o object/Menu.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+sources/Menu.cpp: In constructor 'Menu::Menu(float, float)':
+sources/Menu.cpp:16:28: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  logo.setColor(Color::White);
+                            ^
+sources/Menu.cpp:23:29: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[0].setColor(Color::Red);
+                             ^
+sources/Menu.cpp:29:31: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[1].setColor(Color::White);
+                               ^
+sources/Menu.cpp:35:31: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[2].setColor(Color::White);
+                               ^
+sources/Menu.cpp:41:31: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[3].setColor(Color::White);
+                               ^
+sources/Menu.cpp: In member function 'void Menu::MoveUp()':
+sources/Menu.cpp:67:48: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::White);
+                                                ^
+sources/Menu.cpp:69:46: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::Red);
+                                              ^
+sources/Menu.cpp: In member function 'void Menu::MoveDown()':
+sources/Menu.cpp:77:48: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::White);
+                                                ^
+sources/Menu.cpp:79:46: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::Red);
+                                              ^
+sources/Menu.cpp: In member function 'void Menu::CheckCursorFocus(float, float)':
+sources/Menu.cpp:94:49: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+    menu[selectedItemIndex].setColor(Color::White);
+                                                 ^
+sources/Menu.cpp:96:47: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+    menu[selectedItemIndex].setColor(Color::Red);
+                                               ^
+sources/Menu.cpp: In member function 'void Menu::MenuAction(sf::RenderWindow*, Menu*, Game*)':
+sources/Menu.cpp:108:5: error: 'game' is not a class or namespace
+     game::set_isRun();
+     ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:37: recipe for target 'object/Menu.o' failed
+mingw32-make.exe: *** [object/Menu.o] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 11
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,25s
+
+21.01.2021 00:38:13: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Menu.cpp -o object/Menu.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+sources/Menu.cpp: In constructor 'Menu::Menu(float, float)':
+sources/Menu.cpp:16:28: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  logo.setColor(Color::White);
+                            ^
+sources/Menu.cpp:23:29: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[0].setColor(Color::Red);
+                             ^
+sources/Menu.cpp:29:31: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[1].setColor(Color::White);
+                               ^
+sources/Menu.cpp:35:31: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[2].setColor(Color::White);
+                               ^
+sources/Menu.cpp:41:31: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[3].setColor(Color::White);
+                               ^
+sources/Menu.cpp: In member function 'void Menu::MoveUp()':
+sources/Menu.cpp:67:48: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::White);
+                                                ^
+sources/Menu.cpp:69:46: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::Red);
+                                              ^
+sources/Menu.cpp: In member function 'void Menu::MoveDown()':
+sources/Menu.cpp:77:48: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::White);
+                                                ^
+sources/Menu.cpp:79:46: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::Red);
+                                              ^
+sources/Menu.cpp: In member function 'void Menu::CheckCursorFocus(float, float)':
+sources/Menu.cpp:94:49: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+    menu[selectedItemIndex].setColor(Color::White);
+                                                 ^
+sources/Menu.cpp:96:47: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+    menu[selectedItemIndex].setColor(Color::Red);
+                                               ^
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files/Dev-Cpp/MinGW64/lib" -L"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/Program Files/Dev-Cpp/SFML-2.4.2/lib" -static-libgcc -lsfml-graphics -lsfml-window -lsfml-audio -lsfml-system -lopengl32
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 11
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,58s
+
+21.01.2021 00:40:53: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+mingw32-make.exe: Nothing to be done for 'all'.
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,11s
+
+21.01.2021 00:57:07: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+sources/Game.cpp:24:32: error: no 'int Game::draw(sf::RenderWindow&)' member function declared in class 'Game'
+ Game::draw(RenderWindow &window)
+                                ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,67s
+
+21.01.2021 00:58:37: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+In file included from sources/Game.cpp:3:0:
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:14:9: error: return type specification for destructor invalid
+   ~Game();
+         ^
+sources/Game.cpp:24:32: error: no 'int Game::draw(sf::RenderWindow&)' member function declared in class 'Game'
+ Game::draw(RenderWindow &window)
+                                ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 2
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,69s
+
+21.01.2021 01:04:08: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+In file included from sources/Game.cpp:3:0:
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:13:13: error: 'RenderWindow' has not been declared
+   void draw(RenderWindow *window)
+             ^
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:13:33: error: expected ';' at end of member declaration
+   void draw(RenderWindow *window)
+                                 ^
+sources/Game.cpp:24:1: error: prototype for 'int Game::draw(sf::RenderWindow&)' does not match any in class 'Game'
+ Game::draw(RenderWindow &window)
+ ^
+In file included from sources/Game.cpp:3:0:
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:13:8: error: candidate is: void Game::draw(int*)
+   void draw(RenderWindow *window)
+        ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 4
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,41s
+
+21.01.2021 01:04:12: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+In file included from sources/Game.cpp:3:0:
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:13:13: error: 'RenderWindow' has not been declared
+   void draw(RenderWindow *window);
+             ^
+sources/Game.cpp:24:1: error: prototype for 'int Game::draw(sf::RenderWindow&)' does not match any in class 'Game'
+ Game::draw(RenderWindow &window)
+ ^
+In file included from sources/Game.cpp:3:0:
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:13:8: error: candidate is: void Game::draw(int*)
+   void draw(RenderWindow *window);
+        ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 3
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,39s
+
+21.01.2021 01:04:21: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+sources/Game.cpp:24:1: error: prototype for 'int Game::draw(sf::RenderWindow&)' does not match any in class 'Game'
+ Game::draw(RenderWindow &window)
+ ^
+In file included from sources/Game.cpp:3:0:
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:13:8: error: candidate is: void Game::draw(sf::RenderWindow*)
+   void draw(sf::RenderWindow *window);
+        ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 2
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,41s
+
+21.01.2021 01:06:06: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+In file included from sources/Game.cpp:3:0:
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:13:13: error: 'RenderWindow' has not been declared
+   void draw(RenderWindow *window);
+             ^
+sources/Game.cpp:24:1: error: prototype for 'int Game::draw(sf::RenderWindow&)' does not match any in class 'Game'
+ Game::draw(RenderWindow &window)
+ ^
+In file included from sources/Game.cpp:3:0:
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:13:8: error: candidate is: void Game::draw(int*)
+   void draw(RenderWindow *window);
+        ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 3
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,42s
+
+21.01.2021 01:13:43: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+In file included from sources/Game.cpp:3:0:
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:13:13: error: 'RenderWindow' has not been declared
+   void draw(RenderWindow *window);
+             ^
+sources/Game.cpp:24:6: error: prototype for 'void Game::draw(sf::RenderWindow&)' does not match any in class 'Game'
+ void Game::draw(RenderWindow &window)
+      ^
+In file included from sources/Game.cpp:3:0:
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:13:8: error: candidate is: void Game::draw(int*)
+   void draw(RenderWindow *window);
+        ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 3
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,42s
+
+21.01.2021 01:14:24: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+In file included from sources/Game.cpp:3:0:
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:13:13: error: 'RenderWindow' has not been declared
+   void draw(RenderWindow &window);
+             ^
+sources/Game.cpp:24:6: error: prototype for 'void Game::draw(sf::RenderWindow&)' does not match any in class 'Game'
+ void Game::draw(RenderWindow &window)
+      ^
+In file included from sources/Game.cpp:3:0:
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:13:8: error: candidate is: void Game::draw(int&)
+   void draw(RenderWindow &window);
+        ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 3
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,36s
+
+21.01.2021 01:15:38: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+In file included from sources/Game.cpp:3:0:
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:13:13: error: 'RenderWindow' has not been declared
+   void draw(RenderWindow &window);
+             ^
+sources/Game.cpp:24:6: error: prototype for 'void Game::draw(sf::RenderWindow&)' does not match any in class 'Game'
+ void Game::draw(RenderWindow &window)
+      ^
+In file included from sources/Game.cpp:3:0:
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:13:8: error: candidate is: void Game::draw(int&)
+   void draw(RenderWindow &window);
+        ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 3
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,27s
+
+21.01.2021 01:15:51: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+In file included from sources/Game.cpp:3:0:
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:13:13: error: 'RenderWindow' has not been declared
+   void draw(RenderWindow *window);
+             ^
+sources/Game.cpp:24:6: error: prototype for 'void Game::draw(sf::RenderWindow&)' does not match any in class 'Game'
+ void Game::draw(RenderWindow &window)
+      ^
+In file included from sources/Game.cpp:3:0:
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:13:8: error: candidate is: void Game::draw(int*)
+   void draw(RenderWindow *window);
+        ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 3
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,27s
+
+21.01.2021 01:17:59: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+In file included from sources/Game.cpp:3:0:
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:11:13: error: 'RenderWindow' has not been declared
+   void draw(RenderWindow *window);
+             ^
+sources/Game.cpp:24:6: error: prototype for 'void Game::draw(sf::RenderWindow&)' does not match any in class 'Game'
+ void Game::draw(RenderWindow &window)
+      ^
+In file included from sources/Game.cpp:3:0:
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:11:8: error: candidate is: void Game::draw(int*)
+   void draw(RenderWindow *window);
+        ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 3
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,38s
+
+21.01.2021 01:19:51: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+In file included from sources/Game.cpp:3:0:
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:11:13: error: 'RenderWindow' has not been declared
+   void draw(RenderWindow *window);
+             ^
+sources/Game.cpp:24:6: error: prototype for 'void Game::draw(sf::RenderWindow&)' does not match any in class 'Game'
+ void Game::draw(RenderWindow &window)
+      ^
+In file included from sources/Game.cpp:3:0:
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:11:8: error: candidate is: void Game::draw(int*)
+   void draw(RenderWindow *window);
+        ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 3
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,38s
+
+21.01.2021 01:20:47: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+sources/Game.cpp: In member function 'void Game::draw(sf::RenderWindow&)':
+sources/Game.cpp:26:20: error: base operand of '->' has non-pointer type 'sf::RenderWindow'
+  Board board(window->getSize().x, window->getSize().y);
+                    ^
+sources/Game.cpp:26:41: error: base operand of '->' has non-pointer type 'sf::RenderWindow'
+  Board board(window->getSize().x, window->getSize().y);
+                                         ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 2
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,38s
+
+21.01.2021 01:21:27: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+In file included from sources/Game.cpp:3:0:
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:11:13: error: 'RenderWindow' has not been declared
+   void draw(RenderWindow &window);
+             ^
+sources/Game.cpp:24:6: error: prototype for 'void Game::draw(sf::RenderWindow&)' does not match any in class 'Game'
+ void Game::draw(RenderWindow &window)
+      ^
+In file included from sources/Game.cpp:3:0:
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:11:8: error: candidate is: void Game::draw(int&)
+   void draw(RenderWindow &window);
+        ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 3
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,39s
+
+21.01.2021 01:21:45: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+sources/Game.cpp: In member function 'void Game::draw(sf::RenderWindow&)':
+sources/Game.cpp:26:20: error: base operand of '->' has non-pointer type 'sf::RenderWindow'
+  Board board(window->getSize().x, window->getSize().y);
+                    ^
+sources/Game.cpp:26:41: error: base operand of '->' has non-pointer type 'sf::RenderWindow'
+  Board board(window->getSize().x, window->getSize().y);
+                                         ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 2
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,36s
+
+21.01.2021 01:22:29: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+sources/Game.cpp: In member function 'void Game::draw(sf::RenderWindow&)':
+sources/Game.cpp:26:20: error: base operand of '->' has non-pointer type 'sf::RenderWindow'
+  Board board(window->getSize().x, window->getSize().y);
+                    ^
+sources/Game.cpp:26:41: error: base operand of '->' has non-pointer type 'sf::RenderWindow'
+  Board board(window->getSize().x, window->getSize().y);
+                                         ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 2
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,41s
+
+21.01.2021 01:23:20: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+sources/Game.cpp:24:6: error: prototype for 'void Game::draw(sf::RenderWindow&)' does not match any in class 'Game'
+ void Game::draw(RenderWindow &window)
+      ^
+In file included from sources/Game.cpp:3:0:
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:14:8: error: candidate is: void Game::draw(sf::RenderWindow&, Board*)
+   void draw(RenderWindow &window, Board *board);
+        ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 2
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,41s
+
+21.01.2021 01:23:40: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+sources/Game.cpp: In member function 'void Game::draw(sf::RenderWindow&, Board*)':
+sources/Game.cpp:26:14: error: declaration of 'Board board' shadows a parameter
+  Board board(window->getSize().x, window->getSize().y);
+              ^
+sources/Game.cpp:26:20: error: base operand of '->' has non-pointer type 'sf::RenderWindow'
+  Board board(window->getSize().x, window->getSize().y);
+                    ^
+sources/Game.cpp:26:41: error: base operand of '->' has non-pointer type 'sf::RenderWindow'
+  Board board(window->getSize().x, window->getSize().y);
+                                         ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 3
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,39s
+
+21.01.2021 01:32:48: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+sources/Game.cpp: In member function 'void Game::draw(sf::RenderWindow&, Board*)':
+sources/Game.cpp:26:14: error: declaration of 'Board board' shadows a parameter
+  Board board(window.getSize().x, window.getSize().y);
+              ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,41s
+
+21.01.2021 01:33:29: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+sources/Game.cpp: In constructor 'Game::Game(bool)':
+sources/Game.cpp:12:14: error: 'window' was not declared in this scope
+  Board board(window.getSize().x, window.getSize().y);
+              ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,41s
+
+21.01.2021 01:34:00: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+sources/Game.cpp: In member function 'void Game::draw(sf::RenderWindow&, Board*)':
+sources/Game.cpp:26:14: error: declaration of 'Board board' shadows a parameter
+  Board board(window.getSize().x, window.getSize().y);
+              ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,38s
+
+21.01.2021 01:46:33: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+sources/Game.cpp: In member function 'void Game::draw(sf::RenderWindow&, Board*)':
+sources/Game.cpp:26:14: error: declaration of 'Board board' shadows a parameter
+  Board board(window->getSize().x, window->getSize().y);
+              ^
+sources/Game.cpp:26:20: error: base operand of '->' has non-pointer type 'sf::RenderWindow'
+  Board board(window->getSize().x, window->getSize().y);
+                    ^
+sources/Game.cpp:26:41: error: base operand of '->' has non-pointer type 'sf::RenderWindow'
+  Board board(window->getSize().x, window->getSize().y);
+                                         ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 3
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,27s
+
+21.01.2021 01:46:47: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+sources/Game.cpp: In member function 'void Game::draw(sf::RenderWindow&, Board*)':
+sources/Game.cpp:26:14: error: declaration of 'Board board' shadows a parameter
+  Board board(window->getSize().x, window->getSize().y);
+              ^
+sources/Game.cpp:26:20: error: base operand of '->' has non-pointer type 'sf::RenderWindow'
+  Board board(window->getSize().x, window->getSize().y);
+                    ^
+sources/Game.cpp:26:41: error: base operand of '->' has non-pointer type 'sf::RenderWindow'
+  Board board(window->getSize().x, window->getSize().y);
+                                         ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 3
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,27s
+
+21.01.2021 01:47:09: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+sources/Game.cpp: In member function 'void Game::draw(sf::RenderWindow&, Board*)':
+sources/Game.cpp:26:14: error: declaration of 'Board board' shadows a parameter
+  Board board(window->getSize().x, window->getSize().y);
+              ^
+sources/Game.cpp:26:20: error: base operand of '->' has non-pointer type 'sf::RenderWindow'
+  Board board(window->getSize().x, window->getSize().y);
+                    ^
+sources/Game.cpp:26:41: error: base operand of '->' has non-pointer type 'sf::RenderWindow'
+  Board board(window->getSize().x, window->getSize().y);
+                                         ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 3
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,25s
+
+21.01.2021 01:47:42: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+sources/Game.cpp:24:6: error: prototype for 'void Game::draw(sf::RenderWindow&)' does not match any in class 'Game'
+ void Game::draw(RenderWindow &window)
+      ^
+In file included from sources/Game.cpp:3:0:
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:14:8: error: candidate is: void Game::draw(sf::RenderWindow&, Board*)
+   void draw(RenderWindow &window, Board *board);
+        ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 2
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,87061214447021 MiB
+- Compilation Time: 0,25s
+
+21.01.2021 01:48:12: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+g++.exe -c sources/main.cpp -o object/main.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files/Dev-Cpp/MinGW64/lib" -L"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/Program Files/Dev-Cpp/SFML-2.4.2/lib" -static-libgcc -lsfml-graphics -lsfml-window -lsfml-audio -lsfml-system -lopengl32
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,8711576461792 MiB
+- Compilation Time: 0,72s
+
+21.01.2021 01:49:09: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+sources/Game.cpp: In member function 'void Game::draw(sf::RenderWindow&, Board&)':
+sources/Game.cpp:26:14: error: declaration of 'Board board' shadows a parameter
+  Board board(window.getSize().x, window.getSize().y);
+              ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,8711576461792 MiB
+- Compilation Time: 0,25s
+
+21.01.2021 01:49:54: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+g++.exe -c sources/main.cpp -o object/main.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files/Dev-Cpp/MinGW64/lib" -L"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/Program Files/Dev-Cpp/SFML-2.4.2/lib" -static-libgcc -lsfml-graphics -lsfml-window -lsfml-audio -lsfml-system -lopengl32
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,8716459274292 MiB
+- Compilation Time: 0,67s
+
+21.01.2021 01:51:56: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/main.cpp -o object/main.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+sources/main.cpp: In function 'int main()':
+sources/main.cpp:72:8: error: base operand of '->' has non-pointer type 'Game'
+    game->draw(&window, &board) 
+        ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:34: recipe for target 'object/main.o' failed
+mingw32-make.exe: *** [object/main.o] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,8716459274292 MiB
+- Compilation Time: 0,27s
+
+21.01.2021 01:52:02: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/main.cpp -o object/main.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+sources/main.cpp: In function 'int main()':
+sources/main.cpp:72:29: error: no matching function for call to 'Game::draw(sf::RenderWindow*, Board*)'
+    game.draw(&window, &board) 
+                             ^
+sources/main.cpp:72:29: note: candidate is:
+In file included from sources/main.cpp:3:0:
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:14:8: note: void Game::draw(sf::RenderWindow&, Board&)
+   void draw(RenderWindow &window, Board &board);
+        ^
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:14:8: note:   no known conversion for argument 1 from 'sf::RenderWindow*' to 'sf::RenderWindow&'
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:34: recipe for target 'object/main.o' failed
+mingw32-make.exe: *** [object/main.o] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,8716459274292 MiB
+- Compilation Time: 0,27s
+
+21.01.2021 01:52:14: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/main.cpp -o object/main.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+sources/main.cpp: In function 'int main()':
+sources/main.cpp:72:8: error: base operand of '->' has non-pointer type 'Game'
+    game->draw(&window, &board);
+        ^
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:34: recipe for target 'object/main.o' failed
+mingw32-make.exe: *** [object/main.o] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,8716459274292 MiB
+- Compilation Time: 0,25s
+
+21.01.2021 01:52:24: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/main.cpp -o object/main.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+sources/main.cpp: In function 'int main()':
+sources/main.cpp:72:29: error: no matching function for call to 'Game::draw(sf::RenderWindow*, Board*)'
+    game.draw(&window, &board);
+                             ^
+sources/main.cpp:72:29: note: candidate is:
+In file included from sources/main.cpp:3:0:
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:14:8: note: void Game::draw(sf::RenderWindow&, Board&)
+   void draw(RenderWindow &window, Board &board);
+        ^
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:14:8: note:   no known conversion for argument 1 from 'sf::RenderWindow*' to 'sf::RenderWindow&'
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:34: recipe for target 'object/main.o' failed
+mingw32-make.exe: *** [object/main.o] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,8716459274292 MiB
+- Compilation Time: 0,28s
+
+21.01.2021 01:53:55: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/main.cpp -o object/main.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+sources/main.cpp: In function 'int main()':
+sources/main.cpp:72:29: error: no matching function for call to 'Game::draw(sf::RenderWindow*, Board*)'
+    game.draw(&window, &board);
+                             ^
+sources/main.cpp:72:29: note: candidate is:
+In file included from sources/main.cpp:3:0:
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:14:8: note: void Game::draw(sf::RenderWindow&, Board&)
+   void draw(RenderWindow &window, Board &board);
+        ^
+C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header/Game.h:14:8: note:   no known conversion for argument 1 from 'sf::RenderWindow*' to 'sf::RenderWindow&'
+C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win:34: recipe for target 'object/main.o' failed
+mingw32-make.exe: *** [object/main.o] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,8716459274292 MiB
+- Compilation Time: 0,27s
+
+21.01.2021 01:54:24: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/main.cpp -o object/main.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files/Dev-Cpp/MinGW64/lib" -L"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/Program Files/Dev-Cpp/SFML-2.4.2/lib" -static-libgcc -lsfml-graphics -lsfml-window -lsfml-audio -lsfml-system -lopengl32
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,8716459274292 MiB
+- Compilation Time: 0,47s
+
+21.01.2021 01:55:10: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+g++.exe -c sources/main.cpp -o object/main.o -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"C:/Users/J.A.R.V.I.S-NEXT-GEN/Desktop/Chinczyk-main/header" 
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files/Dev-Cpp/MinGW64/lib" -L"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/Program Files/Dev-Cpp/SFML-2.4.2/lib" -static-libgcc -lsfml-graphics -lsfml-window -lsfml-audio -lsfml-system -lopengl32
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,8716459274292 MiB
+- Compilation Time: 0,47s
+
+21.01.2021 01:55:22: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+mingw32-make.exe: Nothing to be done for 'all'.
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,8716459274292 MiB
+- Compilation Time: 0,06s
+
+21.01.2021 01:56:09: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win" all
+
+mingw32-make.exe: Nothing to be done for 'all'.
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\bin\Chinol.exe
+- Output Size: 1,8716459274292 MiB
+- Compilation Time: 0,08s

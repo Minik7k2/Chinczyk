@@ -1,0 +1,323 @@
+21.01.2021 00:36:35: Creating log...
+
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	In constructor 'Menu::Menu(float, float)':
+15	28	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+22	29	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+28	31	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+34	31	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+40	31	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	In member function 'void Menu::MoveUp()':
+66	48	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+68	46	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	In member function 'void Menu::MoveDown()':
+76	48	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+78	46	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	In member function 'void Menu::CheckCursorFocus(float, float)':
+93	49	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+95	47	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	In member function 'void Menu::MenuAction(sf::RenderWindow*, Menu*, Game*)':
+107	10	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Error] request for member 'set_isRun' in 'game', which is of pointer type 'Game*' (maybe you meant to use '->' ?)
+37		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/Menu.o' failed
+
+21.01.2021 00:37:50: Appending to log...
+
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	In constructor 'Menu::Menu(float, float)':
+16	28	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+23	29	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+29	31	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+35	31	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+41	31	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	In member function 'void Menu::MoveUp()':
+67	48	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+69	46	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	In member function 'void Menu::MoveDown()':
+77	48	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+79	46	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	In member function 'void Menu::CheckCursorFocus(float, float)':
+94	49	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+96	47	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	In member function 'void Menu::MenuAction(sf::RenderWindow*, Menu*, Game*)':
+108	10	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Error] request for member 'set_isRun' in 'game', which is of pointer type 'Game*' (maybe you meant to use '->' ?)
+37		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/Menu.o' failed
+
+21.01.2021 00:38:05: Appending to log...
+
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	In constructor 'Menu::Menu(float, float)':
+16	28	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+23	29	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+29	31	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+35	31	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+41	31	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	In member function 'void Menu::MoveUp()':
+67	48	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+69	46	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	In member function 'void Menu::MoveDown()':
+77	48	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+79	46	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	In member function 'void Menu::CheckCursorFocus(float, float)':
+94	49	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+96	47	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	In member function 'void Menu::MenuAction(sf::RenderWindow*, Menu*, Game*)':
+108	5	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Error] 'game' is not a class or namespace
+37		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/Menu.o' failed
+
+21.01.2021 00:38:13: Appending to log...
+
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	In constructor 'Menu::Menu(float, float)':
+16	28	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+23	29	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+29	31	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+35	31	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+41	31	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	In member function 'void Menu::MoveUp()':
+67	48	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+69	46	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	In member function 'void Menu::MoveDown()':
+77	48	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+79	46	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	In member function 'void Menu::CheckCursorFocus(float, float)':
+94	49	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+96	47	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/Program Files/Dev-Cpp/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+
+21.01.2021 00:57:07: Appending to log...
+
+24	32	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] no 'int Game::draw(sf::RenderWindow&)' member function declared in class 'Game'
+31		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/Game.o' failed
+
+21.01.2021 00:58:37: Appending to log...
+
+3	0	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In file included from sources/Game.cpp
+14	9	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Error] return type specification for destructor invalid
+24	32	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] no 'int Game::draw(sf::RenderWindow&)' member function declared in class 'Game'
+31		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/Game.o' failed
+
+21.01.2021 01:04:08: Appending to log...
+
+3	0	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In file included from sources/Game.cpp
+13	13	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Error] 'RenderWindow' has not been declared
+13	33	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Error] expected ';' at end of member declaration
+24	1	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] prototype for 'int Game::draw(sf::RenderWindow&)' does not match any in class 'Game'
+3	0	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In file included from sources/Game.cpp
+13	8	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Error] candidate is: void Game::draw(int*)
+31		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/Game.o' failed
+
+21.01.2021 01:04:12: Appending to log...
+
+3	0	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In file included from sources/Game.cpp
+13	13	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Error] 'RenderWindow' has not been declared
+24	1	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] prototype for 'int Game::draw(sf::RenderWindow&)' does not match any in class 'Game'
+3	0	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In file included from sources/Game.cpp
+13	8	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Error] candidate is: void Game::draw(int*)
+31		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/Game.o' failed
+
+21.01.2021 01:04:21: Appending to log...
+
+24	1	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] prototype for 'int Game::draw(sf::RenderWindow&)' does not match any in class 'Game'
+3	0	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In file included from sources/Game.cpp
+13	8	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Error] candidate is: void Game::draw(sf::RenderWindow*)
+31		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/Game.o' failed
+
+21.01.2021 01:06:06: Appending to log...
+
+3	0	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In file included from sources/Game.cpp
+13	13	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Error] 'RenderWindow' has not been declared
+24	1	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] prototype for 'int Game::draw(sf::RenderWindow&)' does not match any in class 'Game'
+3	0	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In file included from sources/Game.cpp
+13	8	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Error] candidate is: void Game::draw(int*)
+31		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/Game.o' failed
+
+21.01.2021 01:13:43: Appending to log...
+
+3	0	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In file included from sources/Game.cpp
+13	13	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Error] 'RenderWindow' has not been declared
+24	6	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] prototype for 'void Game::draw(sf::RenderWindow&)' does not match any in class 'Game'
+3	0	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In file included from sources/Game.cpp
+13	8	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Error] candidate is: void Game::draw(int*)
+31		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/Game.o' failed
+
+21.01.2021 01:14:24: Appending to log...
+
+3	0	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In file included from sources/Game.cpp
+13	13	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Error] 'RenderWindow' has not been declared
+24	6	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] prototype for 'void Game::draw(sf::RenderWindow&)' does not match any in class 'Game'
+3	0	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In file included from sources/Game.cpp
+13	8	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Error] candidate is: void Game::draw(int&)
+31		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/Game.o' failed
+
+21.01.2021 01:15:38: Appending to log...
+
+3	0	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In file included from sources/Game.cpp
+13	13	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Error] 'RenderWindow' has not been declared
+24	6	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] prototype for 'void Game::draw(sf::RenderWindow&)' does not match any in class 'Game'
+3	0	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In file included from sources/Game.cpp
+13	8	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Error] candidate is: void Game::draw(int&)
+31		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/Game.o' failed
+
+21.01.2021 01:15:51: Appending to log...
+
+3	0	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In file included from sources/Game.cpp
+13	13	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Error] 'RenderWindow' has not been declared
+24	6	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] prototype for 'void Game::draw(sf::RenderWindow&)' does not match any in class 'Game'
+3	0	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In file included from sources/Game.cpp
+13	8	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Error] candidate is: void Game::draw(int*)
+31		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/Game.o' failed
+
+21.01.2021 01:17:59: Appending to log...
+
+3	0	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In file included from sources/Game.cpp
+11	13	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Error] 'RenderWindow' has not been declared
+24	6	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] prototype for 'void Game::draw(sf::RenderWindow&)' does not match any in class 'Game'
+3	0	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In file included from sources/Game.cpp
+11	8	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Error] candidate is: void Game::draw(int*)
+31		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/Game.o' failed
+
+21.01.2021 01:19:51: Appending to log...
+
+3	0	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In file included from sources/Game.cpp
+11	13	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Error] 'RenderWindow' has not been declared
+24	6	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] prototype for 'void Game::draw(sf::RenderWindow&)' does not match any in class 'Game'
+3	0	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In file included from sources/Game.cpp
+11	8	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Error] candidate is: void Game::draw(int*)
+31		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/Game.o' failed
+
+21.01.2021 01:20:47: Appending to log...
+
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In member function 'void Game::draw(sf::RenderWindow&)':
+26	20	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] base operand of '->' has non-pointer type 'sf::RenderWindow'
+26	41	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] base operand of '->' has non-pointer type 'sf::RenderWindow'
+31		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/Game.o' failed
+
+21.01.2021 01:21:27: Appending to log...
+
+3	0	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In file included from sources/Game.cpp
+11	13	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Error] 'RenderWindow' has not been declared
+24	6	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] prototype for 'void Game::draw(sf::RenderWindow&)' does not match any in class 'Game'
+3	0	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In file included from sources/Game.cpp
+11	8	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Error] candidate is: void Game::draw(int&)
+31		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/Game.o' failed
+
+21.01.2021 01:21:45: Appending to log...
+
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In member function 'void Game::draw(sf::RenderWindow&)':
+26	20	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] base operand of '->' has non-pointer type 'sf::RenderWindow'
+26	41	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] base operand of '->' has non-pointer type 'sf::RenderWindow'
+31		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/Game.o' failed
+
+21.01.2021 01:22:29: Appending to log...
+
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In member function 'void Game::draw(sf::RenderWindow&)':
+26	20	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] base operand of '->' has non-pointer type 'sf::RenderWindow'
+26	41	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] base operand of '->' has non-pointer type 'sf::RenderWindow'
+31		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/Game.o' failed
+
+21.01.2021 01:23:20: Appending to log...
+
+24	6	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] prototype for 'void Game::draw(sf::RenderWindow&)' does not match any in class 'Game'
+3	0	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In file included from sources/Game.cpp
+14	8	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Error] candidate is: void Game::draw(sf::RenderWindow&, Board*)
+31		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/Game.o' failed
+
+21.01.2021 01:23:40: Appending to log...
+
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In member function 'void Game::draw(sf::RenderWindow&, Board*)':
+26	14	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] declaration of 'Board board' shadows a parameter
+26	20	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] base operand of '->' has non-pointer type 'sf::RenderWindow'
+26	41	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] base operand of '->' has non-pointer type 'sf::RenderWindow'
+31		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/Game.o' failed
+
+21.01.2021 01:32:48: Appending to log...
+
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In member function 'void Game::draw(sf::RenderWindow&, Board*)':
+26	14	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] declaration of 'Board board' shadows a parameter
+31		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/Game.o' failed
+
+21.01.2021 01:33:29: Appending to log...
+
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In constructor 'Game::Game(bool)':
+12	14	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] 'window' was not declared in this scope
+31		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/Game.o' failed
+
+21.01.2021 01:34:00: Appending to log...
+
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In member function 'void Game::draw(sf::RenderWindow&, Board*)':
+26	14	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] declaration of 'Board board' shadows a parameter
+31		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/Game.o' failed
+
+21.01.2021 01:46:33: Appending to log...
+
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In member function 'void Game::draw(sf::RenderWindow&, Board*)':
+26	14	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] declaration of 'Board board' shadows a parameter
+26	20	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] base operand of '->' has non-pointer type 'sf::RenderWindow'
+26	41	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] base operand of '->' has non-pointer type 'sf::RenderWindow'
+31		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/Game.o' failed
+
+21.01.2021 01:46:47: Appending to log...
+
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In member function 'void Game::draw(sf::RenderWindow&, Board*)':
+26	14	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] declaration of 'Board board' shadows a parameter
+26	20	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] base operand of '->' has non-pointer type 'sf::RenderWindow'
+26	41	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] base operand of '->' has non-pointer type 'sf::RenderWindow'
+31		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/Game.o' failed
+
+21.01.2021 01:47:09: Appending to log...
+
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In member function 'void Game::draw(sf::RenderWindow&, Board*)':
+26	14	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] declaration of 'Board board' shadows a parameter
+26	20	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] base operand of '->' has non-pointer type 'sf::RenderWindow'
+26	41	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] base operand of '->' has non-pointer type 'sf::RenderWindow'
+31		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/Game.o' failed
+
+21.01.2021 01:47:42: Appending to log...
+
+24	6	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] prototype for 'void Game::draw(sf::RenderWindow&)' does not match any in class 'Game'
+3	0	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In file included from sources/Game.cpp
+14	8	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Error] candidate is: void Game::draw(sf::RenderWindow&, Board*)
+31		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/Game.o' failed
+
+21.01.2021 01:49:09: Appending to log...
+
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	In member function 'void Game::draw(sf::RenderWindow&, Board&)':
+26	14	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\Game.cpp	[Error] declaration of 'Board board' shadows a parameter
+31		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/Game.o' failed
+
+21.01.2021 01:51:56: Appending to log...
+
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\main.cpp	In function 'int main()':
+72	8	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\main.cpp	[Error] base operand of '->' has non-pointer type 'Game'
+34		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/main.o' failed
+
+21.01.2021 01:52:02: Appending to log...
+
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\main.cpp	In function 'int main()':
+72	29	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\main.cpp	[Error] no matching function for call to 'Game::draw(sf::RenderWindow*, Board*)'
+72	29	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\main.cpp	[Note] candidate is:
+3	0	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\main.cpp	In file included from sources/main.cpp
+14	8	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Note] void Game::draw(sf::RenderWindow&, Board&)
+14	8	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Note] no known conversion for argument 1 from 'sf::RenderWindow*' to 'sf::RenderWindow&'
+34		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/main.o' failed
+
+21.01.2021 01:52:14: Appending to log...
+
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\main.cpp	In function 'int main()':
+72	8	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\main.cpp	[Error] base operand of '->' has non-pointer type 'Game'
+34		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/main.o' failed
+
+21.01.2021 01:52:24: Appending to log...
+
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\main.cpp	In function 'int main()':
+72	29	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\main.cpp	[Error] no matching function for call to 'Game::draw(sf::RenderWindow*, Board*)'
+72	29	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\main.cpp	[Note] candidate is:
+3	0	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\main.cpp	In file included from sources/main.cpp
+14	8	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Note] void Game::draw(sf::RenderWindow&, Board&)
+14	8	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Note] no known conversion for argument 1 from 'sf::RenderWindow*' to 'sf::RenderWindow&'
+34		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/main.o' failed
+
+21.01.2021 01:53:55: Appending to log...
+
+		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\main.cpp	In function 'int main()':
+72	29	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\main.cpp	[Error] no matching function for call to 'Game::draw(sf::RenderWindow*, Board*)'
+72	29	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\main.cpp	[Note] candidate is:
+3	0	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources\main.cpp	In file included from sources/main.cpp
+14	8	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Note] void Game::draw(sf::RenderWindow&, Board&)
+14	8	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Note] no known conversion for argument 1 from 'sf::RenderWindow*' to 'sf::RenderWindow&'
+34		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/main.o' failed

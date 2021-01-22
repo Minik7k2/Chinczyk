@@ -21,6 +21,6 @@ private:
 	sf::Text logo;
 	sf::Text menu;
 	int pathElements[48][3]; //[id][0=x, 1=y, 2=typ_pola]
-	int startingPoint[3] = {5, 7}; 
+	int startingPoint[3] = {1, 7}; 
 	int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
 };

@@ -11,7 +11,9 @@ Board::Board(float width, float height, RenderWindow &window)
 	sizeOfPiece = 50;
 	
 	//setting path elements
-	memcpy(pathElements[0], startingPoint, sizeof(startingPoint));
+	pathElements[0][0] = 3;
+	pathElements[0][1] = 6;
+	//memcpy(pathElements[0], startingPoint, sizeof(startingPoint));
 	int actualDirection;
 	for(int i=0;i<12;i++)
 	{

@@ -1175,3 +1175,59 @@
 25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
 24	30	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
 25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+22.01.2021 14:49:48: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+24	30	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+24	30	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+22.01.2021 14:50:39: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+24	30	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+24	30	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+22.01.2021 14:50:48: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+24	30	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+24	30	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+22.01.2021 14:51:01: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+24	30	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+24	30	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+22.01.2021 14:51:19: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+24	30	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+24	30	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+22.01.2021 14:52:23: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+24	30	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+24	30	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+22.01.2021 14:52:52: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+24	30	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+24	30	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11

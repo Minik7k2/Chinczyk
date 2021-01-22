@@ -5713,3 +5713,1276 @@ Compilation results...
 - Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
 - Output Size: 1,87316799163818 MiB
 - Compilation Time: 0,16s
+
+22.01.2021 15:31:17: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+mingw32-make.exe: Nothing to be done for 'all'.
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 0,83s
+
+22.01.2021 15:32:18: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 4
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 1,53s
+
+22.01.2021 15:32:27: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+mingw32-make.exe: Nothing to be done for 'all'.
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 0,17s
+
+22.01.2021 15:33:17: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+mingw32-make.exe: Nothing to be done for 'all'.
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 0,17s
+
+22.01.2021 15:33:26: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 4
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 1,28s
+
+22.01.2021 15:33:38: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 4
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 1,27s
+
+22.01.2021 15:33:49: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 4
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 1,30s
+
+22.01.2021 15:33:57: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 4
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 1,31s
+
+22.01.2021 15:37:05: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 4
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 1,30s
+
+22.01.2021 15:37:13: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 4
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 1,25s
+
+22.01.2021 15:37:22: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 4
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 1,27s
+
+22.01.2021 15:37:32: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 4
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 1,25s
+
+22.01.2021 15:37:44: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 4
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 1,28s
+
+22.01.2021 15:37:55: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 4
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 1,27s
+
+22.01.2021 15:38:12: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 4
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 1,25s
+
+22.01.2021 15:39:09: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 4
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 1,27s
+
+22.01.2021 15:39:26: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 4
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 1,58s
+
+22.01.2021 15:41:00: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 4
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 1,31s
+
+22.01.2021 15:41:24: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 4
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 1,28s
+
+22.01.2021 15:43:10: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+mingw32-make.exe: Nothing to be done for 'all'.
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 0,17s
+
+22.01.2021 15:44:28: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 4
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 1,25s
+
+22.01.2021 15:44:44: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 4
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 1,27s
+
+22.01.2021 15:45:01: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 4
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 1,31s
+
+22.01.2021 15:45:37: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:24:30: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int startingPoint[3] = {2, 7}; 
+                              ^
+L:/GITHUB/Chinczyk/header/Board.h:25:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 4
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 1,30s
+
+22.01.2021 15:45:50: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+mingw32-make.exe: Nothing to be done for 'all'.
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 0,17s
+
+22.01.2021 15:46:00: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+mingw32-make.exe: Nothing to be done for 'all'.
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 0,17s
+
+22.01.2021 15:46:23: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:24:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:24:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 2
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 1,27s
+
+22.01.2021 15:46:44: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:24:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:24:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 2
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 1,25s
+
+22.01.2021 15:46:51: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:24:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:24:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 2
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 1,27s
+
+22.01.2021 15:48:20: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:24:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:24:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 2
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 1,27s
+
+22.01.2021 15:53:58: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:24:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:24:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+sources/Board.cpp: In constructor 'Board::Board(float, float, sf::RenderWindow&)':
+sources/Board.cpp:58:6: error: expected primary-expression before ')' token
+  for()
+      ^
+sources/Board.cpp:60:18: error: name lookup of 'i' changed for ISO 'for' scoping [-fpermissive]
+  for (int i = 0; i < ROW_NUMBER_OF_PIECES; i++)
+                  ^
+sources/Board.cpp:60:18: note: (if you use '-fpermissive' G++ will accept your code)
+L:\GITHUB\Chinczyk\Makefile.win:28: recipe for target 'object/Board.o' failed
+mingw32-make.exe: *** [object/Board.o] Error 1
+
+Compilation results...
+--------
+- Errors: 2
+- Warnings: 2
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 0,64s
+
+22.01.2021 15:55:22: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:24:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:24:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 2
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 1,28s
+
+22.01.2021 16:00:08: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+mingw32-make.exe: Nothing to be done for 'all'.
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 0,19s
+
+22.01.2021 16:00:59: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:24:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:24:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 2
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 1,27s
+
+22.01.2021 16:01:48: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:24:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:24:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 2
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 1,34s
+
+22.01.2021 16:10:39: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+mingw32-make.exe: Nothing to be done for 'all'.
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87316799163818 MiB
+- Compilation Time: 0,66s

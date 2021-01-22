@@ -11,8 +11,10 @@ Board::Board(float width, float height, RenderWindow &window)
 	sizeOfPiece = 50;
 	
 	//setting path elements
-	pathElements[0][0] = 3;
-	pathElements[0][1] = 6;
+	int startingPoint[3] = {3, 6}; 
+	pathElements[0][0] = startingPoint[0];
+	pathElements[0][1] = startingPoint[1];
+	pathElements[0][2] = 1;
 	//memcpy(pathElements[0], startingPoint, sizeof(startingPoint));
 	int actualDirection;
 	for(int i=0;i<12;i++)
@@ -47,19 +49,33 @@ Board::Board(float width, float height, RenderWindow &window)
 					break;
 				}
 			}
-			
+			pathElements[(i*4)+j][2] = 0;
 		}
+		
+	}
+	
+	//setting starting points
+	for(int i=0; i<4; i++){
+		pathElements[(i*12)][2] = i+1;
 	}
 	
 	for (int i = 0; i < ROW_NUMBER_OF_PIECES; i++)
 	{
 		for (int j = 0; j < COLUMN_NUMBER_OF_PIECES; j++){
 			boardPiece[i][j].setSize(Vector2f(sizeOfPiece, sizeOfPiece));
-			boardPiece[i][j].setPosition(Vector2f(j*sizeOfPiece, i*sizeOfPiece));
+			boardPiece[i][j].setPosition(Vector2f(i*sizeOfPiece, j*sizeOfPiece));
 			for(int k=0;k<48;k++){
 				if(i==pathElements[k][0] && j==pathElements[k][1]){
-					boardPiece[i][j].setFillColor(Color(2, 2, 2));
-					break;
+					switch(pathElements[k][2])
+					{
+						case 0:
+							boardPiece[i][j].setFillColor(Color::White);
+							break;
+						case 1:
+							boardPiece[i][j].setFillColor(Color(2, 2, 2));
+							break;
+					}
+					break;	
 				}
 					
 				
@@ -71,6 +87,7 @@ Board::Board(float width, float height, RenderWindow &window)
 			window.draw(boardPiece[i][j]);
 		}
 	}
+	
 	
 }
 

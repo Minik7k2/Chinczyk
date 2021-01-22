@@ -16,7 +16,7 @@ int main()
 	
 	unsigned frame=0;
 	
-	RenderWindow window(VideoMode(1000, 800), "Ludo Master - Dominik K³odziñski & Maciej £aszewski", Style::Titlebar | Style::Close);
+	RenderWindow window(VideoMode(850, 850), "Ludo Master - Dominik K³odziñski & Maciej £aszewski", Style::Titlebar | Style::Close);
 	window.setActive(true);
     window.setVerticalSyncEnabled(true);
 
@@ -68,8 +68,8 @@ int main()
 		if(game.check_isRun() == true)
 		{
 			window.clear();
-			Board board(window.getSize().x, window.getSize().y);
-			game.draw(window, board);
+			Board board(window.getSize().x, window.getSize().y, window);
+			//game.draw(window, board);
 		}
 		else
 		{
@@ -86,4 +86,5 @@ int main()
 	    	frame=0;
 		}
 	}
+	
 }

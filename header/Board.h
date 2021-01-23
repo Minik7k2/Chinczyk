@@ -8,7 +8,7 @@
 class Board
 {
 public:
-	Board(float width, float height, sf::RenderWindow &window);
+	Board(sf::RenderWindow &window);
 	~Board();
 
 	void draw(sf::RenderWindow &window);
@@ -20,9 +20,11 @@ public:
 private:
 	int sizeOfPiece;
 	void set_pathElements();
+	void set_yards();
 	void set_startingPoints();
-	void set_preHomes();
-	
+	void set_homes();
+	void set_boardGrid(sf::RenderWindow&window);
+		
 	sf::Sprite boardPiece[ROW_NUMBER_OF_PIECES][COLUMN_NUMBER_OF_PIECES];
 	sf::Font font;
 	sf::Text logo;
@@ -30,6 +32,8 @@ private:
 	int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
 	sf::Texture fields;
 	sf::Sprite fieldsArr[4][6]; //[0=zwykle_pola, 1=start, 2=pre_home, 3=home]
+	void loadTextures();
+	
 };
 
 

@@ -73,13 +73,7 @@ int main()
 		if(game.check_isRun() == true)
 		{
 			window.clear();
-			Board board(window.getSize().x, window.getSize().y, window);
-			
-				if(event.type == Event::MouseButtonPressed && event.mouseButton.button == Mouse::Left)
-				{
-					delete &board;
-				}
-			
+			Board board(window);
 			//game.draw(window, board);
 		}
 		else

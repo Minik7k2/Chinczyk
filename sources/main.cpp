@@ -28,40 +28,42 @@ int main()
 		frame++;
 		
 		Event event;
-
+		
 		while (window.pollEvent(event))
 		{
-			switch (event.type)
+			if(game.check_isRun() == false)
 			{
-				case Event::KeyReleased:
-					switch (event.key.code)
-					{
-						case Keyboard::Up:
-							menu.MoveUp();
-						break;
-	
-						case Keyboard::Down:
-							menu.MoveDown();
-						break;
-	
-						case Keyboard::Return:
+				switch (event.type)
+				{
+					case Event::KeyReleased:
+						switch (event.key.code)
+						{
+							case Keyboard::Up:
+								menu.MoveUp();
+							break;
+		
+							case Keyboard::Down:
+								menu.MoveDown();
+							break;
+		
+							case Keyboard::Return:
+								menu.MenuAction(&window, &menu, &game);
+							break;
+						}
+					break;
+					case Event::MouseMoved:
+		    			menu.CheckCursorFocus(event.mouseMove.x, event.mouseMove.y);
+					break;
+					case Event::MouseButtonPressed:
+						if(event.mouseButton.button == Mouse::Left)
+						{
 							menu.MenuAction(&window, &menu, &game);
-						break;
-					}
-				break;
-				case Event::Closed:
-					window.close();
-				break;
-				case Event::MouseMoved:
-	    			menu.CheckCursorFocus(event.mouseMove.x, event.mouseMove.y);
-				break;
-				case Event::MouseButtonPressed:
-					if(event.mouseButton.button == Mouse::Left)
-					{
-						menu.MenuAction(&window, &menu, &game);
-					}
-	    		break;
+						}
+		    		break;
+				}
 			}
+			else if(event.type == Event::Closed)
+						window.close();
 		}
 
 		

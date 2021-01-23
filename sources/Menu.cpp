@@ -46,12 +46,6 @@ Menu::Menu(float width, float height)
 	selectedItemIndex = -1;
 }
 
-
-Menu::~Menu()
-{
-
-}
-
 void Menu::draw(RenderWindow &window)
 {
 	window.draw(logo);
@@ -95,7 +89,10 @@ void Menu::CheckCursorFocus(float m_x, float m_y)
 			menu[selectedItemIndex].setColor(Color::White);
 			selectedItemIndex = i;
 			menu[selectedItemIndex].setColor(Color::Red);
+			break;
 		}
+		menu[selectedItemIndex].setColor(Color::White);
+		selectedItemIndex = -1;
 	}
 	
 }
@@ -107,19 +104,26 @@ void Menu::MenuAction(RenderWindow *window, Menu *menu, Game *game)
 		{
 			cout << "Play button has been pressed" << endl;
 			game->set_isRun();
+			selectedItemIndex = -1;
 		}			
 		break;
 		
 		case 1:
 			cout << "Option button has been pressed" << endl;
+			selectedItemIndex = -1;
 		break;
 		
 		case 2:
 			cout << "Authors button has been pressed" << endl;
+			selectedItemIndex = -1;
 		break;
 		
 		case 3:
 			window->close();	
 		break;
 	}
+}
+Menu::~Menu()
+{
+
 }

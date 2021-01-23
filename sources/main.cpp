@@ -69,7 +69,7 @@ int main()
 		{
 			window.clear();
 			Board board(window.getSize().x, window.getSize().y, window);
-			game.draw(window, board);
+			//game.draw(window, board);
 		}
 		else
 		{

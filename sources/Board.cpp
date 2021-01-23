@@ -72,7 +72,7 @@ Board::Board(float width, float height, RenderWindow &window)
 		pathElements[(i*12)][3] = 1;
 	}
 	
-	//setting up pre homes
+	//setting up pre homes & homes
 	for(int i=0; i<4; i++)
 	{
 		pathElements[((i*12)-3) < 0 ? 48-3 : (i*12)-3][2] = i+2;
@@ -90,13 +90,13 @@ Board::Board(float width, float height, RenderWindow &window)
 					playersYards[(i*4)+(j*2)+k][0] = (i*11)+j+2;
 					playersYards[(i*4)+(j*2)+k][1] = k+2;
 				}
-				else
-				{
-					playersYards[(i*4)+(j*2)+k][0] = j+2;
-					playersYards[(i*4)+(j*2)+k][1] = ((i-2)*11)+k+2;
+				else{
+					playersYards[(i*4)+(j*2)+k][0] = (i==2 ? 11 : 0)+j+2;
+					playersYards[(i*4)+(j*2)+k][1] = 11+k+2;
 				}
 				
-				playersYards[(i*4)+(j*2)+k][2] = i;
+				
+				playersYards[(i*4)+(j*2)+k][2] = i+2;
 				playersYards[(i*4)+(j*2)+k][3] = 0;
 				
 			}
@@ -113,11 +113,15 @@ Board::Board(float width, float height, RenderWindow &window)
 					boardPiece[i][j] = fieldsArr[pathElements[k][3]][pathElements[k][2]];
 					break;
 				}
+				else if(k<16 && i==playersYards[k][0] && j==playersYards[k][1]){
+					boardPiece[i][j] = fieldsArr[playersYards[k][3]][playersYards[k][2]];
+					break;
+				}
 					boardPiece[i][j] = fieldsArr[0][0];
 			}
 			
 			boardPiece[i][j].setPosition(Vector2f(i*sizeOfPiece, j*sizeOfPiece));
-			//window.draw(boardPiece[i][j]);
+			window.draw(boardPiece[i][j]);
 		}
 	}
 	

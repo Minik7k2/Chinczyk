@@ -3098,3 +3098,208 @@
 3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
 25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
 25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+23.01.2021 01:50:32: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+23.01.2021 01:51:44: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+23.01.2021 01:52:23: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+23.01.2021 01:52:41: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+23.01.2021 01:54:01: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+23.01.2021 01:54:19: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+23.01.2021 01:54:40: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+23.01.2021 01:55:11: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+23.01.2021 01:55:36: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+23.01.2021 01:55:46: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+23.01.2021 01:57:06: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+23.01.2021 01:57:32: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+23.01.2021 01:58:14: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+23.01.2021 01:58:41: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+23.01.2021 01:58:50: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+23.01.2021 01:59:18: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+23.01.2021 01:59:37: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+23.01.2021 01:59:49: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+23.01.2021 02:00:34: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\header\Menu.h	                 from L:/GITHUB/Chinczyk/header/Menu.h
+3		L:\GITHUB\Chinczyk\sources\Menu.cpp	                 from sources/Menu.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Menu.cpp	In constructor 'Menu::Menu(float, float)':
+16	28	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+23	29	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+29	31	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+35	31	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+41	31	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\Menu.cpp	In member function 'void Menu::MoveUp()':
+68	48	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+70	46	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\Menu.cpp	In member function 'void Menu::MoveDown()':
+78	48	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+80	46	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\Menu.cpp	In member function 'void Menu::CheckCursorFocus(float, float)':
+95	49	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+97	47	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+
+23.01.2021 02:00:50: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+23.01.2021 02:00:59: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+23.01.2021 02:06:03: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Board.cpp	In constructor 'Board::Board(float, float, sf::RenderWindow&)':
+80	7	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] expected primary-expression before ')' token
+81	2	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] expected primary-expression before '}' token
+81	2	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] expected ';' before '}' token
+81	2	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] expected primary-expression before '}' token
+81	2	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] expected ')' before '}' token
+81	2	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] expected primary-expression before '}' token
+28		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Board.o' failed
+
+23.01.2021 02:06:12: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+23.01.2021 02:06:27: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+23.01.2021 02:07:35: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Board.cpp	In constructor 'Board::Board(float, float, sf::RenderWindow&)':
+90	45	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] expected ';' before 'j'
+28		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Board.o' failed
+
+23.01.2021 02:07:40: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+23.01.2021 02:09:17: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11

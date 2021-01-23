@@ -104,10 +104,10 @@ void Menu::MenuAction(RenderWindow *window, Menu *menu, Game *game)
 	switch (menu->GetPressedItem())
 	{
 		case 0:
-			{
-				cout << "Play button has been pressed" << endl;
-				game->set_isRun();
-			}			
+		{
+			cout << "Play button has been pressed" << endl;
+			game->set_isRun();
+		}			
 		break;
 		
 		case 1:

@@ -14,10 +14,14 @@ public:
 	void draw(sf::RenderWindow &window);
 	int pathElements[48][4]; //[id][0=x, 1=y, 2=kolor_pola, 3=typ_pola]
 	int playersYards[16][4]; //[id][0=x, 1=y, 2=kolor_pola, 3=typ_pola]
-	int playersHomes[4][5];
+	int playersHomeWays[16][4]; // [id][0=x, 1=y, 2=kolor_pola, 3=typ_pola]
+	int playersHomes[4][4]; //[id][0=x, 1=y, 2=kolor_pola, 3=typ_pola]
 
 private:
 	int sizeOfPiece;
+	void set_pathElements();
+	void set_startingPoints();
+	void set_preHomes();
 	
 	sf::Sprite boardPiece[ROW_NUMBER_OF_PIECES][COLUMN_NUMBER_OF_PIECES];
 	sf::Font font;

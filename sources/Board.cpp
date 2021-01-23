@@ -20,64 +20,12 @@ Board::Board(float width, float height, RenderWindow &window)
 	}
 	
 	//setting up path elements
-	int startingPoint[3] = {3, 6}; 
-	
-	pathElements[0][0] = startingPoint[0];
-	pathElements[0][1] = startingPoint[1];
-	pathElements[0][2] = 1;
-	
-	int actualDirection;
-	for(int i=0;i<12;i++)
-	{
-		actualDirection = directions[i];
-		for(int j=0;j<4;j++){
-			if(!(i==0 && j==0)){
-				switch(actualDirection){
-				case 0:
-					{
-						pathElements[(i*4)+j][0] = pathElements[((i*4)+j)-1][0]+1;
-						pathElements[(i*4)+j][1] = pathElements[((i*4)+j)-1][1];
-					}
-					break;
-				case 1:
-					{
-						pathElements[(i*4)+j][0] = pathElements[((i*4)+j)-1][0];
-						pathElements[(i*4)+j][1] = pathElements[((i*4)+j)-1][1]-1;
-					}
-					break;
-				case 2:
-					{
-						pathElements[(i*4)+j][0] = pathElements[((i*4)+j)-1][0];
-						pathElements[(i*4)+j][1] = pathElements[((i*4)+j)-1][1]+1;
-					}
-					break;
-				case 3:
-					{
-						pathElements[(i*4)+j][0] = pathElements[((i*4)+j)-1][0]-1;
-						pathElements[(i*4)+j][1] = pathElements[((i*4)+j)-1][1];
-					}
-					break;
-				}
-			}
-			pathElements[(i*4)+j][2] = 1;
-			pathElements[(i*4)+j][3] = 0;
-		}
-		
-	}
-	
+	set_pathElements();
 	//setting up starting points
-	for(int i=0; i<4; i++)
-	{
-		pathElements[(i*12)][2] = i+2;
-		pathElements[(i*12)][3] = 1;
-	}
+	set_startingPoints();
 	
 	//setting up pre homes & homes
-	for(int i=0; i<4; i++)
-	{
-		pathElements[((i*12)-3) < 0 ? 48-3 : (i*12)-3][2] = i+2;
-		pathElements[((i*12)-3) < 0 ? 48-3 : (i*12)-3][3] = 2;
-	}
+	
 	
 	//setting up yards
 	for(int i=0; i<4;i++)
@@ -137,6 +85,76 @@ void Board::draw(RenderWindow &window)
 	}
 }
 
+
+
+void Board::set_pathElements()
+{
+	int startingPoint[3] = {3, 6}; 
+	
+	pathElements[0][0] = startingPoint[0];
+	pathElements[0][1] = startingPoint[1];
+	pathElements[0][2] = 1;
+	
+	int actualDirection;
+	for(int i=0;i<12;i++)
+	{
+		actualDirection = directions[i];
+		for(int j=0;j<4;j++){
+			if(!(i==0 && j==0)){
+				switch(actualDirection){
+				case 0:
+					{
+						pathElements[(i*4)+j][0] = pathElements[((i*4)+j)-1][0]+1;
+						pathElements[(i*4)+j][1] = pathElements[((i*4)+j)-1][1];
+					}
+					break;
+				case 1:
+					{
+						pathElements[(i*4)+j][0] = pathElements[((i*4)+j)-1][0];
+						pathElements[(i*4)+j][1] = pathElements[((i*4)+j)-1][1]-1;
+					}
+					break;
+				case 2:
+					{
+						pathElements[(i*4)+j][0] = pathElements[((i*4)+j)-1][0];
+						pathElements[(i*4)+j][1] = pathElements[((i*4)+j)-1][1]+1;
+					}
+					break;
+				case 3:
+					{
+						pathElements[(i*4)+j][0] = pathElements[((i*4)+j)-1][0]-1;
+						pathElements[(i*4)+j][1] = pathElements[((i*4)+j)-1][1];
+					}
+					break;
+				}
+			}
+			pathElements[(i*4)+j][2] = 1;
+			pathElements[(i*4)+j][3] = 0;
+		}
+		
+	}
+}
+void Board::set_startingPoints()
+{
+	for(int i=0; i<4; i++)
+	{
+		pathElements[(i*12)][2] = i+2;
+		pathElements[(i*12)][3] = 1;
+	}
+}
+
+void Board::set_preHomes()
+{
+	for(int i=0; i<4; i++)
+	{
+		pathElements[((i*12)-3) < 0 ? 48-3 : (i*12)-3][2] = i+2;
+		pathElements[((i*12)-3) < 0 ? 48-3 : (i*12)-3][3] = 2;
+	}
+} 
+	
+
+
 Board::~Board()
 {
+	cout<<"usuwam";
 }

@@ -1,7 +1,7 @@
 #include "SFML/Graphics.hpp" 	
 #include <iostream>
 #include "Game.h"
-#include "Menu.h"
+#include "MainMenu.h"
 #include "Board.h"
 
 using namespace sf;
@@ -21,7 +21,7 @@ int main()
     window.setVerticalSyncEnabled(true);
 
 	Game game;
-	Menu menu(window.getSize().x, window.getSize().y);
+	MainMenu menu(window.getSize().x, window.getSize().y);
 
 	while (window.isOpen())
 	{
@@ -55,22 +55,31 @@ int main()
 		    			menu.CheckCursorFocus(event.mouseMove.x, event.mouseMove.y);
 					break;
 					case Event::MouseButtonPressed:
-						if(event.mouseButton.button == Mouse::Left)
 						{
-							menu.MenuAction(&window, &menu, &game);
+							if(event.mouseButton.button == Mouse::Left)
+							{
+								menu.MenuAction(&window, &menu, &game);
+							}	
 						}
+						
 		    		break;
 				}
 			}
 			else if(event.type == Event::Closed)
 						window.close();
+			
 		}
 
-		
 		if(game.check_isRun() == true)
 		{
 			window.clear();
 			Board board(window.getSize().x, window.getSize().y, window);
+			
+				if(event.type == Event::MouseButtonPressed && event.mouseButton.button == Mouse::Left)
+				{
+					delete &board;
+				}
+			
 			//game.draw(window, board);
 		}
 		else
@@ -78,7 +87,7 @@ int main()
 			window.clear();
 			menu.draw(window);
 		}
-	
+		
 
 		window.display();
 		

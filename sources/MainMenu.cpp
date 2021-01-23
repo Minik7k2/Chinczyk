@@ -1,12 +1,12 @@
 #include <iostream>
 #include "SFML/Graphics.hpp" 
-#include "Menu.h"
+#include "MainMenu.h"
 #include "Game.h"
 
 using namespace std;
 using namespace sf;
 
-Menu::Menu(float width, float height)
+MainMenu::MainMenu(float width, float height)
 {
 	if (!font.loadFromFile("../font/Lato-black.ttf"))
 	{
@@ -46,7 +46,7 @@ Menu::Menu(float width, float height)
 	selectedItemIndex = -1;
 }
 
-void Menu::draw(RenderWindow &window)
+void MainMenu::draw(RenderWindow &window)
 {
 	window.draw(logo);
 	for (int i = 0; i < MAX_NUMBER_OF_ITEMS; i++)
@@ -55,7 +55,7 @@ void Menu::draw(RenderWindow &window)
 	}
 }
 
-void Menu::MoveUp()
+void MainMenu::MoveUp()
 {
 	if (selectedItemIndex - 1 >= 0)
 	{
@@ -65,7 +65,7 @@ void Menu::MoveUp()
 	}
 }
 
-void Menu::MoveDown()
+void MainMenu::MoveDown()
 {
 	if (selectedItemIndex + 1 < MAX_NUMBER_OF_ITEMS)
 	{
@@ -75,7 +75,7 @@ void Menu::MoveDown()
 	}
 }
 
-void Menu::CheckCursorFocus(float m_x, float m_y)
+void MainMenu::CheckCursorFocus(float m_x, float m_y)
 {
 	Vector2f mousePosition(m_x, m_y);
 	
@@ -96,7 +96,7 @@ void Menu::CheckCursorFocus(float m_x, float m_y)
 	}
 	
 }
-void Menu::MenuAction(RenderWindow *window, Menu *menu, Game *game)
+void MainMenu::MenuAction(RenderWindow *window, MainMenu *menu, Game *game)
 {
 	switch (menu->GetPressedItem())
 	{
@@ -123,7 +123,7 @@ void Menu::MenuAction(RenderWindow *window, Menu *menu, Game *game)
 		break;
 	}
 }
-Menu::~Menu()
+MainMenu::~MainMenu()
 {
 
 }

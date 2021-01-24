@@ -91,16 +91,6 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit5]
-FileName=header\Menu.h
-CompileCpp=1
-Folder=header
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit6]
 FileName=sources\Board.cpp
 CompileCpp=1
 Folder=sources
@@ -110,7 +100,7 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit7]
+[Unit6]
 FileName=sources\Game.cpp
 CompileCpp=1
 Folder=sources
@@ -120,7 +110,7 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit8]
+[Unit7]
 FileName=sources\main.cpp
 CompileCpp=1
 Folder=sources
@@ -130,10 +120,20 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit9]
-FileName=sources\Menu.cpp
+[Unit8]
+FileName=sources\MainMenu.cpp
 CompileCpp=1
 Folder=sources
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit9]
+FileName=header\MainMenu.h
+CompileCpp=1
+Folder=header
 Compile=1
 Link=1
 Priority=1000

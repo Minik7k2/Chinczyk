@@ -26,6 +26,14 @@ void Game::draw(RenderWindow &window, Board &board)
 	board.draw(window);
 }
 
+void Board::createPawns(Board &board){
+	for(int i=0;i<4;i++){
+		for(int j=0; j<4; j++){
+			pawns[i][j].color
+		}
+	}
+}
+
 Game::~Game()
 {
 	isRun = false;

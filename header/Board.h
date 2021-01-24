@@ -1,6 +1,7 @@
 #pragma once
 #include "SFML/Graphics.hpp"
 #include <string>
+#include "Pawn.h"
 
 #define COLUMN_NUMBER_OF_PIECES 17
 #define ROW_NUMBER_OF_PIECES 17
@@ -12,6 +13,7 @@ public:
 	~Board();
 
 	void draw(sf::RenderWindow &window);
+	void update(sf::RenderWindow &window);
 	int pathElements[48][4]; //[id][0=x, 1=y, 2=kolor_pola, 3=typ_pola]
 	int playersYards[16][4]; //[id][0=x, 1=y, 2=kolor_pola, 3=typ_pola]
 	int playersHomeWays[16][4]; // [id][0=x, 1=y, 2=kolor_pola, 3=typ_pola]

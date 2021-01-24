@@ -5413,3 +5413,331 @@
 3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
 32	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
 32	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+24.01.2021 12:06:13: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+32	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+32	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Board.cpp	In member function 'void Board::set_boardGrid(sf::RenderWindow&)':
+52	9	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] 'update' was not declared in this scope
+		L:\GITHUB\Chinczyk\sources\Board.cpp	At global scope:
+55	20	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] no 'void Board::update()' member function declared in class 'Board'
+28		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Board.o' failed
+
+24.01.2021 12:06:37: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Board.cpp	In member function 'void Board::update()':
+56	7	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] 'window' was not declared in this scope
+28		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Board.o' failed
+
+24.01.2021 12:07:05: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Board.cpp	In member function 'void Board::set_boardGrid(sf::RenderWindow&)':
+52	15	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] no matching function for call to 'Board::update(sf::RenderWindow&)'
+52	15	L:\GITHUB\Chinczyk\sources\Board.cpp	[Note] candidate is:
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+15	7	L:\GITHUB\Chinczyk\header\Board.h	[Note] void Board::update()
+15	7	L:\GITHUB\Chinczyk\header\Board.h	[Note] candidate expects 0 arguments, 1 provided
+		L:\GITHUB\Chinczyk\sources\Board.cpp	At global scope:
+55	6	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] prototype for 'void Board::update(sf::RenderWindow&)' does not match any in class 'Board'
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+15	7	L:\GITHUB\Chinczyk\header\Board.h	[Error] candidate is: void Board::update()
+28		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Board.o' failed
+
+24.01.2021 12:07:17: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+15	14	L:\GITHUB\Chinczyk\header\Board.h	[Error] 'RenderWindow' has not been declared
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Board.cpp	In member function 'void Board::set_boardGrid(sf::RenderWindow&)':
+52	15	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] no matching function for call to 'Board::update(sf::RenderWindow&)'
+52	15	L:\GITHUB\Chinczyk\sources\Board.cpp	[Note] candidate is:
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+15	7	L:\GITHUB\Chinczyk\header\Board.h	[Note] void Board::update(int&)
+15	7	L:\GITHUB\Chinczyk\header\Board.h	[Note] no known conversion for argument 1 from 'sf::RenderWindow' to 'int&'
+		L:\GITHUB\Chinczyk\sources\Board.cpp	At global scope:
+55	6	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] prototype for 'void Board::update(sf::RenderWindow&)' does not match any in class 'Board'
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+15	7	L:\GITHUB\Chinczyk\header\Board.h	[Error] candidate is: void Board::update(int&)
+28		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Board.o' failed
+
+24.01.2021 12:07:23: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+24.01.2021 12:11:38: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+8	37	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] 'sf::Board' has not been declared
+17	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+24	14	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] redeclaration of 'sf::Texture Pawn::pawns'
+23	63	L:\GITHUB\Chinczyk\header\Pawn.h	[Note] previous declaration 'sf::Image Pawn::pawns [17][17]'
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In constructor 'Board::Board(sf::RenderWindow&)':
+11	1	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] expected '}' at end of input
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+24.01.2021 12:15:17: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+8	37	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] 'sf::Board' has not been declared
+17	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+24	14	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] redeclaration of 'sf::Texture Pawn::pawns'
+23	63	L:\GITHUB\Chinczyk\header\Pawn.h	[Note] previous declaration 'sf::Image Pawn::pawns [17][17]'
+10	1	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] prototype for 'Pawn::Pawn(sf::RenderWindow&, Board&)' does not match any in class 'Pawn'
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+5	7	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] candidates are: Pawn::Pawn(const Pawn&)
+8	2	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] Pawn::Pawn(sf::RenderWindow&, int)
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+24.01.2021 12:15:27: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+17	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+24	14	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] redeclaration of 'sf::Texture Pawn::pawns'
+23	63	L:\GITHUB\Chinczyk\header\Pawn.h	[Note] previous declaration 'sf::Image Pawn::pawns [17][17]'
+10	1	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] prototype for 'Pawn::Pawn(sf::RenderWindow&, Board&)' does not match any in class 'Pawn'
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+5	7	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] candidates are: Pawn::Pawn(const Pawn&)
+8	2	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] Pawn::Pawn(sf::RenderWindow&, Board)
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+24.01.2021 12:15:49: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+17	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+10	1	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] prototype for 'Pawn::Pawn(sf::RenderWindow&, Board&)' does not match any in class 'Pawn'
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+5	7	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] candidates are: Pawn::Pawn(const Pawn&)
+8	2	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] Pawn::Pawn(sf::RenderWindow&, Board)
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+24.01.2021 12:16:07: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+17	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+10	1	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] prototype for 'Pawn::Pawn(sf::RenderWindow&, Board&)' does not match any in class 'Pawn'
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+5	7	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] candidates are: Pawn::Pawn(const Pawn&)
+8	2	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] Pawn::Pawn(sf::RenderWindow&, Board)
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+24.01.2021 12:16:13: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+17	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+10	51	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] return type specification for constructor invalid
+10	6	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] prototype for 'Pawn::Pawn(sf::RenderWindow&, Board&)' does not match any in class 'Pawn'
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+5	7	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] candidates are: Pawn::Pawn(const Pawn&)
+8	2	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] Pawn::Pawn(sf::RenderWindow&, Board)
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+24.01.2021 12:16:39: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+17	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+10	1	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] prototype for 'Pawn::Pawn(sf::RenderWindow&, Board&)' does not match any in class 'Pawn'
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+5	7	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] candidates are: Pawn::Pawn(const Pawn&)
+8	2	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] Pawn::Pawn(sf::RenderWindow&, Board)
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+24.01.2021 12:17:26: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+17	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+10	1	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] prototype for 'Pawn::Pawn(sf::RenderWindow&, Board&)' does not match any in class 'Pawn'
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+5	7	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] candidates are: Pawn::Pawn(const Pawn&)
+8	2	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] Pawn::Pawn(sf::RenderWindow&, Board)
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+24.01.2021 12:17:51: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+17	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+10	1	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] prototype for 'Pawn::Pawn(sf::RenderWindow&, Board&)' does not match any in class 'Pawn'
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+5	7	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] candidates are: Pawn::Pawn(const Pawn&)
+8	2	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] Pawn::Pawn(sf::RenderWindow&, Board)
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+24.01.2021 12:18:21: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+17	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+10	1	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] prototype for 'Pawn::Pawn(sf::RenderWindow&, Board&)' does not match any in class 'Pawn'
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+5	7	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] candidates are: Pawn::Pawn(const Pawn&)
+8	2	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] Pawn::Pawn(sf::RenderWindow&, Board)
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+24.01.2021 12:18:46: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+17	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+10	1	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] prototype for 'Pawn::Pawn(sf::RenderWindow&, Board&)' does not match any in class 'Pawn'
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+5	7	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] candidates are: Pawn::Pawn(const Pawn&)
+8	2	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] Pawn::Pawn(sf::RenderWindow&, Board)
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+24.01.2021 12:18:54: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+17	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+10	1	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] prototype for 'Pawn::Pawn(sf::RenderWindow&, Board&)' does not match any in class 'Pawn'
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+5	7	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] candidates are: Pawn::Pawn(const Pawn&)
+8	2	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] Pawn::Pawn(sf::RenderWindow&, Board)
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+24.01.2021 13:11:06: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+17	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+10	1	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] prototype for 'Pawn::Pawn(int)' does not match any in class 'Pawn'
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+5	7	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] candidates are: Pawn::Pawn(const Pawn&)
+8	2	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] Pawn::Pawn(int, Board)
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::draw(sf::RenderWindow&)':
+20	14	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] 'pawnImage' was not declared in this scope
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+24.01.2021 13:11:30: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+17	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+10	1	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] prototype for 'Pawn::Pawn(int, Board&)' does not match any in class 'Pawn'
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+5	7	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] candidates are: Pawn::Pawn(const Pawn&)
+8	2	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] Pawn::Pawn(int, Board)
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::draw(sf::RenderWindow&)':
+20	14	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] 'pawnImage' was not declared in this scope
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+24.01.2021 13:11:46: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+17	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In constructor 'Pawn::Pawn(int, Board&)':
+12	6	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] 'pawnTexture' was not declared in this scope
+12	55	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] expected ')' before '{' token
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::draw(sf::RenderWindow&)':
+20	14	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] 'pawnImage' was not declared in this scope
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+24.01.2021 13:12:06: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+17	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In constructor 'Pawn::Pawn(int, Board&)':
+12	55	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] expected ')' before '{' token
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::draw(sf::RenderWindow&)':
+20	14	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] 'pawnImage' was not declared in this scope
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+24.01.2021 13:12:12: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+17	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In constructor 'Pawn::Pawn(int, Board&)':
+12	55	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] expected ')' before '{' token
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::draw(sf::RenderWindow&)':
+20	14	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] 'pawnImage' was not declared in this scope
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+24.01.2021 13:12:20: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+17	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::draw(sf::RenderWindow&)':
+20	14	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] 'pawnImage' was not declared in this scope
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+24.01.2021 13:12:30: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+17	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+24.01.2021 13:13:10: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+		C:\Program Files (x86)\Dev-Cpp\MinGW64\x86_64-w64-mingw32\bin\ld.exe	cannot open output file bin/Chinol.exe: Permission denied
+		L:\GITHUB\Chinczyk\collect2.exe	[Error] ld returned 1 exit status
+25		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'bin/Chinol.exe' failed

@@ -1,6 +1,7 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
 #include "Board.h"
+#include "Pawn.h"
 #include <string>
 
 using namespace std;
@@ -47,9 +48,9 @@ void Board::set_boardGrid(RenderWindow &window)
 			}
 			
 			boardPiece[i][j].setPosition(Vector2f(i*sizeOfPiece, j*sizeOfPiece));
-			draw(window);
 		}
 	}
+	draw(window);
 }
 
 void Board::loadTextures()

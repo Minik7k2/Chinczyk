@@ -23499,3 +23499,1324 @@ Compilation results...
 - Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
 - Output Size: 1,87764835357666 MiB
 - Compilation Time: 0,20s
+
+24.01.2021 00:42:22: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+mingw32-make.exe: Nothing to be done for 'all'.
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87764835357666 MiB
+- Compilation Time: 0,30s
+
+24.01.2021 00:43:33: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+mingw32-make.exe: Nothing to be done for 'all'.
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87764835357666 MiB
+- Compilation Time: 0,19s
+
+24.01.2021 11:56:58: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+mingw32-make.exe: Nothing to be done for 'all'.
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87764835357666 MiB
+- Compilation Time: 0,77s
+
+24.01.2021 12:06:13: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:32:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:32:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+sources/Board.cpp: In member function 'void Board::set_boardGrid(sf::RenderWindow&)':
+sources/Board.cpp:52:9: error: 'update' was not declared in this scope
+  update();
+         ^
+sources/Board.cpp: At global scope:
+sources/Board.cpp:55:20: error: no 'void Board::update()' member function declared in class 'Board'
+ void Board::update(){
+                    ^
+L:\GITHUB\Chinczyk\Makefile.win:28: recipe for target 'object/Board.o' failed
+mingw32-make.exe: *** [object/Board.o] Error 1
+
+Compilation results...
+--------
+- Errors: 2
+- Warnings: 2
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87764835357666 MiB
+- Compilation Time: 0,84s
+
+24.01.2021 12:06:37: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+sources/Board.cpp: In member function 'void Board::update()':
+sources/Board.cpp:56:7: error: 'window' was not declared in this scope
+  draw(window);
+       ^
+L:\GITHUB\Chinczyk\Makefile.win:28: recipe for target 'object/Board.o' failed
+mingw32-make.exe: *** [object/Board.o] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 2
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87764835357666 MiB
+- Compilation Time: 0,70s
+
+24.01.2021 12:07:05: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+sources/Board.cpp: In member function 'void Board::set_boardGrid(sf::RenderWindow&)':
+sources/Board.cpp:52:15: error: no matching function for call to 'Board::update(sf::RenderWindow&)'
+  update(window);
+               ^
+sources/Board.cpp:52:15: note: candidate is:
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:15:7: note: void Board::update()
+  void update();
+       ^
+L:/GITHUB/Chinczyk/header/Board.h:15:7: note:   candidate expects 0 arguments, 1 provided
+sources/Board.cpp: At global scope:
+sources/Board.cpp:55:6: error: prototype for 'void Board::update(sf::RenderWindow&)' does not match any in class 'Board'
+ void Board::update(RenderWindow &window){
+      ^
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:15:7: error: candidate is: void Board::update()
+  void update();
+       ^
+L:\GITHUB\Chinczyk\Makefile.win:28: recipe for target 'object/Board.o' failed
+mingw32-make.exe: *** [object/Board.o] Error 1
+
+Compilation results...
+--------
+- Errors: 3
+- Warnings: 2
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87764835357666 MiB
+- Compilation Time: 0,70s
+
+24.01.2021 12:07:17: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:15:14: error: 'RenderWindow' has not been declared
+  void update(RenderWindow &window);
+              ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+sources/Board.cpp: In member function 'void Board::set_boardGrid(sf::RenderWindow&)':
+sources/Board.cpp:52:15: error: no matching function for call to 'Board::update(sf::RenderWindow&)'
+  update(window);
+               ^
+sources/Board.cpp:52:15: note: candidate is:
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:15:7: note: void Board::update(int&)
+  void update(RenderWindow &window);
+       ^
+L:/GITHUB/Chinczyk/header/Board.h:15:7: note:   no known conversion for argument 1 from 'sf::RenderWindow' to 'int&'
+sources/Board.cpp: At global scope:
+sources/Board.cpp:55:6: error: prototype for 'void Board::update(sf::RenderWindow&)' does not match any in class 'Board'
+ void Board::update(RenderWindow &window){
+      ^
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:15:7: error: candidate is: void Board::update(int&)
+  void update(RenderWindow &window);
+       ^
+L:\GITHUB\Chinczyk\Makefile.win:28: recipe for target 'object/Board.o' failed
+mingw32-make.exe: *** [object/Board.o] Error 1
+
+Compilation results...
+--------
+- Errors: 4
+- Warnings: 2
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87764835357666 MiB
+- Compilation Time: 0,70s
+
+24.01.2021 12:07:23: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+g++.exe object/Board.o object/Game.o object/main.o object/MainMenu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 2
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87770175933838 MiB
+- Compilation Time: 1,69s
+
+24.01.2021 12:07:55: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+mingw32-make.exe: Nothing to be done for 'all'.
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87770175933838 MiB
+- Compilation Time: 0,20s
+
+24.01.2021 12:11:38: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+g++.exe -c sources/Pawn.cpp -o object/Pawn.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Pawn.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:8:37: error: 'sf::Board' has not been declared
+  Pawn(sf::RenderWindow &window, sf::Board board);
+                                     ^
+L:/GITHUB/Chinczyk/header/Pawn.h:17:19: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool is_inYard = true;
+                   ^
+L:/GITHUB/Chinczyk/header/Pawn.h:24:14: error: redeclaration of 'sf::Texture Pawn::pawns'
+  sf::Texture pawns;
+              ^
+L:/GITHUB/Chinczyk/header/Pawn.h:23:63: note: previous declaration 'sf::Image Pawn::pawns [17][17]'
+  sf::Image pawns[ROW_NUMBER_OF_PIECES][COLUMN_NUMBER_OF_PIECES];
+                                                               ^
+sources/Pawn.cpp: In constructor 'Board::Board(sf::RenderWindow&)':
+sources/Pawn.cpp:11:1: error: expected '}' at end of input
+ {
+ ^
+L:\GITHUB\Chinczyk\Makefile.win:40: recipe for target 'object/Pawn.o' failed
+mingw32-make.exe: *** [object/Pawn.o] Error 1
+
+Compilation results...
+--------
+- Errors: 3
+- Warnings: 5
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87770175933838 MiB
+- Compilation Time: 1,34s
+
+24.01.2021 12:15:17: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+g++.exe -c sources/Pawn.cpp -o object/Pawn.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Pawn.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:8:37: error: 'sf::Board' has not been declared
+  Pawn(sf::RenderWindow &window, sf::Board board);
+                                     ^
+L:/GITHUB/Chinczyk/header/Pawn.h:17:19: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool is_inYard = true;
+                   ^
+L:/GITHUB/Chinczyk/header/Pawn.h:24:14: error: redeclaration of 'sf::Texture Pawn::pawns'
+  sf::Texture pawns;
+              ^
+L:/GITHUB/Chinczyk/header/Pawn.h:23:63: note: previous declaration 'sf::Image Pawn::pawns [17][17]'
+  sf::Image pawns[ROW_NUMBER_OF_PIECES][COLUMN_NUMBER_OF_PIECES];
+                                                               ^
+sources/Pawn.cpp:10:1: error: prototype for 'Pawn::Pawn(sf::RenderWindow&, Board&)' does not match any in class 'Pawn'
+ Pawn::Pawn(RenderWindow &window, Board &board)
+ ^
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:5:7: error: candidates are: Pawn::Pawn(const Pawn&)
+ class Pawn
+       ^
+L:/GITHUB/Chinczyk/header/Pawn.h:8:2: error:                 Pawn::Pawn(sf::RenderWindow&, int)
+  Pawn(sf::RenderWindow &window, sf::Board board);
+  ^
+L:\GITHUB\Chinczyk\Makefile.win:40: recipe for target 'object/Pawn.o' failed
+mingw32-make.exe: *** [object/Pawn.o] Error 1
+
+Compilation results...
+--------
+- Errors: 5
+- Warnings: 5
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87770175933838 MiB
+- Compilation Time: 1,34s
+
+24.01.2021 12:15:28: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Pawn.cpp -o object/Pawn.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Pawn.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:17:19: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool is_inYard = true;
+                   ^
+L:/GITHUB/Chinczyk/header/Pawn.h:24:14: error: redeclaration of 'sf::Texture Pawn::pawns'
+  sf::Texture pawns;
+              ^
+L:/GITHUB/Chinczyk/header/Pawn.h:23:63: note: previous declaration 'sf::Image Pawn::pawns [17][17]'
+  sf::Image pawns[ROW_NUMBER_OF_PIECES][COLUMN_NUMBER_OF_PIECES];
+                                                               ^
+sources/Pawn.cpp:10:1: error: prototype for 'Pawn::Pawn(sf::RenderWindow&, Board&)' does not match any in class 'Pawn'
+ Pawn::Pawn(RenderWindow &window, Board &board)
+ ^
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:5:7: error: candidates are: Pawn::Pawn(const Pawn&)
+ class Pawn
+       ^
+L:/GITHUB/Chinczyk/header/Pawn.h:8:2: error:                 Pawn::Pawn(sf::RenderWindow&, Board)
+  Pawn(sf::RenderWindow &window, Board board);
+  ^
+L:\GITHUB\Chinczyk\Makefile.win:40: recipe for target 'object/Pawn.o' failed
+mingw32-make.exe: *** [object/Pawn.o] Error 1
+
+Compilation results...
+--------
+- Errors: 4
+- Warnings: 3
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87770175933838 MiB
+- Compilation Time: 0,72s
+
+24.01.2021 12:15:49: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Pawn.cpp -o object/Pawn.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Pawn.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:17:19: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool is_inYard = true;
+                   ^
+sources/Pawn.cpp:10:1: error: prototype for 'Pawn::Pawn(sf::RenderWindow&, Board&)' does not match any in class 'Pawn'
+ Pawn::Pawn(RenderWindow &window, Board &board)
+ ^
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:5:7: error: candidates are: Pawn::Pawn(const Pawn&)
+ class Pawn
+       ^
+L:/GITHUB/Chinczyk/header/Pawn.h:8:2: error:                 Pawn::Pawn(sf::RenderWindow&, Board)
+  Pawn(sf::RenderWindow &window, Board board);
+  ^
+L:\GITHUB\Chinczyk\Makefile.win:40: recipe for target 'object/Pawn.o' failed
+mingw32-make.exe: *** [object/Pawn.o] Error 1
+
+Compilation results...
+--------
+- Errors: 3
+- Warnings: 3
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87770175933838 MiB
+- Compilation Time: 0,73s
+
+24.01.2021 12:16:07: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Pawn.cpp -o object/Pawn.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Pawn.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:17:19: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool is_inYard = true;
+                   ^
+sources/Pawn.cpp:10:1: error: prototype for 'Pawn::Pawn(sf::RenderWindow&, Board&)' does not match any in class 'Pawn'
+ Pawn::Pawn(RenderWindow &window, Board &board)
+ ^
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:5:7: error: candidates are: Pawn::Pawn(const Pawn&)
+ class Pawn
+       ^
+L:/GITHUB/Chinczyk/header/Pawn.h:8:2: error:                 Pawn::Pawn(sf::RenderWindow&, Board)
+  Pawn(sf::RenderWindow &window, Board board);
+  ^
+L:\GITHUB\Chinczyk\Makefile.win:40: recipe for target 'object/Pawn.o' failed
+mingw32-make.exe: *** [object/Pawn.o] Error 1
+
+Compilation results...
+--------
+- Errors: 3
+- Warnings: 3
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87770175933838 MiB
+- Compilation Time: 0,72s
+
+24.01.2021 12:16:13: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Pawn.cpp -o object/Pawn.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Pawn.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:17:19: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool is_inYard = true;
+                   ^
+sources/Pawn.cpp:10:51: error: return type specification for constructor invalid
+ void Pawn::Pawn(RenderWindow &window, Board &board)
+                                                   ^
+sources/Pawn.cpp:10:6: error: prototype for 'Pawn::Pawn(sf::RenderWindow&, Board&)' does not match any in class 'Pawn'
+ void Pawn::Pawn(RenderWindow &window, Board &board)
+      ^
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:5:7: error: candidates are: Pawn::Pawn(const Pawn&)
+ class Pawn
+       ^
+L:/GITHUB/Chinczyk/header/Pawn.h:8:2: error:                 Pawn::Pawn(sf::RenderWindow&, Board)
+  Pawn(sf::RenderWindow &window, Board board);
+  ^
+L:\GITHUB\Chinczyk\Makefile.win:40: recipe for target 'object/Pawn.o' failed
+mingw32-make.exe: *** [object/Pawn.o] Error 1
+
+Compilation results...
+--------
+- Errors: 4
+- Warnings: 3
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87770175933838 MiB
+- Compilation Time: 0,74s
+
+24.01.2021 12:16:39: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Pawn.cpp -o object/Pawn.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Pawn.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:17:19: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool is_inYard = true;
+                   ^
+sources/Pawn.cpp:10:1: error: prototype for 'Pawn::Pawn(sf::RenderWindow&, Board&)' does not match any in class 'Pawn'
+ Pawn::Pawn(RenderWindow &window, Board &board)
+ ^
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:5:7: error: candidates are: Pawn::Pawn(const Pawn&)
+ class Pawn
+       ^
+L:/GITHUB/Chinczyk/header/Pawn.h:8:2: error:                 Pawn::Pawn(sf::RenderWindow&, Board)
+  Pawn(sf::RenderWindow &window, Board board);
+  ^
+L:\GITHUB\Chinczyk\Makefile.win:40: recipe for target 'object/Pawn.o' failed
+mingw32-make.exe: *** [object/Pawn.o] Error 1
+
+Compilation results...
+--------
+- Errors: 3
+- Warnings: 3
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87770175933838 MiB
+- Compilation Time: 0,72s
+
+24.01.2021 12:17:26: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Pawn.cpp -o object/Pawn.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Pawn.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:17:19: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool is_inYard = true;
+                   ^
+sources/Pawn.cpp:10:1: error: prototype for 'Pawn::Pawn(sf::RenderWindow&, Board&)' does not match any in class 'Pawn'
+ Pawn::Pawn(RenderWindow &window, Board &board)
+ ^
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:5:7: error: candidates are: Pawn::Pawn(const Pawn&)
+ class Pawn
+       ^
+L:/GITHUB/Chinczyk/header/Pawn.h:8:2: error:                 Pawn::Pawn(sf::RenderWindow&, Board)
+  Pawn(sf::RenderWindow &window, Board board);
+  ^
+L:\GITHUB\Chinczyk\Makefile.win:40: recipe for target 'object/Pawn.o' failed
+mingw32-make.exe: *** [object/Pawn.o] Error 1
+
+Compilation results...
+--------
+- Errors: 3
+- Warnings: 3
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87770175933838 MiB
+- Compilation Time: 0,70s
+
+24.01.2021 12:17:51: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Pawn.cpp -o object/Pawn.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Pawn.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:17:19: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool is_inYard = true;
+                   ^
+sources/Pawn.cpp:10:1: error: prototype for 'Pawn::Pawn(sf::RenderWindow&, Board&)' does not match any in class 'Pawn'
+ Pawn::Pawn(RenderWindow &window, Board &board)
+ ^
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:5:7: error: candidates are: Pawn::Pawn(const Pawn&)
+ class Pawn
+       ^
+L:/GITHUB/Chinczyk/header/Pawn.h:8:2: error:                 Pawn::Pawn(sf::RenderWindow&, Board)
+  Pawn(sf::RenderWindow &window, Board board);
+  ^
+L:\GITHUB\Chinczyk\Makefile.win:40: recipe for target 'object/Pawn.o' failed
+mingw32-make.exe: *** [object/Pawn.o] Error 1
+
+Compilation results...
+--------
+- Errors: 3
+- Warnings: 3
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87770175933838 MiB
+- Compilation Time: 0,75s
+
+24.01.2021 12:18:21: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Pawn.cpp -o object/Pawn.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Pawn.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:17:19: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool is_inYard = true;
+                   ^
+sources/Pawn.cpp:10:1: error: prototype for 'Pawn::Pawn(sf::RenderWindow&, Board&)' does not match any in class 'Pawn'
+ Pawn::Pawn(RenderWindow &window, Board &board)
+ ^
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:5:7: error: candidates are: Pawn::Pawn(const Pawn&)
+ class Pawn
+       ^
+L:/GITHUB/Chinczyk/header/Pawn.h:8:2: error:                 Pawn::Pawn(sf::RenderWindow&, Board)
+  Pawn(sf::RenderWindow &window, Board board);
+  ^
+L:\GITHUB\Chinczyk\Makefile.win:40: recipe for target 'object/Pawn.o' failed
+mingw32-make.exe: *** [object/Pawn.o] Error 1
+
+Compilation results...
+--------
+- Errors: 3
+- Warnings: 3
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87770175933838 MiB
+- Compilation Time: 0,70s
+
+24.01.2021 12:18:46: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Pawn.cpp -o object/Pawn.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Pawn.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:17:19: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool is_inYard = true;
+                   ^
+sources/Pawn.cpp:10:1: error: prototype for 'Pawn::Pawn(sf::RenderWindow&, Board&)' does not match any in class 'Pawn'
+ Pawn::Pawn(RenderWindow &window, Board &board)
+ ^
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:5:7: error: candidates are: Pawn::Pawn(const Pawn&)
+ class Pawn
+       ^
+L:/GITHUB/Chinczyk/header/Pawn.h:8:2: error:                 Pawn::Pawn(sf::RenderWindow&, Board)
+  Pawn(sf::RenderWindow &window, Board board);
+  ^
+L:\GITHUB\Chinczyk\Makefile.win:40: recipe for target 'object/Pawn.o' failed
+mingw32-make.exe: *** [object/Pawn.o] Error 1
+
+Compilation results...
+--------
+- Errors: 3
+- Warnings: 3
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87770175933838 MiB
+- Compilation Time: 0,70s
+
+24.01.2021 12:18:54: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Pawn.cpp -o object/Pawn.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Pawn.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:17:19: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool is_inYard = true;
+                   ^
+sources/Pawn.cpp:10:1: error: prototype for 'Pawn::Pawn(sf::RenderWindow&, Board&)' does not match any in class 'Pawn'
+ Pawn::Pawn(RenderWindow &window, Board &board)
+ ^
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:5:7: error: candidates are: Pawn::Pawn(const Pawn&)
+ class Pawn
+       ^
+L:/GITHUB/Chinczyk/header/Pawn.h:8:2: error:                 Pawn::Pawn(sf::RenderWindow&, Board)
+  Pawn(sf::RenderWindow &window, Board board);
+  ^
+L:\GITHUB\Chinczyk\Makefile.win:40: recipe for target 'object/Pawn.o' failed
+mingw32-make.exe: *** [object/Pawn.o] Error 1
+
+Compilation results...
+--------
+- Errors: 3
+- Warnings: 3
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87770175933838 MiB
+- Compilation Time: 0,69s
+
+24.01.2021 13:11:06: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Pawn.cpp -o object/Pawn.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Pawn.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:17:19: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool is_inYard = true;
+                   ^
+sources/Pawn.cpp:10:1: error: prototype for 'Pawn::Pawn(int)' does not match any in class 'Pawn'
+ Pawn::Pawn(int color)
+ ^
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:5:7: error: candidates are: Pawn::Pawn(const Pawn&)
+ class Pawn
+       ^
+L:/GITHUB/Chinczyk/header/Pawn.h:8:2: error:                 Pawn::Pawn(int, Board)
+  Pawn(int color, Board board);
+  ^
+sources/Pawn.cpp: In member function 'void Pawn::draw(sf::RenderWindow&)':
+sources/Pawn.cpp:20:14: error: 'pawnImage' was not declared in this scope
+  window.draw(pawnImage);
+              ^
+L:\GITHUB\Chinczyk\Makefile.win:40: recipe for target 'object/Pawn.o' failed
+mingw32-make.exe: *** [object/Pawn.o] Error 1
+
+Compilation results...
+--------
+- Errors: 4
+- Warnings: 3
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87770175933838 MiB
+- Compilation Time: 1,25s
+
+24.01.2021 13:11:30: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Pawn.cpp -o object/Pawn.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Pawn.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:17:19: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool is_inYard = true;
+                   ^
+sources/Pawn.cpp:10:1: error: prototype for 'Pawn::Pawn(int, Board&)' does not match any in class 'Pawn'
+ Pawn::Pawn(int color, Board &board)
+ ^
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:5:7: error: candidates are: Pawn::Pawn(const Pawn&)
+ class Pawn
+       ^
+L:/GITHUB/Chinczyk/header/Pawn.h:8:2: error:                 Pawn::Pawn(int, Board)
+  Pawn(int color, Board board);
+  ^
+sources/Pawn.cpp: In member function 'void Pawn::draw(sf::RenderWindow&)':
+sources/Pawn.cpp:20:14: error: 'pawnImage' was not declared in this scope
+  window.draw(pawnImage);
+              ^
+L:\GITHUB\Chinczyk\Makefile.win:40: recipe for target 'object/Pawn.o' failed
+mingw32-make.exe: *** [object/Pawn.o] Error 1
+
+Compilation results...
+--------
+- Errors: 4
+- Warnings: 3
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87770175933838 MiB
+- Compilation Time: 0,77s
+
+24.01.2021 13:11:46: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Pawn.cpp -o object/Pawn.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Pawn.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:17:19: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool is_inYard = true;
+                   ^
+sources/Pawn.cpp: In constructor 'Pawn::Pawn(int, Board&)':
+sources/Pawn.cpp:12:6: error: 'pawnTexture' was not declared in this scope
+  if(!pawnTexture.loadFromFile("../textures/pawns.png"){
+      ^
+sources/Pawn.cpp:12:55: error: expected ')' before '{' token
+  if(!pawnTexture.loadFromFile("../textures/pawns.png"){
+                                                       ^
+sources/Pawn.cpp: In member function 'void Pawn::draw(sf::RenderWindow&)':
+sources/Pawn.cpp:20:14: error: 'pawnImage' was not declared in this scope
+  window.draw(pawnImage);
+              ^
+L:\GITHUB\Chinczyk\Makefile.win:40: recipe for target 'object/Pawn.o' failed
+mingw32-make.exe: *** [object/Pawn.o] Error 1
+
+Compilation results...
+--------
+- Errors: 3
+- Warnings: 3
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87770175933838 MiB
+- Compilation Time: 0,73s
+
+24.01.2021 13:12:06: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Pawn.cpp -o object/Pawn.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Pawn.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:17:19: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool is_inYard = true;
+                   ^
+sources/Pawn.cpp: In constructor 'Pawn::Pawn(int, Board&)':
+sources/Pawn.cpp:12:55: error: expected ')' before '{' token
+  if(!pawnTexture.loadFromFile("../textures/pawns.png"){
+                                                       ^
+sources/Pawn.cpp: In member function 'void Pawn::draw(sf::RenderWindow&)':
+sources/Pawn.cpp:20:14: error: 'pawnImage' was not declared in this scope
+  window.draw(pawnImage);
+              ^
+L:\GITHUB\Chinczyk\Makefile.win:40: recipe for target 'object/Pawn.o' failed
+mingw32-make.exe: *** [object/Pawn.o] Error 1
+
+Compilation results...
+--------
+- Errors: 2
+- Warnings: 3
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87770175933838 MiB
+- Compilation Time: 0,73s
+
+24.01.2021 13:12:12: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Pawn.cpp -o object/Pawn.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Pawn.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:17:19: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool is_inYard = true;
+                   ^
+sources/Pawn.cpp: In constructor 'Pawn::Pawn(int, Board&)':
+sources/Pawn.cpp:12:55: error: expected ')' before '{' token
+  if(!pawnTexture.loadFromFile("../textures/pawns.png"){
+                                                       ^
+sources/Pawn.cpp: In member function 'void Pawn::draw(sf::RenderWindow&)':
+sources/Pawn.cpp:20:14: error: 'pawnImage' was not declared in this scope
+  window.draw(pawnImage);
+              ^
+L:\GITHUB\Chinczyk\Makefile.win:40: recipe for target 'object/Pawn.o' failed
+mingw32-make.exe: *** [object/Pawn.o] Error 1
+
+Compilation results...
+--------
+- Errors: 2
+- Warnings: 3
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87770175933838 MiB
+- Compilation Time: 0,75s
+
+24.01.2021 13:12:20: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Pawn.cpp -o object/Pawn.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Pawn.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:17:19: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool is_inYard = true;
+                   ^
+sources/Pawn.cpp: In member function 'void Pawn::draw(sf::RenderWindow&)':
+sources/Pawn.cpp:20:14: error: 'pawnImage' was not declared in this scope
+  window.draw(pawnImage);
+              ^
+L:\GITHUB\Chinczyk\Makefile.win:40: recipe for target 'object/Pawn.o' failed
+mingw32-make.exe: *** [object/Pawn.o] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 3
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87770175933838 MiB
+- Compilation Time: 0,73s
+
+24.01.2021 13:12:30: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Pawn.cpp -o object/Pawn.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Pawn.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from sources/Pawn.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Pawn.h:17:19: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool is_inYard = true;
+                   ^
+g++.exe object/Board.o object/Game.o object/main.o object/MainMenu.o object/Pawn.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 3
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87969970703125 MiB
+- Compilation Time: 1,75s
+
+24.01.2021 13:12:50: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+mingw32-make.exe: Nothing to be done for 'all'.
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87969970703125 MiB
+- Compilation Time: 0,20s
+
+24.01.2021 13:13:10: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+g++.exe object/Board.o object/Game.o object/main.o object/MainMenu.o object/Pawn.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file bin/Chinol.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+L:\GITHUB\Chinczyk\Makefile.win:25: recipe for target 'bin/Chinol.exe' failed
+mingw32-make.exe: *** [bin/Chinol.exe] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 2
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87969970703125 MiB
+- Compilation Time: 1,53s
+
+24.01.2021 13:13:29: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe object/Board.o object/Game.o object/main.o object/MainMenu.o object/Pawn.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87969970703125 MiB
+- Compilation Time: 0,91s

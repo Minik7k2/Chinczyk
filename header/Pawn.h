@@ -5,22 +5,23 @@
 class Pawn
 {
 public:
-	Pawn(sf::RenderWindow &window, sf::Board board);
+	Pawn(Board &board);
 	~Pawn();
 
 	void draw(sf::RenderWindow &window);
+	void set_color(int color);
+	void scaleDown();
+	void scaleUp();
 	
-	int color;
+	int pawnColor;
 	int startingPointID;
+	bool is_inYard = true;
 	
 
 private:
-	
-		
-	sf::Image pawns[ROW_NUMBER_OF_PIECES][COLUMN_NUMBER_OF_PIECES];
-	sf::Texture pawns;
-	sf::Image pawnsImgs[4]; //[0=zwykle_pola, 1=start, 2=pre_home, 3=home]
-	void loadTextures();
+	sf::Sprite pawnFigure;
+	sf::Texture pawnTexture;
+	void loadTexture();
 	
 };
 

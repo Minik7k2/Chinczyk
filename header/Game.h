@@ -4,6 +4,7 @@
 #include "Board.h"
 #include "Pawn.h"
 
+
 using namespace sf;
 
 class Game
@@ -13,11 +14,12 @@ class Game
 		void set_isRun();
 		bool check_isRun();
 		void draw(RenderWindow &window, Board &board);
-		Pawn pawns[4][4]; // [player][pawn]
+		Pawn pawnsArr[4][4]; // [player][pawn]
+		void createPawns(RenderWindow &window, Board &board);
 		~Game();
 		
 	private:
 		bool isRun;
-		void createPawns(Board &board);
+		
 		
 };

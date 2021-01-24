@@ -1,7 +1,6 @@
 #pragma once
 #include "SFML/Graphics.hpp"
 #include <string>
-#include "Pawn.h"
 
 #define COLUMN_NUMBER_OF_PIECES 17
 #define ROW_NUMBER_OF_PIECES 17
@@ -18,16 +17,18 @@ public:
 	int playersYards[16][4]; //[id][0=x, 1=y, 2=kolor_pola, 3=typ_pola]
 	int playersHomeWays[16][4]; // [id][0=x, 1=y, 2=kolor_pola, 3=typ_pola]
 	int playersHomes[4][4]; //[id][0=x, 1=y, 2=kolor_pola, 3=typ_pola]
+	sf::Sprite boardPiece[ROW_NUMBER_OF_PIECES][COLUMN_NUMBER_OF_PIECES];
 
 private:
 	int sizeOfPiece;
 	void set_pathElements();
+	void set_safeFields();
 	void set_yards();
 	void set_startingPoints();
 	void set_homes();
 	void set_boardGrid(sf::RenderWindow&window);
 		
-	sf::Sprite boardPiece[ROW_NUMBER_OF_PIECES][COLUMN_NUMBER_OF_PIECES];
+	
 	sf::Font font;
 	sf::Text logo;
 	sf::Text menu;
@@ -42,15 +43,15 @@ private:
 /*
 KOLORY POLA:
 0 = none
-1 = neutral
-2 = blue
-3 = green
-4 = violet
-5 = red
-
-TYPY POLA:
-0 = normal
-1 = starting
+1 = neutral		/	gold
+2 = blue			  \
+3 = green			  \
+4 = violet			  \
+5 = red				  \
+					  \
+TYPY POLA:			  \
+0 = normal			  \
+1 = starting	/	safe
 2 = pre_home
 3 = home
 

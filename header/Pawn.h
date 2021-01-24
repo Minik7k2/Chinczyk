@@ -1,6 +1,10 @@
 #pragma once
 #include "SFML/Graphics.hpp"
 #include <string>
+#include "Board.h"
+
+using namespace std;
+using namespace sf;
 
 class Pawn
 {
@@ -8,19 +12,19 @@ public:
 	Pawn();
 	~Pawn();
 
-	void draw(sf::RenderWindow &window);
+	void draw(RenderWindow &window);
+	void set_position(Board &board);
 	void set_color(int color);
 	void scaleDown();
 	void scaleUp();
-	
 	int pawnColor;
-	int startingPointID;
-	//bool is_inYard = true;
-	
+	Vector2f startingPosition;
+	bool is_inYard = true;
+	Sprite pawnFigure;
 
 private:
-	sf::Sprite pawnFigure;
-	sf::Texture pawnTexture;
+	
+	Texture pawnTexture;
 	void loadTexture();
 	
 };

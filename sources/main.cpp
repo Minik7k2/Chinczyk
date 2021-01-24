@@ -71,6 +71,7 @@ int main()
 		{
 			window.clear();
 			Board board(window);
+			game.createPawns(window, board);
 			//game.draw(window, board);
 		}
 		else

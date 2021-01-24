@@ -1,13 +1,12 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
-#include "Board.h"
 #include "Pawn.h"
 #include <string>
 
 using namespace std;
 using namespace sf;
 
-Pawn::Pawn(Board &board)
+Pawn::Pawn()
 {
 	
 }
@@ -15,6 +14,11 @@ Pawn::Pawn(Board &board)
 void Pawn::draw(RenderWindow &window)
 {
 	window.draw(pawnFigure);
+}
+
+void Pawn::set_position(Board &board)
+{
+	pawnFigure.setPosition(startingPosition);
 }
 
 void Pawn::set_color(int color)
@@ -29,5 +33,9 @@ void Pawn::loadTexture()
 		
 	}
 	pawnFigure.setTexture(pawnTexture);
-	pawnFigure.setTextureRect(IntRect(50, color*50, 50, 50));
+	pawnFigure.setTextureRect(IntRect(0, pawnColor*50, 50, 50));
+}
+
+Pawn::~Pawn()
+{
 }

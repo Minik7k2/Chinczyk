@@ -1,7 +1,6 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
 #include "Board.h"
-#include "Pawn.h"
 #include <string>
 
 using namespace std;
@@ -14,6 +13,7 @@ Board::Board(RenderWindow &window)
 	loadTextures();
 	
 	set_pathElements();
+	set_safeFields();
 	set_startingPoints();
 	set_homes();
 	set_yards();
@@ -25,31 +25,38 @@ void Board::set_boardGrid(RenderWindow &window)
 {
 	for (int i = 0; i < ROW_NUMBER_OF_PIECES; i++)
 	{
-		for (int j = 0; j < COLUMN_NUMBER_OF_PIECES; j++){
+		for (int j = 0; j < COLUMN_NUMBER_OF_PIECES; j++)
+		{
 			for(int k=0;k<48;k++)
 			{
-				if(i==pathElements[k][0] && j==pathElements[k][1]){
+				if(i==pathElements[k][0] && j==pathElements[k][1])
+				{
 					boardPiece[i][j] = fieldsArr[pathElements[k][3]][pathElements[k][2]];
 					break;
-				}
-				else if(k<16 && i==playersYards[k][0] && j==playersYards[k][1]){
+				}else if(k<16 && i==playersYards[k][0] && j==playersYards[k][1])
+				{
 					boardPiece[i][j] = fieldsArr[playersYards[k][3]][playersYards[k][2]];
 					break;
-				}
-				else if(k<16 && i==playersHomeWays[k][0] && j==playersHomeWays[k][1]){
+				}else if(k<16 && i==playersHomeWays[k][0] && j==playersHomeWays[k][1])
+				{
 					boardPiece[i][j] = fieldsArr[playersHomeWays[k][3]][playersHomeWays[k][2]];
 					break;
-				}
-				else if(k<4 && i==playersHomes[k][0] && j==playersHomes[k][1]){
+				}else if(k<4 && i==playersHomes[k][0] && j==playersHomes[k][1])
+				{
+					boardPiece[i][j] = fieldsArr[playersHomes[k][3]][playersHomes[k][2]];
+					break;
+				}else if(k<4 && i==playersHomes[k][0] && j==playersHomes[k][1])
+				{
 					boardPiece[i][j] = fieldsArr[playersHomes[k][3]][playersHomes[k][2]];
 					break;
 				}
-					boardPiece[i][j] = fieldsArr[0][0];
+				boardPiece[i][j] = fieldsArr[0][0];
 			}
 			
 			boardPiece[i][j].setPosition(Vector2f(i*sizeOfPiece, j*sizeOfPiece));
 		}
 	}
+	cout<<endl<<boardPiece[2][9].getPosition().y;
 	draw(window);
 }
 
@@ -125,6 +132,16 @@ void Board::set_pathElements()
 		
 	}
 }
+
+void Board::set_safeFields()
+{
+	for(int i=0; i<4; i++)
+	{
+		pathElements[(i*12)+6][2] = 1;
+		pathElements[(i*12)+6][3] = 1;
+	}
+}
+
 void Board::set_startingPoints()
 {
 	for(int i=0; i<4; i++)

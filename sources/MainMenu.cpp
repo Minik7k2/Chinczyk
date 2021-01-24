@@ -46,6 +46,8 @@ MainMenu::MainMenu(float width, float height)
 	selectedItemIndex = -1;
 }
 
+
+
 void MainMenu::draw(RenderWindow &window)
 {
 	window.draw(logo);
@@ -89,10 +91,7 @@ void MainMenu::CheckCursorFocus(float m_x, float m_y)
 			menu[selectedItemIndex].setColor(Color::White);
 			selectedItemIndex = i;
 			menu[selectedItemIndex].setColor(Color::Red);
-			break;
 		}
-		menu[selectedItemIndex].setColor(Color::White);
-		selectedItemIndex = -1;
 	}
 	
 }
@@ -104,18 +103,16 @@ void MainMenu::MenuAction(RenderWindow *window, MainMenu *menu, Game *game)
 		{
 			cout << "Play button has been pressed" << endl;
 			game->set_isRun();
-			selectedItemIndex = -1;
+			menu->set_isRun();
 		}			
 		break;
 		
 		case 1:
 			cout << "Option button has been pressed" << endl;
-			selectedItemIndex = -1;
 		break;
 		
 		case 2:
 			cout << "Authors button has been pressed" << endl;
-			selectedItemIndex = -1;
 		break;
 		
 		case 3:
@@ -123,6 +120,17 @@ void MainMenu::MenuAction(RenderWindow *window, MainMenu *menu, Game *game)
 		break;
 	}
 }
+
+bool MainMenu::set_isRun()
+{
+	isRun = false;
+}
+
+bool MainMenu::check_isRun()
+{
+	return isRun;
+}
+
 MainMenu::~MainMenu()
 {
 

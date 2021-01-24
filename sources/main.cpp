@@ -28,11 +28,11 @@ int main()
 		frame++;
 		
 		Event event;
-		
+
 		while (window.pollEvent(event))
 		{
-			if(game.check_isRun() == false)
-			{
+			if(menu.check_isRun() == true)
+			{	
 				switch (event.type)
 				{
 					case Event::KeyReleased:
@@ -55,25 +55,22 @@ int main()
 		    			menu.CheckCursorFocus(event.mouseMove.x, event.mouseMove.y);
 					break;
 					case Event::MouseButtonPressed:
+						if(event.mouseButton.button == Mouse::Left)
 						{
-							if(event.mouseButton.button == Mouse::Left)
-							{
-								menu.MenuAction(&window, &menu, &game);
-							}	
+							menu.MenuAction(&window, &menu, &game);
 						}
-						
 		    		break;
 				}
 			}
-			else if(event.type == Event::Closed)
-						window.close();
-			
+			if(event.type == Event::Closed)
+				window.close();
 		}
 
+		
 		if(game.check_isRun() == true)
 		{
 			window.clear();
-			Board board(window);
+			Board board(window.getSize().x, window.getSize().y, window);
 			//game.draw(window, board);
 		}
 		else
@@ -81,7 +78,7 @@ int main()
 			window.clear();
 			menu.draw(window);
 		}
-		
+	
 
 		window.display();
 		

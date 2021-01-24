@@ -1637,3 +1637,767 @@ Compilation results...
 - Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
 - Output Size: 1,8716459274292 MiB
 - Compilation Time: 0,19s
+
+24.01.2021 13:45:00: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" 
+sources/Game.cpp:3:18: fatal error: Game.h: No such file or directory
+ #include "Game.h"
+                  ^
+compilation terminated.
+L:\GITHUB\Chinczyk\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,8716459274292 MiB
+- Compilation Time: 0,66s
+
+24.01.2021 13:45:10: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" 
+sources/Game.cpp:3:18: fatal error: Game.h: No such file or directory
+ #include "Game.h"
+                  ^
+compilation terminated.
+L:\GITHUB\Chinczyk\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,8716459274292 MiB
+- Compilation Time: 0,61s
+
+24.01.2021 13:45:11: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" 
+sources/Game.cpp:3:18: fatal error: Game.h: No such file or directory
+ #include "Game.h"
+                  ^
+compilation terminated.
+L:\GITHUB\Chinczyk\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,8716459274292 MiB
+- Compilation Time: 0,56s
+
+24.01.2021 13:45:12: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" 
+sources/Game.cpp:3:18: fatal error: Game.h: No such file or directory
+ #include "Game.h"
+                  ^
+compilation terminated.
+L:\GITHUB\Chinczyk\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,8716459274292 MiB
+- Compilation Time: 0,58s
+
+24.01.2021 13:45:13: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" 
+sources/Game.cpp:3:18: fatal error: Game.h: No such file or directory
+ #include "Game.h"
+                  ^
+compilation terminated.
+L:\GITHUB\Chinczyk\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,8716459274292 MiB
+- Compilation Time: 0,63s
+
+24.01.2021 13:45:14: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" 
+sources/Game.cpp:3:18: fatal error: Game.h: No such file or directory
+ #include "Game.h"
+                  ^
+compilation terminated.
+L:\GITHUB\Chinczyk\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,8716459274292 MiB
+- Compilation Time: 0,56s
+
+24.01.2021 13:46:13: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,8716459274292 MiB
+- Compilation Time: 1,55s
+
+24.01.2021 13:48:03: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+mingw32-make.exe: Nothing to be done for 'all'.
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,8716459274292 MiB
+- Compilation Time: 0,20s
+
+24.01.2021 13:49:39: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/main.cpp -o object/main.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+g++.exe -c sources/Menu.cpp -o object/Menu.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+sources/Menu.cpp: In constructor 'Menu::Menu(float, float)':
+sources/Menu.cpp:16:28: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  logo.setColor(Color::White);
+                            ^
+sources/Menu.cpp:23:29: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[0].setColor(Color::Red);
+                             ^
+sources/Menu.cpp:29:31: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[1].setColor(Color::White);
+                               ^
+sources/Menu.cpp:35:31: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[2].setColor(Color::White);
+                               ^
+sources/Menu.cpp:41:31: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[3].setColor(Color::White);
+                               ^
+sources/Menu.cpp: In member function 'void Menu::MoveUp()':
+sources/Menu.cpp:64:48: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::White);
+                                                ^
+sources/Menu.cpp:66:46: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::Red);
+                                              ^
+sources/Menu.cpp: In member function 'void Menu::MoveDown()':
+sources/Menu.cpp:74:48: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::White);
+                                                ^
+sources/Menu.cpp:76:46: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::Red);
+                                              ^
+sources/Menu.cpp: In member function 'void Menu::CheckCursorFocus(float, float)':
+sources/Menu.cpp:91:49: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+    menu[selectedItemIndex].setColor(Color::White);
+                                                 ^
+sources/Menu.cpp:93:47: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+    menu[selectedItemIndex].setColor(Color::Red);
+                                               ^
+sources/Menu.cpp: In member function 'void Menu::MenuAction(sf::RenderWindow*, Menu*, Game*)':
+sources/Menu.cpp:106:10: error: 'class Menu' has no member named 'set_isRun'
+    menu->set_isRun();
+          ^
+sources/Menu.cpp: At global scope:
+sources/Menu.cpp:124:22: error: no 'bool Menu::set_isRun()' member function declared in class 'Menu'
+ bool Menu::set_isRun()
+                      ^
+sources/Menu.cpp:129:24: error: no 'bool Menu::check_isRun()' member function declared in class 'Menu'
+ bool Menu::check_isRun()
+                        ^
+L:\GITHUB\Chinczyk\Makefile.win:37: recipe for target 'object/Menu.o' failed
+mingw32-make.exe: *** [object/Menu.o] Error 1
+
+Compilation results...
+--------
+- Errors: 3
+- Warnings: 11
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,8716459274292 MiB
+- Compilation Time: 1,47s
+
+24.01.2021 13:50:27: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,8716459274292 MiB
+- Compilation Time: 0,95s
+
+24.01.2021 13:50:38: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+mingw32-make.exe: Nothing to be done for 'all'.
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,8716459274292 MiB
+- Compilation Time: 0,20s
+
+24.01.2021 13:51:08: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+mingw32-make.exe: Nothing to be done for 'all'.
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,8716459274292 MiB
+- Compilation Time: 0,20s
+
+24.01.2021 13:51:22: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/main.cpp -o object/main.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" -I"header/" 
+In file included from sources/main.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Menu.h:26:16: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   bool isRun = true;
+                ^
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+object/main.o:main.cpp:(.text+0x2c9): undefined reference to `Menu::check_isRun()'
+object/main.o:main.cpp:(.text+0x4f0): undefined reference to `Board::Board(float, float, sf::RenderWindow&)'
+collect2.exe: error: ld returned 1 exit status
+L:\GITHUB\Chinczyk\Makefile.win:25: recipe for target 'bin/Chinol.exe' failed
+mingw32-make.exe: *** [bin/Chinol.exe] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 1
+- Compilation Time: 1,58s
+
+24.01.2021 13:51:28: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+object/main.o:main.cpp:(.text+0x2c9): undefined reference to `Menu::check_isRun()'
+object/main.o:main.cpp:(.text+0x4f0): undefined reference to `Board::Board(float, float, sf::RenderWindow&)'
+collect2.exe: error: ld returned 1 exit status
+L:\GITHUB\Chinczyk\Makefile.win:25: recipe for target 'bin/Chinol.exe' failed
+mingw32-make.exe: *** [bin/Chinol.exe] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 0
+- Compilation Time: 0,88s
+
+24.01.2021 13:51:37: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/main.cpp -o object/main.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" -I"header/" 
+In file included from sources/main.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Menu.h:26:16: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   bool isRun = true;
+                ^
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+object/main.o:main.cpp:(.text+0x2c9): undefined reference to `Menu::check_isRun()'
+object/main.o:main.cpp:(.text+0x4f0): undefined reference to `Board::Board(float, float, sf::RenderWindow&)'
+collect2.exe: error: ld returned 1 exit status
+L:\GITHUB\Chinczyk\Makefile.win:25: recipe for target 'bin/Chinol.exe' failed
+mingw32-make.exe: *** [bin/Chinol.exe] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 1
+- Compilation Time: 1,55s
+
+24.01.2021 13:51:51: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/main.cpp -o object/main.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" -I"header/" 
+In file included from sources/main.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Menu.h:26:16: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   bool isRun = true;
+                ^
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+object/main.o:main.cpp:(.text+0x2c9): undefined reference to `Menu::check_isRun()'
+object/main.o:main.cpp:(.text+0x4f0): undefined reference to `Board::Board(float, float, sf::RenderWindow&)'
+collect2.exe: error: ld returned 1 exit status
+L:\GITHUB\Chinczyk\Makefile.win:25: recipe for target 'bin/Chinol.exe' failed
+mingw32-make.exe: *** [bin/Chinol.exe] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 1
+- Compilation Time: 1,53s
+
+24.01.2021 13:52:19: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+object/main.o:main.cpp:(.text+0x2c9): undefined reference to `Menu::check_isRun()'
+object/main.o:main.cpp:(.text+0x4f0): undefined reference to `Board::Board(float, float, sf::RenderWindow&)'
+collect2.exe: error: ld returned 1 exit status
+L:\GITHUB\Chinczyk\Makefile.win:25: recipe for target 'bin/Chinol.exe' failed
+mingw32-make.exe: *** [bin/Chinol.exe] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 0
+- Compilation Time: 0,91s
+
+24.01.2021 13:52:42: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+object/main.o:main.cpp:(.text+0x2c9): undefined reference to `Menu::check_isRun()'
+object/main.o:main.cpp:(.text+0x4f0): undefined reference to `Board::Board(float, float, sf::RenderWindow&)'
+collect2.exe: error: ld returned 1 exit status
+L:\GITHUB\Chinczyk\Makefile.win:25: recipe for target 'bin/Chinol.exe' failed
+mingw32-make.exe: *** [bin/Chinol.exe] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 0
+- Compilation Time: 0,92s
+
+24.01.2021 13:53:01: Appending to log...
+
+Rebuilding whole project...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" clean all
+
+rm.exe -f object/Board.o object/Game.o object/main.o object/Menu.o bin/Chinol.exe
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" -I"header/" 
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" -I"header/" 
+g++.exe -c sources/main.cpp -o object/main.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" -I"header/" 
+In file included from sources/main.cpp:4:0:
+L:/GITHUB/Chinczyk/header/Menu.h:26:16: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   bool isRun = true;
+                ^
+g++.exe -c sources/Menu.cpp -o object/Menu.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" -I"header/" 
+In file included from sources/Menu.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Menu.h:26:16: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   bool isRun = true;
+                ^
+sources/Menu.cpp: In constructor 'Menu::Menu(float, float)':
+sources/Menu.cpp:16:28: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  logo.setColor(Color::White);
+                            ^
+sources/Menu.cpp:23:29: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[0].setColor(Color::Red);
+                             ^
+sources/Menu.cpp:29:31: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[1].setColor(Color::White);
+                               ^
+sources/Menu.cpp:35:31: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[2].setColor(Color::White);
+                               ^
+sources/Menu.cpp:41:31: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[3].setColor(Color::White);
+                               ^
+sources/Menu.cpp: In member function 'void Menu::MoveUp()':
+sources/Menu.cpp:64:48: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::White);
+                                                ^
+sources/Menu.cpp:66:46: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::Red);
+                                              ^
+sources/Menu.cpp: In member function 'void Menu::MoveDown()':
+sources/Menu.cpp:74:48: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::White);
+                                                ^
+sources/Menu.cpp:76:46: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::Red);
+                                              ^
+sources/Menu.cpp: In member function 'void Menu::CheckCursorFocus(float, float)':
+sources/Menu.cpp:91:49: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+    menu[selectedItemIndex].setColor(Color::White);
+                                                 ^
+sources/Menu.cpp:93:47: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+    menu[selectedItemIndex].setColor(Color::Red);
+                                               ^
+g++.exe object/Board.o object/Game.o object/main.o object/Menu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 13
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87594032287598 MiB
+- Compilation Time: 3,66s
+
+24.01.2021 13:53:14: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+mingw32-make.exe: Nothing to be done for 'all'.
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87594032287598 MiB
+- Compilation Time: 0,22s
+
+24.01.2021 13:56:37: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/main.cpp -o object/main.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" -I"header/" 
+In file included from sources/main.cpp:4:0:
+L:/GITHUB/Chinczyk/header/MainMenu.h:26:16: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   bool isRun = true;
+                ^
+g++.exe -c sources/MainMenu.cpp -o object/MainMenu.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" -I"header/" 
+In file included from sources/MainMenu.cpp:3:0:
+L:/GITHUB/Chinczyk/header/MainMenu.h:26:16: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   bool isRun = true;
+                ^
+sources/MainMenu.cpp: In constructor 'MainMenu::MainMenu(float, float)':
+sources/MainMenu.cpp:16:28: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  logo.setColor(Color::White);
+                            ^
+sources/MainMenu.cpp:23:29: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[0].setColor(Color::Red);
+                             ^
+sources/MainMenu.cpp:29:31: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[1].setColor(Color::White);
+                               ^
+sources/MainMenu.cpp:35:31: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[2].setColor(Color::White);
+                               ^
+sources/MainMenu.cpp:41:31: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[3].setColor(Color::White);
+                               ^
+sources/MainMenu.cpp: In member function 'void MainMenu::MoveUp()':
+sources/MainMenu.cpp:64:48: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::White);
+                                                ^
+sources/MainMenu.cpp:66:46: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::Red);
+                                              ^
+sources/MainMenu.cpp: In member function 'void MainMenu::MoveDown()':
+sources/MainMenu.cpp:74:48: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::White);
+                                                ^
+sources/MainMenu.cpp:76:46: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::Red);
+                                              ^
+sources/MainMenu.cpp: In member function 'void MainMenu::CheckCursorFocus(float, float)':
+sources/MainMenu.cpp:91:49: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+    menu[selectedItemIndex].setColor(Color::White);
+                                                 ^
+sources/MainMenu.cpp:93:47: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+    menu[selectedItemIndex].setColor(Color::Red);
+                                               ^
+g++.exe object/Board.o object/Game.o object/main.o object/MainMenu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 13
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87600135803223 MiB
+- Compilation Time: 2,25s

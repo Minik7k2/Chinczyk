@@ -321,3 +321,155 @@
 14	8	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Note] void Game::draw(sf::RenderWindow&, Board&)
 14	8	C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header\Game.h	[Note] no known conversion for argument 1 from 'sf::RenderWindow*' to 'sf::RenderWindow&'
 34		C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\Makefile.win	recipe for target 'object/main.o' failed
+
+24.01.2021 13:45:00: Appending to log...
+
+3	18	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] Game.h: No such file or directory
+			compilation terminated.
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+24.01.2021 13:45:10: Appending to log...
+
+3	18	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] Game.h: No such file or directory
+			compilation terminated.
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+24.01.2021 13:45:11: Appending to log...
+
+3	18	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] Game.h: No such file or directory
+			compilation terminated.
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+24.01.2021 13:45:12: Appending to log...
+
+3	18	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] Game.h: No such file or directory
+			compilation terminated.
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+24.01.2021 13:45:13: Appending to log...
+
+3	18	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] Game.h: No such file or directory
+			compilation terminated.
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+24.01.2021 13:45:14: Appending to log...
+
+3	18	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] Game.h: No such file or directory
+			compilation terminated.
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+24.01.2021 13:49:39: Appending to log...
+
+		L:\GITHUB\Chinczyk\sources\Menu.cpp	In constructor 'Menu::Menu(float, float)':
+16	28	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+23	29	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+29	31	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+35	31	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+41	31	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\Menu.cpp	In member function 'void Menu::MoveUp()':
+64	48	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+66	46	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\Menu.cpp	In member function 'void Menu::MoveDown()':
+74	48	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+76	46	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\Menu.cpp	In member function 'void Menu::CheckCursorFocus(float, float)':
+91	49	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+93	47	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\Menu.cpp	In member function 'void Menu::MenuAction(sf::RenderWindow*, Menu*, Game*)':
+106	10	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Error] 'class Menu' has no member named 'set_isRun'
+		L:\GITHUB\Chinczyk\sources\Menu.cpp	At global scope:
+124	22	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Error] no 'bool Menu::set_isRun()' member function declared in class 'Menu'
+129	24	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Error] no 'bool Menu::check_isRun()' member function declared in class 'Menu'
+37		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Menu.o' failed
+
+24.01.2021 13:51:22: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\sources\main.cpp	In file included from sources/main.cpp
+26	16	L:\GITHUB\Chinczyk\header\Menu.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\object\main.o	main.cpp:(.text+0x2c9): undefined reference to `Menu::check_isRun()'
+		L:\GITHUB\Chinczyk\object\main.o	main.cpp:(.text+0x4f0): undefined reference to `Board::Board(float, float, sf::RenderWindow&)'
+		L:\GITHUB\Chinczyk\collect2.exe	[Error] ld returned 1 exit status
+25		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'bin/Chinol.exe' failed
+
+24.01.2021 13:51:28: Appending to log...
+
+		L:\GITHUB\Chinczyk\object\main.o	main.cpp:(.text+0x2c9): undefined reference to `Menu::check_isRun()'
+		L:\GITHUB\Chinczyk\object\main.o	main.cpp:(.text+0x4f0): undefined reference to `Board::Board(float, float, sf::RenderWindow&)'
+		L:\GITHUB\Chinczyk\collect2.exe	[Error] ld returned 1 exit status
+25		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'bin/Chinol.exe' failed
+
+24.01.2021 13:51:37: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\sources\main.cpp	In file included from sources/main.cpp
+26	16	L:\GITHUB\Chinczyk\header\Menu.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\object\main.o	main.cpp:(.text+0x2c9): undefined reference to `Menu::check_isRun()'
+		L:\GITHUB\Chinczyk\object\main.o	main.cpp:(.text+0x4f0): undefined reference to `Board::Board(float, float, sf::RenderWindow&)'
+		L:\GITHUB\Chinczyk\collect2.exe	[Error] ld returned 1 exit status
+25		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'bin/Chinol.exe' failed
+
+24.01.2021 13:51:51: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\sources\main.cpp	In file included from sources/main.cpp
+26	16	L:\GITHUB\Chinczyk\header\Menu.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\object\main.o	main.cpp:(.text+0x2c9): undefined reference to `Menu::check_isRun()'
+		L:\GITHUB\Chinczyk\object\main.o	main.cpp:(.text+0x4f0): undefined reference to `Board::Board(float, float, sf::RenderWindow&)'
+		L:\GITHUB\Chinczyk\collect2.exe	[Error] ld returned 1 exit status
+25		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'bin/Chinol.exe' failed
+
+24.01.2021 13:52:19: Appending to log...
+
+		L:\GITHUB\Chinczyk\object\main.o	main.cpp:(.text+0x2c9): undefined reference to `Menu::check_isRun()'
+		L:\GITHUB\Chinczyk\object\main.o	main.cpp:(.text+0x4f0): undefined reference to `Board::Board(float, float, sf::RenderWindow&)'
+		L:\GITHUB\Chinczyk\collect2.exe	[Error] ld returned 1 exit status
+25		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'bin/Chinol.exe' failed
+
+24.01.2021 13:52:42: Appending to log...
+
+		L:\GITHUB\Chinczyk\object\main.o	main.cpp:(.text+0x2c9): undefined reference to `Menu::check_isRun()'
+		L:\GITHUB\Chinczyk\object\main.o	main.cpp:(.text+0x4f0): undefined reference to `Board::Board(float, float, sf::RenderWindow&)'
+		L:\GITHUB\Chinczyk\collect2.exe	[Error] ld returned 1 exit status
+25		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'bin/Chinol.exe' failed
+
+24.01.2021 13:53:01: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\sources\main.cpp	In file included from sources/main.cpp
+26	16	L:\GITHUB\Chinczyk\header\Menu.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Menu.cpp	In file included from sources/Menu.cpp
+26	16	L:\GITHUB\Chinczyk\header\Menu.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Menu.cpp	In constructor 'Menu::Menu(float, float)':
+16	28	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+23	29	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+29	31	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+35	31	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+41	31	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\Menu.cpp	In member function 'void Menu::MoveUp()':
+64	48	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+66	46	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\Menu.cpp	In member function 'void Menu::MoveDown()':
+74	48	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+76	46	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\Menu.cpp	In member function 'void Menu::CheckCursorFocus(float, float)':
+91	49	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+93	47	L:\GITHUB\Chinczyk\sources\Menu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+
+24.01.2021 13:56:37: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\sources\main.cpp	In file included from sources/main.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In file included from sources/MainMenu.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In constructor 'MainMenu::MainMenu(float, float)':
+16	28	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+23	29	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+29	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+35	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+41	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::MoveUp()':
+64	48	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+66	46	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::MoveDown()':
+74	48	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+76	46	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::CheckCursorFocus(float, float)':
+91	49	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+93	47	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]

@@ -5,7 +5,7 @@
 class Pawn
 {
 public:
-	Pawn(Board &board);
+	Pawn();
 	~Pawn();
 
 	void draw(sf::RenderWindow &window);
@@ -15,7 +15,7 @@ public:
 	
 	int pawnColor;
 	int startingPointID;
-	bool is_inYard = true;
+	//bool is_inYard = true;
 	
 
 private:

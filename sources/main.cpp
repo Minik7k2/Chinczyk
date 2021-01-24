@@ -51,9 +51,6 @@ int main()
 							break;
 						}
 					break;
-					case Event::Closed:
-						window.close();
-					break;
 					case Event::MouseMoved:
 		    			menu.CheckCursorFocus(event.mouseMove.x, event.mouseMove.y);
 					break;
@@ -65,6 +62,8 @@ int main()
 		    		break;
 				}
 			}
+			if(event.type == Event::Closed)
+				window.close();
 		}
 
 		

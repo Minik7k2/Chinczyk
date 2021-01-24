@@ -11,7 +11,7 @@ Board::Board(float width, float height, RenderWindow &window)
 	int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
 	sizeOfPiece = 50;
 	
-	fields.loadFromFile("field.png");
+	fields.loadFromFile("../textures/field.png");
 	
 	for(int i=0; i<4; i++){
 		for(int j=0; j<6;j++){

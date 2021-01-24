@@ -5741,3 +5741,75 @@
 		C:\Program Files (x86)\Dev-Cpp\MinGW64\x86_64-w64-mingw32\bin\ld.exe	cannot open output file bin/Chinol.exe: Permission denied
 		L:\GITHUB\Chinczyk\collect2.exe	[Error] ld returned 1 exit status
 25		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'bin/Chinol.exe' failed
+
+24.01.2021 14:21:16: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\main.cpp	In file included from sources/main.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\main.cpp	In function 'int main()':
+24	2	L:\GITHUB\Chinczyk\sources\main.cpp	[Error] 'MainMenu' was not declared in this scope
+34	7	L:\GITHUB\Chinczyk\sources\main.cpp	[Error] 'menu' was not declared in this scope
+73	62	L:\GITHUB\Chinczyk\sources\main.cpp	[Error] no matching function for call to 'Board::Board(unsigned int, unsigned int, sf::RenderWindow&)'
+73	62	L:\GITHUB\Chinczyk\sources\main.cpp	[Note] candidates are:
+4	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+12	2	L:\GITHUB\Chinczyk\header\Board.h	[Note] Board::Board(sf::RenderWindow&)
+12	2	L:\GITHUB\Chinczyk\header\Board.h	[Note] candidate expects 1 argument, 3 provided
+9	7	L:\GITHUB\Chinczyk\header\Board.h	[Note] Board::Board(const Board&)
+9	7	L:\GITHUB\Chinczyk\header\Board.h	[Note] candidate expects 1 argument, 3 provided
+79	4	L:\GITHUB\Chinczyk\sources\main.cpp	[Error] 'menu' was not declared in this scope
+34		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/main.o' failed
+
+24.01.2021 14:22:45: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\main.cpp	In file included from sources/main.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\main.cpp	In function 'int main()':
+73	62	L:\GITHUB\Chinczyk\sources\main.cpp	[Error] no matching function for call to 'Board::Board(unsigned int, unsigned int, sf::RenderWindow&)'
+73	62	L:\GITHUB\Chinczyk\sources\main.cpp	[Note] candidates are:
+4	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+12	2	L:\GITHUB\Chinczyk\header\Board.h	[Note] Board::Board(sf::RenderWindow&)
+12	2	L:\GITHUB\Chinczyk\header\Board.h	[Note] candidate expects 1 argument, 3 provided
+9	7	L:\GITHUB\Chinczyk\header\Board.h	[Note] Board::Board(const Board&)
+9	7	L:\GITHUB\Chinczyk\header\Board.h	[Note] candidate expects 1 argument, 3 provided
+34		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/main.o' failed
+
+24.01.2021 14:22:59: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\main.cpp	In file included from sources/main.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\header\MainMenu.h	                 from L:/GITHUB/Chinczyk/header/MainMenu.h
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In file included from sources/MainMenu.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In constructor 'MainMenu::MainMenu(float, float)':
+16	28	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+23	29	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+29	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+35	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+41	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::MoveUp()':
+64	48	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+66	46	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::MoveDown()':
+74	48	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+76	46	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::CheckCursorFocus(float, float)':
+91	49	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+93	47	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]

@@ -24820,3 +24820,204 @@ Compilation results...
 - Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
 - Output Size: 1,87969970703125 MiB
 - Compilation Time: 0,91s
+
+24.01.2021 14:21:16: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/main.cpp -o object/main.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from L:/GITHUB/Chinczyk/header/Game.h:4:0,
+                 from sources/main.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from sources/main.cpp:4:0:
+L:/GITHUB/Chinczyk/header/MainMenu.h:26:16: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   bool isRun = true;
+                ^
+sources/main.cpp: In function 'int main()':
+sources/main.cpp:24:2: error: 'MainMenu' was not declared in this scope
+  MainMenu menu(window.getSize().x, window.getSize().y);
+  ^
+sources/main.cpp:34:7: error: 'menu' was not declared in this scope
+    if(menu.check_isRun() == true)
+       ^
+sources/main.cpp:73:62: error: no matching function for call to 'Board::Board(unsigned int, unsigned int, sf::RenderWindow&)'
+    Board board(window.getSize().x, window.getSize().y, window);
+                                                              ^
+sources/main.cpp:73:62: note: candidates are:
+In file included from L:/GITHUB/Chinczyk/header/Game.h:4:0,
+                 from sources/main.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.h:12:2: note: Board::Board(sf::RenderWindow&)
+  Board(sf::RenderWindow &window);
+  ^
+L:/GITHUB/Chinczyk/header/Board.h:12:2: note:   candidate expects 1 argument, 3 provided
+L:/GITHUB/Chinczyk/header/Board.h:9:7: note: Board::Board(const Board&)
+ class Board
+       ^
+L:/GITHUB/Chinczyk/header/Board.h:9:7: note:   candidate expects 1 argument, 3 provided
+sources/main.cpp:79:4: error: 'menu' was not declared in this scope
+    menu.draw(window);
+    ^
+L:\GITHUB\Chinczyk\Makefile.win:34: recipe for target 'object/main.o' failed
+mingw32-make.exe: *** [object/main.o] Error 1
+
+Compilation results...
+--------
+- Errors: 4
+- Warnings: 3
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87969970703125 MiB
+- Compilation Time: 0,81s
+
+24.01.2021 14:22:45: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/main.cpp -o object/main.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from L:/GITHUB/Chinczyk/header/Game.h:4:0,
+                 from sources/main.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from sources/main.cpp:4:0:
+L:/GITHUB/Chinczyk/header/MainMenu.h:26:16: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   bool isRun = true;
+                ^
+sources/main.cpp: In function 'int main()':
+sources/main.cpp:73:62: error: no matching function for call to 'Board::Board(unsigned int, unsigned int, sf::RenderWindow&)'
+    Board board(window.getSize().x, window.getSize().y, window);
+                                                              ^
+sources/main.cpp:73:62: note: candidates are:
+In file included from L:/GITHUB/Chinczyk/header/Game.h:4:0,
+                 from sources/main.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.h:12:2: note: Board::Board(sf::RenderWindow&)
+  Board(sf::RenderWindow &window);
+  ^
+L:/GITHUB/Chinczyk/header/Board.h:12:2: note:   candidate expects 1 argument, 3 provided
+L:/GITHUB/Chinczyk/header/Board.h:9:7: note: Board::Board(const Board&)
+ class Board
+       ^
+L:/GITHUB/Chinczyk/header/Board.h:9:7: note:   candidate expects 1 argument, 3 provided
+L:\GITHUB\Chinczyk\Makefile.win:34: recipe for target 'object/main.o' failed
+mingw32-make.exe: *** [object/main.o] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 3
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87969970703125 MiB
+- Compilation Time: 0,83s
+
+24.01.2021 14:22:59: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/main.cpp -o object/main.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from L:/GITHUB/Chinczyk/header/Game.h:4:0,
+                 from sources/main.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from sources/main.cpp:4:0:
+L:/GITHUB/Chinczyk/header/MainMenu.h:26:16: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   bool isRun = true;
+                ^
+g++.exe -c sources/MainMenu.cpp -o object/MainMenu.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from L:/GITHUB/Chinczyk/header/Game.h:4:0,
+                 from L:/GITHUB/Chinczyk/header/MainMenu.h:3,
+                 from sources/MainMenu.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:34:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from sources/MainMenu.cpp:3:0:
+L:/GITHUB/Chinczyk/header/MainMenu.h:26:16: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   bool isRun = true;
+                ^
+sources/MainMenu.cpp: In constructor 'MainMenu::MainMenu(float, float)':
+sources/MainMenu.cpp:16:28: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  logo.setColor(Color::White);
+                            ^
+sources/MainMenu.cpp:23:29: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[0].setColor(Color::Red);
+                             ^
+sources/MainMenu.cpp:29:31: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[1].setColor(Color::White);
+                               ^
+sources/MainMenu.cpp:35:31: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[2].setColor(Color::White);
+                               ^
+sources/MainMenu.cpp:41:31: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+  menu[3].setColor(Color::White);
+                               ^
+sources/MainMenu.cpp: In member function 'void MainMenu::MoveUp()':
+sources/MainMenu.cpp:64:48: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::White);
+                                                ^
+sources/MainMenu.cpp:66:46: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::Red);
+                                              ^
+sources/MainMenu.cpp: In member function 'void MainMenu::MoveDown()':
+sources/MainMenu.cpp:74:48: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::White);
+                                                ^
+sources/MainMenu.cpp:76:46: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+   menu[selectedItemIndex].setColor(Color::Red);
+                                              ^
+sources/MainMenu.cpp: In member function 'void MainMenu::CheckCursorFocus(float, float)':
+sources/MainMenu.cpp:91:49: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+    menu[selectedItemIndex].setColor(Color::White);
+                                                 ^
+sources/MainMenu.cpp:93:47: warning: 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+    menu[selectedItemIndex].setColor(Color::Red);
+                                               ^
+g++.exe object/Board.o object/Game.o object/main.o object/MainMenu.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 17
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,87773323059082 MiB
+- Compilation Time: 2,42s

@@ -70,7 +70,7 @@ int main()
 		if(game.check_isRun() == true)
 		{
 			window.clear();
-			Board board(window.getSize().x, window.getSize().y, window);
+			Board board(window);
 			//game.draw(window, board);
 		}
 		else

@@ -2,6 +2,7 @@
 #include "SFML/Graphics.hpp" 
 #include "Game.h"
 #include "Board.h"
+#include "Cube.h"
 
 using namespace std;
 using namespace sf;
@@ -21,9 +22,10 @@ bool Game::check_isRun()
  	return isRun;
 }
 
-void Game::draw(RenderWindow &window, Board &board)
+void Game::draw(RenderWindow &window)
 {
-	board.draw(window);
+	Board board(window.getSize().x, window.getSize().y, window);
+	Cube cube(50,219,580,window);
 }
 
 Game::~Game()

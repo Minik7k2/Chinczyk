@@ -2,7 +2,6 @@
 #include <iostream>
 #include "Game.h"
 #include "MainMenu.h"
-#include "Board.h"
 
 using namespace sf;
 using namespace std;
@@ -10,7 +9,6 @@ using namespace std;
 
 int main()
 {
-	
 	srand(time(NULL));
 	setlocale(LC_ALL,"");
 	
@@ -62,16 +60,17 @@ int main()
 		    		break;
 				}
 			}
+			
 			if(event.type == Event::Closed)
+			{
 				window.close();
+			}
 		}
-
 		
 		if(game.check_isRun() == true)
 		{
 			window.clear();
-			Board board(window.getSize().x, window.getSize().y, window);
-			//game.draw(window, board);
+			game.draw(window);
 		}
 		else
 		{
@@ -88,5 +87,4 @@ int main()
 	    	frame=0;
 		}
 	}
-	
 }

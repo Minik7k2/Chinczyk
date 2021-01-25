@@ -33503,3 +33503,881 @@ Compilation results...
 - Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
 - Output Size: 1,88228416442871 MiB
 - Compilation Time: 1,03s
+
+24.01.2021 16:57:30: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+mingw32-make.exe: Nothing to be done for 'all'.
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,88228416442871 MiB
+- Compilation Time: 0,22s
+
+24.01.2021 17:29:39: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+mingw32-make.exe: Nothing to be done for 'all'.
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,88228416442871 MiB
+- Compilation Time: 0,24s
+
+24.01.2021 17:43:42: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+mingw32-make.exe: Nothing to be done for 'all'.
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,88228416442871 MiB
+- Compilation Time: 0,22s
+
+24.01.2021 17:43:50: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+mingw32-make.exe: Nothing to be done for 'all'.
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,88228416442871 MiB
+- Compilation Time: 0,22s
+
+24.01.2021 17:44:03: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/main.cpp -o object/main.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from L:/GITHUB/Chinczyk/header/Game.h:4:0,
+                 from sources/main.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.h:35:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:35:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from L:/GITHUB/Chinczyk/header/Game.h:5:0,
+                 from sources/main.cpp:3:
+L:/GITHUB/Chinczyk/header/Pawn.h:22:19: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool is_inYard = true;
+                   ^
+In file included from sources/main.cpp:4:0:
+L:/GITHUB/Chinczyk/header/MainMenu.h:26:16: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   bool isRun = true;
+                ^
+g++.exe object/Board.o object/Game.o object/main.o object/MainMenu.o object/Pawn.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 4
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,88244438171387 MiB
+- Compilation Time: 2,28s
+
+24.01.2021 17:44:29: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/main.cpp -o object/main.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from L:/GITHUB/Chinczyk/header/Game.h:4:0,
+                 from sources/main.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.h:35:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:35:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from L:/GITHUB/Chinczyk/header/Game.h:5:0,
+                 from sources/main.cpp:3:
+L:/GITHUB/Chinczyk/header/Pawn.h:22:19: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool is_inYard = true;
+                   ^
+In file included from sources/main.cpp:4:0:
+L:/GITHUB/Chinczyk/header/MainMenu.h:26:16: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   bool isRun = true;
+                ^
+g++.exe object/Board.o object/Game.o object/main.o object/MainMenu.o object/Pawn.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 4
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,88277244567871 MiB
+- Compilation Time: 1,73s
+
+24.01.2021 17:44:52: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Board.cpp -o object/Board.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from sources/Board.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Board.h:35:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:35:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+g++.exe -c sources/main.cpp -o object/main.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from L:/GITHUB/Chinczyk/header/Game.h:4:0,
+                 from sources/main.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.h:35:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:35:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from L:/GITHUB/Chinczyk/header/Game.h:5:0,
+                 from sources/main.cpp:3:
+L:/GITHUB/Chinczyk/header/Pawn.h:22:19: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool is_inYard = true;
+                   ^
+In file included from sources/main.cpp:4:0:
+L:/GITHUB/Chinczyk/header/MainMenu.h:26:16: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   bool isRun = true;
+                ^
+sources/main.cpp: In function 'int main()':
+sources/main.cpp:70:13: error: no match for 'operator<<' (operand types are 'std::basic_ostream<char>::__ostream_type {aka std::basic_ostream<char>}' and 'sf::String')
+   cout<<endl<<strArr[1];
+             ^
+sources/main.cpp:70:13: note: candidates are:
+In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:108:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+       ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:108:7: note:   no known conversion for argument 1 from 'sf::String' to 'std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&) {aka std::basic_ostream<char>& (*)(std::basic_ostream<char>&)}'
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:117:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]
+       operator<<(__ios_type& (*__pf)(__ios_type&))
+       ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:117:7: note:   no known conversion for argument 1 from 'sf::String' to 'std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&) {aka std::basic_ios<char>& (*)(std::basic_ios<char>&)}'
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:127:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(ios_base& (*__pf) (ios_base&))
+       ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:127:7: note:   no known conversion for argument 1 from 'sf::String' to 'std::ios_base& (*)(std::ios_base&)'
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:166:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long __n)
+       ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:166:7: note:   no known conversion for argument 1 from 'sf::String' to 'long int'
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:170:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long __n)
+       ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:170:7: note:   no known conversion for argument 1 from 'sf::String' to 'long unsigned int'
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:174:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(bool __n)
+       ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:174:7: note:   no known conversion for argument 1 from 'sf::String' to 'bool'
+In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:609:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/ostream.tcc:91:5: note: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/ostream.tcc:91:5: note:   no known conversion for argument 1 from 'sf::String' to 'short int'
+In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:181:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned short __n)
+       ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:181:7: note:   no known conversion for argument 1 from 'sf::String' to 'short unsigned int'
+In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:609:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/ostream.tcc:105:5: note: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/ostream.tcc:105:5: note:   no known conversion for argument 1 from 'sf::String' to 'int'
+In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:192:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned int __n)
+       ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:192:7: note:   no known conversion for argument 1 from 'sf::String' to 'unsigned int'
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:201:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long long __n)
+       ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:201:7: note:   no known conversion for argument 1 from 'sf::String' to 'long long int'
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:205:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long long __n)
+       ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:205:7: note:   no known conversion for argument 1 from 'sf::String' to 'long long unsigned int'
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:220:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(double __f)
+       ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:220:7: note:   no known conversion for argument 1 from 'sf::String' to 'double'
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:224:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(float __f)
+       ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:224:7: note:   no known conversion for argument 1 from 'sf::String' to 'float'
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:232:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long double __f)
+       ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:232:7: note:   no known conversion for argument 1 from 'sf::String' to 'long double'
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:245:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(const void* __p)
+       ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:245:7: note:   no known conversion for argument 1 from 'sf::String' to 'const void*'
+In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:609:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/ostream.tcc:119:5: note: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/ostream.tcc:119:5: note:   no known conversion for argument 1 from 'sf::String' to 'std::basic_ostream<char>::__streambuf_type* {aka std::basic_streambuf<char>*}'
+In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/string:52:0,
+                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/locale_classes.h:40,
+                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/ios_base.h:41,
+                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ios:42,
+                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:38,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/basic_string.h:2772:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/basic_string.h:2772:5: note:   template argument deduction/substitution failed:
+sources/main.cpp:70:23: note:   'sf::String' is not derived from 'const std::basic_string<_CharT, _Traits, _Alloc>'
+   cout<<endl<<strArr[1];
+                       ^
+In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:471:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:471:5: note:   template argument deduction/substitution failed:
+sources/main.cpp:70:23: note:   deduced conflicting types for parameter '_CharT' ('char' and 'sf::String')
+   cout<<endl<<strArr[1];
+                       ^
+In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:476:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:476:5: note:   template argument deduction/substitution failed:
+sources/main.cpp:70:23: note:   cannot convert 'strArr[1]' (type 'sf::String') to type 'char'
+   cout<<endl<<strArr[1];
+                       ^
+In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:482:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:482:5: note:   template argument deduction/substitution failed:
+sources/main.cpp:70:23: note:   cannot convert 'strArr[1]' (type 'sf::String') to type 'char'
+   cout<<endl<<strArr[1];
+                       ^
+In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:488:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:488:5: note:   template argument deduction/substitution failed:
+sources/main.cpp:70:23: note:   cannot convert 'strArr[1]' (type 'sf::String') to type 'signed char'
+   cout<<endl<<strArr[1];
+                       ^
+In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:493:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:493:5: note:   template argument deduction/substitution failed:
+sources/main.cpp:70:23: note:   cannot convert 'strArr[1]' (type 'sf::String') to type 'unsigned char'
+   cout<<endl<<strArr[1];
+                       ^
+In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:513:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:513:5: note:   template argument deduction/substitution failed:
+sources/main.cpp:70:23: note:   mismatched types 'const _CharT*' and 'sf::String'
+   cout<<endl<<strArr[1];
+                       ^
+In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:609:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/ostream.tcc:321:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+sources/main.cpp:70:23: note:   cannot convert 'strArr[1]' (type 'sf::String') to type 'const char*'
+   cout<<endl<<strArr[1];
+                       ^
+In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:530:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:530:5: note:   template argument deduction/substitution failed:
+sources/main.cpp:70:23: note:   cannot convert 'strArr[1]' (type 'sf::String') to type 'const char*'
+   cout<<endl<<strArr[1];
+                       ^
+In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:543:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:543:5: note:   template argument deduction/substitution failed:
+sources/main.cpp:70:23: note:   cannot convert 'strArr[1]' (type 'sf::String') to type 'const signed char*'
+   cout<<endl<<strArr[1];
+                       ^
+In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:548:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:548:5: note:   template argument deduction/substitution failed:
+sources/main.cpp:70:23: note:   cannot convert 'strArr[1]' (type 'sf::String') to type 'const unsigned char*'
+   cout<<endl<<strArr[1];
+                       ^
+L:\GITHUB\Chinczyk\Makefile.win:34: recipe for target 'object/main.o' failed
+mingw32-make.exe: *** [object/main.o] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 6
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,88277244567871 MiB
+- Compilation Time: 1,72s
+
+24.01.2021 17:45:10: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/main.cpp -o object/main.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from L:/GITHUB/Chinczyk/header/Game.h:4:0,
+                 from sources/main.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.h:35:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:35:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from L:/GITHUB/Chinczyk/header/Game.h:5:0,
+                 from sources/main.cpp:3:
+L:/GITHUB/Chinczyk/header/Pawn.h:22:19: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool is_inYard = true;
+                   ^
+In file included from sources/main.cpp:4:0:
+L:/GITHUB/Chinczyk/header/MainMenu.h:26:16: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   bool isRun = true;
+                ^
+sources/main.cpp: In function 'int main()':
+sources/main.cpp:70:16: error: no match for 'operator<<' (operand types are 'std::basic_ostream<char>::__ostream_type {aka std::basic_ostream<char>}' and 'sf::String')
+   cout << endl << strArr[1];
+                ^
+sources/main.cpp:70:16: note: candidates are:
+In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:108:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+       ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:108:7: note:   no known conversion for argument 1 from 'sf::String' to 'std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&) {aka std::basic_ostream<char>& (*)(std::basic_ostream<char>&)}'
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:117:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]
+       operator<<(__ios_type& (*__pf)(__ios_type&))
+       ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:117:7: note:   no known conversion for argument 1 from 'sf::String' to 'std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&) {aka std::basic_ios<char>& (*)(std::basic_ios<char>&)}'
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:127:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(ios_base& (*__pf) (ios_base&))
+       ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:127:7: note:   no known conversion for argument 1 from 'sf::String' to 'std::ios_base& (*)(std::ios_base&)'
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:166:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long __n)
+       ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:166:7: note:   no known conversion for argument 1 from 'sf::String' to 'long int'
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:170:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long __n)
+       ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:170:7: note:   no known conversion for argument 1 from 'sf::String' to 'long unsigned int'
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:174:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(bool __n)
+       ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:174:7: note:   no known conversion for argument 1 from 'sf::String' to 'bool'
+In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:609:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/ostream.tcc:91:5: note: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/ostream.tcc:91:5: note:   no known conversion for argument 1 from 'sf::String' to 'short int'
+In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:181:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned short __n)
+       ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:181:7: note:   no known conversion for argument 1 from 'sf::String' to 'short unsigned int'
+In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:609:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/ostream.tcc:105:5: note: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/ostream.tcc:105:5: note:   no known conversion for argument 1 from 'sf::String' to 'int'
+In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:192:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned int __n)
+       ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:192:7: note:   no known conversion for argument 1 from 'sf::String' to 'unsigned int'
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:201:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long long __n)
+       ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:201:7: note:   no known conversion for argument 1 from 'sf::String' to 'long long int'
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:205:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long long __n)
+       ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:205:7: note:   no known conversion for argument 1 from 'sf::String' to 'long long unsigned int'
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:220:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(double __f)
+       ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:220:7: note:   no known conversion for argument 1 from 'sf::String' to 'double'
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:224:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(float __f)
+       ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:224:7: note:   no known conversion for argument 1 from 'sf::String' to 'float'
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:232:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long double __f)
+       ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:232:7: note:   no known conversion for argument 1 from 'sf::String' to 'long double'
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:245:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(const void* __p)
+       ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:245:7: note:   no known conversion for argument 1 from 'sf::String' to 'const void*'
+In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:609:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/ostream.tcc:119:5: note: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/ostream.tcc:119:5: note:   no known conversion for argument 1 from 'sf::String' to 'std::basic_ostream<char>::__streambuf_type* {aka std::basic_streambuf<char>*}'
+In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/string:52:0,
+                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/locale_classes.h:40,
+                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/ios_base.h:41,
+                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ios:42,
+                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:38,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/basic_string.h:2772:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/basic_string.h:2772:5: note:   template argument deduction/substitution failed:
+sources/main.cpp:70:27: note:   'sf::String' is not derived from 'const std::basic_string<_CharT, _Traits, _Alloc>'
+   cout << endl << strArr[1];
+                           ^
+In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:471:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:471:5: note:   template argument deduction/substitution failed:
+sources/main.cpp:70:27: note:   deduced conflicting types for parameter '_CharT' ('char' and 'sf::String')
+   cout << endl << strArr[1];
+                           ^
+In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:476:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:476:5: note:   template argument deduction/substitution failed:
+sources/main.cpp:70:27: note:   cannot convert 'strArr[1]' (type 'sf::String') to type 'char'
+   cout << endl << strArr[1];
+                           ^
+In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:482:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:482:5: note:   template argument deduction/substitution failed:
+sources/main.cpp:70:27: note:   cannot convert 'strArr[1]' (type 'sf::String') to type 'char'
+   cout << endl << strArr[1];
+                           ^
+In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:488:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:488:5: note:   template argument deduction/substitution failed:
+sources/main.cpp:70:27: note:   cannot convert 'strArr[1]' (type 'sf::String') to type 'signed char'
+   cout << endl << strArr[1];
+                           ^
+In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:493:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:493:5: note:   template argument deduction/substitution failed:
+sources/main.cpp:70:27: note:   cannot convert 'strArr[1]' (type 'sf::String') to type 'unsigned char'
+   cout << endl << strArr[1];
+                           ^
+In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:513:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:513:5: note:   template argument deduction/substitution failed:
+sources/main.cpp:70:27: note:   mismatched types 'const _CharT*' and 'sf::String'
+   cout << endl << strArr[1];
+                           ^
+In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:609:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/ostream.tcc:321:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+sources/main.cpp:70:27: note:   cannot convert 'strArr[1]' (type 'sf::String') to type 'const char*'
+   cout << endl << strArr[1];
+                           ^
+In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:530:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:530:5: note:   template argument deduction/substitution failed:
+sources/main.cpp:70:27: note:   cannot convert 'strArr[1]' (type 'sf::String') to type 'const char*'
+   cout << endl << strArr[1];
+                           ^
+In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:543:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:543:5: note:   template argument deduction/substitution failed:
+sources/main.cpp:70:27: note:   cannot convert 'strArr[1]' (type 'sf::String') to type 'const signed char*'
+   cout << endl << strArr[1];
+                           ^
+In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Err.hpp:32:0,
+                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp:34,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp:32,
+                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp:32,
+                 from sources/main.cpp:1:
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:548:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^
+C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream:548:5: note:   template argument deduction/substitution failed:
+sources/main.cpp:70:27: note:   cannot convert 'strArr[1]' (type 'sf::String') to type 'const unsigned char*'
+   cout << endl << strArr[1];
+                           ^
+L:\GITHUB\Chinczyk\Makefile.win:34: recipe for target 'object/main.o' failed
+mingw32-make.exe: *** [object/main.o] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 4
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,88277244567871 MiB
+- Compilation Time: 1,02s
+
+24.01.2021 17:45:19: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/main.cpp -o object/main.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from L:/GITHUB/Chinczyk/header/Game.h:4:0,
+                 from sources/main.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.h:35:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:35:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from L:/GITHUB/Chinczyk/header/Game.h:5:0,
+                 from sources/main.cpp:3:
+L:/GITHUB/Chinczyk/header/Pawn.h:22:19: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool is_inYard = true;
+                   ^
+In file included from sources/main.cpp:4:0:
+L:/GITHUB/Chinczyk/header/MainMenu.h:26:16: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   bool isRun = true;
+                ^
+g++.exe object/Board.o object/Game.o object/main.o object/MainMenu.o object/Pawn.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 4
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,88277244567871 MiB
+- Compilation Time: 1,73s
+
+24.01.2021 17:45:55: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+mingw32-make.exe: Nothing to be done for 'all'.
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,88277244567871 MiB
+- Compilation Time: 0,20s
+
+24.01.2021 17:46:07: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/main.cpp -o object/main.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from L:/GITHUB/Chinczyk/header/Game.h:4:0,
+                 from sources/main.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.h:35:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.h:35:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from L:/GITHUB/Chinczyk/header/Game.h:5:0,
+                 from sources/main.cpp:3:
+L:/GITHUB/Chinczyk/header/Pawn.h:22:19: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool is_inYard = true;
+                   ^
+In file included from sources/main.cpp:4:0:
+L:/GITHUB/Chinczyk/header/MainMenu.h:26:16: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   bool isRun = true;
+                ^
+g++.exe object/Board.o object/Game.o object/main.o object/MainMenu.o object/Pawn.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 4
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,88179588317871 MiB
+- Compilation Time: 1,77s

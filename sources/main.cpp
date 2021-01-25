@@ -66,7 +66,6 @@ int main()
 				window.close();
 		}
 
-		
 		if(game.check_isRun() == true)
 		{
 			window.clear();

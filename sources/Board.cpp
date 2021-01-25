@@ -56,7 +56,6 @@ void Board::set_boardGrid(RenderWindow &window)
 			boardPiece[i][j].setPosition(Vector2f(i*sizeOfPiece, j*sizeOfPiece));
 		}
 	}
-	cout<<endl<<boardPiece[2][9].getPosition().y;
 	draw(window);
 }
 

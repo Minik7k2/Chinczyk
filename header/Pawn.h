@@ -20,6 +20,7 @@ public:
 	int pawnColor;
 	Vector2f startingPosition;
 	bool is_inYard = true;
+	
 	Sprite pawnFigure;
 
 private:

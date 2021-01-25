@@ -11,7 +11,7 @@ class Game
 		Game(bool = false);
 		void set_isRun();
 		bool check_isRun();
-		void draw(RenderWindow &window, Board &board);
+		void draw(RenderWindow &window);
 		~Game();
 		
 	private:

@@ -13,6 +13,7 @@ public:
 
 	void draw(sf::RenderWindow &window);
 	void update(sf::RenderWindow &window);
+	sf::Vector2f getPosition(int* field);
 	int pathElements[48][4]; //[id][0=x, 1=y, 2=kolor_pola, 3=typ_pola]
 	int playersYards[16][4]; //[id][0=x, 1=y, 2=kolor_pola, 3=typ_pola]
 	int playersHomeWays[16][4]; // [id][0=x, 1=y, 2=kolor_pola, 3=typ_pola]

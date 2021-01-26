@@ -8854,3 +8854,723 @@
 22	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
 4	0	L:\GITHUB\Chinczyk\sources\main.cpp	In file included from sources/main.cpp
 26	16	L:\GITHUB\Chinczyk\header\MainMenu.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+25.01.2021 21:10:14: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Board.cpp	In member function 'void Board::draw(sf::RenderWindow&)':
+81	6	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] no match for 'operator!' (operand type is 'sf::Sprite')
+81	6	L:\GITHUB\Chinczyk\sources\Board.cpp	[Note] candidate is:
+81	6	L:\GITHUB\Chinczyk\sources\Board.cpp	[Note] operator!(bool) <built-in>
+81	6	L:\GITHUB\Chinczyk\sources\Board.cpp	[Note] no known conversion for argument 1 from 'sf::Sprite' to 'bool'
+28		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Board.o' failed
+
+25.01.2021 21:10:27: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Board.cpp	In member function 'void Board::draw(sf::RenderWindow&)':
+81	23	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] no match for 'operator!=' (operand types are 'sf::Sprite' and 'sf::Sprite')
+81	23	L:\GITHUB\Chinczyk\sources\Board.cpp	[Note] candidates are:
+32	0	C:\SFML\SFML-2.4.2\include\SFML\System\Clock.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Clock.hpp
+33		C:\SFML\SFML-2.4.2\include\SFML\System.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Board.cpp	                 from sources/Board.cpp
+173	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] bool sf::operator!=(sf::Time, sf::Time)
+173	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] no known conversion for argument 1 from 'sf::Sprite' to 'sf::Time'
+42	0	C:\SFML\SFML-2.4.2\include\SFML\System.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/System.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Board.cpp	                 from sources/Board.cpp
+552	22	C:\SFML\SFML-2.4.2\include\SFML\System\String.hpp	[Note] bool sf::operator!=(const sf::String&, const sf::String&)
+552	22	C:\SFML\SFML-2.4.2\include\SFML\System\String.hpp	[Note] no known conversion for argument 1 from 'sf::Sprite' to 'const sf::String&'
+250	0	C:\SFML\SFML-2.4.2\include\SFML\System\Vector2.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Vector2.hpp
+48		C:\SFML\SFML-2.4.2\include\SFML\System.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Board.cpp	                 from sources/Board.cpp
+158	13	C:\SFML\SFML-2.4.2\include\SFML\System\Vector2.inl	[Note] template<class T> bool sf::operator!=(const sf::Vector2<T>&, const sf::Vector2<T>&)
+158	13	C:\SFML\SFML-2.4.2\include\SFML\System\Vector2.inl	[Note] template argument deduction/substitution failed:
+81	40	L:\GITHUB\Chinczyk\sources\Board.cpp	[Note] 'sf::Sprite' is not derived from 'const sf::Vector2<T>'
+252	0	C:\SFML\SFML-2.4.2\include\SFML\System\Vector3.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Vector3.hpp
+49		C:\SFML\SFML-2.4.2\include\SFML\System.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Board.cpp	                 from sources/Board.cpp
+165	13	C:\SFML\SFML-2.4.2\include\SFML\System\Vector3.inl	[Note] template<class T> bool sf::operator!=(const sf::Vector3<T>&, const sf::Vector3<T>&)
+165	13	C:\SFML\SFML-2.4.2\include\SFML\System\Vector3.inl	[Note] template argument deduction/substitution failed:
+81	40	L:\GITHUB\Chinczyk\sources\Board.cpp	[Note] 'sf::Sprite' is not derived from 'const sf::Vector3<T>'
+41	0	C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Board.cpp	                 from sources/Board.cpp
+129	22	C:\SFML\SFML-2.4.2\include\SFML\Window\VideoMode.hpp	[Note] bool sf::operator!=(const sf::VideoMode&, const sf::VideoMode&)
+129	22	C:\SFML\SFML-2.4.2\include\SFML\Window\VideoMode.hpp	[Note] no known conversion for argument 1 from 'sf::Sprite' to 'const sf::VideoMode&'
+33	0	C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Board.cpp	                 from sources/Board.cpp
+145	24	C:\SFML\SFML-2.4.2\include\SFML\Graphics\BlendMode.hpp	[Note] bool sf::operator!=(const sf::BlendMode&, const sf::BlendMode&)
+145	24	C:\SFML\SFML-2.4.2\include\SFML\Graphics\BlendMode.hpp	[Note] no known conversion for argument 1 from 'sf::Sprite' to 'const sf::BlendMode&'
+193	0	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Rect.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/Graphics/Rect.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics\Transform.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/Transform.hpp
+33		C:\SFML\SFML-2.4.2\include\SFML\Graphics\RenderStates.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/RenderStates.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics\Drawable.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/Drawable.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics\Shape.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/Shape.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics\CircleShape.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/CircleShape.hpp
+34		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Board.cpp	                 from sources/Board.cpp
+156	13	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Rect.inl	[Note] template<class T> bool sf::operator!=(const sf::Rect<T>&, const sf::Rect<T>&)
+156	13	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Rect.inl	[Note] template argument deduction/substitution failed:
+81	40	L:\GITHUB\Chinczyk\sources\Board.cpp	[Note] 'sf::Sprite' is not derived from 'const sf::Rect<T>'
+32	0	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Vertex.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/Graphics/Vertex.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics\VertexArray.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/VertexArray.hpp
+34		C:\SFML\SFML-2.4.2\include\SFML\Graphics\Shape.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/Shape.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics\CircleShape.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/CircleShape.hpp
+34		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Board.cpp	                 from sources/Board.cpp
+128	24	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Color.hpp	[Note] bool sf::operator!=(const sf::Color&, const sf::Color&)
+128	24	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Color.hpp	[Note] no known conversion for argument 1 from 'sf::Sprite' to 'const sf::Color&'
+62	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\map	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/map
+37		C:\SFML\SFML-2.4.2\include\SFML\Graphics\Font.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/Font.hpp
+38		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Board.cpp	                 from sources/Board.cpp
+927	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\stl_multimap.h	[Note] template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator!=(const std::multimap<_Key, _Tp, _Compare, _Alloc>&, const std::multimap<_Key, _Tp, _Compare, _Alloc>&)
+927	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\stl_multimap.h	[Note] template argument deduction/substitution failed:
+81	40	L:\GITHUB\Chinczyk\sources\Board.cpp	[Note] 'sf::Sprite' is not derived from 'const std::multimap<_Key, _Tp, _Compare, _Alloc>'
+61	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\map	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/map
+37		C:\SFML\SFML-2.4.2\include\SFML\Graphics\Font.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/Font.hpp
+38		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Board.cpp	                 from sources/Board.cpp
+1024	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\stl_map.h	[Note] template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator!=(const std::map<_Key, _Tp, _Compare, _Alloc>&, const std::map<_Key, _Tp, _Compare, _Alloc>&)
+1024	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\stl_map.h	[Note] template argument deduction/substitution failed:
+81	40	L:\GITHUB\Chinczyk\sources\Board.cpp	[Note] 'sf::Sprite' is not derived from 'const std::map<_Key, _Tp, _Compare, _Alloc>'
+60	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\map	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/map
+37		C:\SFML\SFML-2.4.2\include\SFML\Graphics\Font.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/Font.hpp
+38		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Board.cpp	                 from sources/Board.cpp
+990	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\stl_tree.h	[Note] template<class _Key, class _Val, class _KeyOfValue, class _Compare, class _Alloc> bool std::operator!=(const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>&, const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>&)
+990	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\stl_tree.h	[Note] template argument deduction/substitution failed:
+81	40	L:\GITHUB\Chinczyk\sources\Board.cpp	[Note] 'sf::Sprite' is not derived from 'const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>'
+60	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\map	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/map
+37		C:\SFML\SFML-2.4.2\include\SFML\Graphics\Font.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/Font.hpp
+38		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Board.cpp	                 from sources/Board.cpp
+329	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\stl_tree.h	[Note] template<class _Val> bool std::operator!=(const std::_Rb_tree_iterator<_Tp>&, const std::_Rb_tree_const_iterator<_Val>&)
+329	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\stl_tree.h	[Note] template argument deduction/substitution failed:
+81	40	L:\GITHUB\Chinczyk\sources\Board.cpp	[Note] 'sf::Sprite' is not derived from 'const std::_Rb_tree_iterator<_Tp>'
+64	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\vector	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/vector
+32		C:\SFML\SFML-2.4.2\include\SFML\Window\VideoMode.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Window/VideoMode.hpp
+41		C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Board.cpp	                 from sources/Board.cpp
+1535	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\stl_vector.h	[Note] template<class _Tp, class _Alloc> bool std::operator!=(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+1535	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\stl_vector.h	[Note] template argument deduction/substitution failed:
+81	40	L:\GITHUB\Chinczyk\sources\Board.cpp	[Note] 'sf::Sprite' is not derived from 'const std::vector<_Tp, _Alloc>'
+66	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\iterator	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/iterator
+33		C:\SFML\SFML-2.4.2\include\SFML\System\String.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/System/String.hpp
+42		C:\SFML\SFML-2.4.2\include\SFML\System.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Board.cpp	                 from sources/Board.cpp
+137	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\stream_iterator.h	[Note] template<class _Tp, class _CharT, class _Traits, class _Dist> bool std::operator!=(const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&, const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&)
+137	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\stream_iterator.h	[Note] template argument deduction/substitution failed:
+81	40	L:\GITHUB\Chinczyk\sources\Board.cpp	[Note] 'sf::Sprite' is not derived from 'const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>'
+48	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\locale_facets.h	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/locale_facets.h
+37		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\basic_ios.h	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/basic_ios.h
+44		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ios	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ios
+38		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream
+39		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\iostream	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/iostream
+1		L:\GITHUB\Chinczyk\sources\Board.cpp	                 from sources/Board.cpp
+210	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\streambuf_iterator.h	[Note] template<class _CharT, class _Traits> bool std::operator!=(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+210	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\streambuf_iterator.h	[Note] template argument deduction/substitution failed:
+81	40	L:\GITHUB\Chinczyk\sources\Board.cpp	[Note] 'sf::Sprite' is not derived from 'const std::istreambuf_iterator<_CharT, _Traits>'
+52	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\string	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/string
+40		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\locale_classes.h	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/locale_classes.h
+41		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\ios_base.h	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/ios_base.h
+42		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ios	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ios
+38		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream
+39		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\iostream	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/iostream
+1		L:\GITHUB\Chinczyk\sources\Board.cpp	                 from sources/Board.cpp
+2575	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\basic_string.h	[Note] template<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+2575	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\basic_string.h	[Note] template argument deduction/substitution failed:
+81	40	L:\GITHUB\Chinczyk\sources\Board.cpp	[Note] 'sf::Sprite' is not derived from 'const std::basic_string<_CharT, _Traits, _Alloc>'
+52	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\string	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/string
+40		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\locale_classes.h	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/locale_classes.h
+41		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\ios_base.h	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/ios_base.h
+42		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ios	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ios
+38		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream
+39		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\iostream	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/iostream
+1		L:\GITHUB\Chinczyk\sources\Board.cpp	                 from sources/Board.cpp
+2563	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\basic_string.h	[Note] template<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+2563	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\basic_string.h	[Note] template argument deduction/substitution failed:
+81	40	L:\GITHUB\Chinczyk\sources\Board.cpp	[Note] mismatched types 'const _CharT*' and 'sf::Sprite'
+52	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\string	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/string
+40		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\locale_classes.h	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/locale_classes.h
+41		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\ios_base.h	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/ios_base.h
+42		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ios	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ios
+38		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream
+39		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\iostream	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/iostream
+1		L:\GITHUB\Chinczyk\sources\Board.cpp	                 from sources/Board.cpp
+2551	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\basic_string.h	[Note] template<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+2551	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\basic_string.h	[Note] template argument deduction/substitution failed:
+81	40	L:\GITHUB\Chinczyk\sources\Board.cpp	[Note] 'sf::Sprite' is not derived from 'const std::basic_string<_CharT, _Traits, _Alloc>'
+41	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\string	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/string
+40		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\locale_classes.h	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/locale_classes.h
+41		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\ios_base.h	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/ios_base.h
+42		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ios	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ios
+38		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream
+39		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\iostream	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/iostream
+1		L:\GITHUB\Chinczyk\sources\Board.cpp	                 from sources/Board.cpp
+143	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\allocator.h	[Note] template<class _Tp> bool std::operator!=(const std::allocator<_CharT>&, const std::allocator<_CharT>&)
+143	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\allocator.h	[Note] template argument deduction/substitution failed:
+81	40	L:\GITHUB\Chinczyk\sources\Board.cpp	[Note] 'sf::Sprite' is not derived from 'const std::allocator<_CharT>'
+41	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\string	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/string
+40		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\locale_classes.h	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/locale_classes.h
+41		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\ios_base.h	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/ios_base.h
+42		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ios	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ios
+38		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream
+39		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\iostream	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/iostream
+1		L:\GITHUB\Chinczyk\sources\Board.cpp	                 from sources/Board.cpp
+138	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\allocator.h	[Note] template<class _T1, class _T2> bool std::operator!=(const std::allocator<_CharT>&, const std::allocator<_T2>&)
+138	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\allocator.h	[Note] template argument deduction/substitution failed:
+81	40	L:\GITHUB\Chinczyk\sources\Board.cpp	[Note] 'sf::Sprite' is not derived from 'const std::allocator<_CharT>'
+67	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\stl_algobase.h	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/stl_algobase.h
+39		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\char_traits.h	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/char_traits.h
+40		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ios	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ios
+38		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream
+39		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\iostream	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/iostream
+1		L:\GITHUB\Chinczyk\sources\Board.cpp	                 from sources/Board.cpp
+354	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\stl_iterator.h	[Note] template<class _IteratorL, class _IteratorR> bool std::operator!=(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+354	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\stl_iterator.h	[Note] template argument deduction/substitution failed:
+81	40	L:\GITHUB\Chinczyk\sources\Board.cpp	[Note] 'sf::Sprite' is not derived from 'const std::reverse_iterator<_Iterator>'
+67	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\stl_algobase.h	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/stl_algobase.h
+39		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\char_traits.h	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/char_traits.h
+40		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ios	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ios
+38		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream
+39		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\iostream	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/iostream
+1		L:\GITHUB\Chinczyk\sources\Board.cpp	                 from sources/Board.cpp
+304	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\stl_iterator.h	[Note] template<class _Iterator> bool std::operator!=(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+304	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\stl_iterator.h	[Note] template argument deduction/substitution failed:
+81	40	L:\GITHUB\Chinczyk\sources\Board.cpp	[Note] 'sf::Sprite' is not derived from 'const std::reverse_iterator<_Iterator>'
+64	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\stl_algobase.h	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/stl_algobase.h
+39		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\char_traits.h	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/char_traits.h
+40		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ios	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ios
+38		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream
+39		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\iostream	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/iostream
+1		L:\GITHUB\Chinczyk\sources\Board.cpp	                 from sources/Board.cpp
+227	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\stl_pair.h	[Note] template<class _T1, class _T2> bool std::operator!=(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+227	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\stl_pair.h	[Note] template argument deduction/substitution failed:
+81	40	L:\GITHUB\Chinczyk\sources\Board.cpp	[Note] 'sf::Sprite' is not derived from 'const std::pair<_T1, _T2>'
+40	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\iosfwd	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/iosfwd
+38		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ios	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ios
+38		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream
+39		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\iostream	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/iostream
+1		L:\GITHUB\Chinczyk\sources\Board.cpp	                 from sources/Board.cpp
+221	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\postypes.h	[Note] template<class _StateT> bool std::operator!=(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+221	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\postypes.h	[Note] template argument deduction/substitution failed:
+81	40	L:\GITHUB\Chinczyk\sources\Board.cpp	[Note] 'sf::Sprite' is not derived from 'const std::fpos<_StateT>'
+28		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Board.o' failed
+
+25.01.2021 21:12:26: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+25.01.2021 21:12:41: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+25.01.2021 21:12:53: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Board.cpp	In member function 'void Board::draw(sf::RenderWindow&)':
+81	67	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] ISO C++ forbids comparison between pointer and integer [-fpermissive]
+28		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Board.o' failed
+
+25.01.2021 21:13:08: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+25.01.2021 21:26:08: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Board.cpp	In member function 'void Board::set_boardGrid(sf::RenderWindow&)':
+36	40	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] no match for 'operator[]' (operand types are 'sf::Sprite' and 'int')
+36	65	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] no match for 'operator[]' (operand types are 'sf::Sprite' and 'int')
+38	50	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] no match for 'operator[]' (operand types are 'sf::Sprite' and 'int')
+38	70	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] no match for 'operator[]' (operand types are 'sf::Sprite' and 'int')
+		L:\GITHUB\Chinczyk\sources\Board.cpp	In member function 'void Board::set_yards()':
+199	44	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] 'fieldsTextures' was not declared in this scope
+28		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Board.o' failed
+
+25.01.2021 21:27:00: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Board.cpp	In member function 'void Board::set_yards()':
+198	44	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] 'fieldsTextures' was not declared in this scope
+28		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Board.o' failed
+
+25.01.2021 21:27:24: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Board.cpp	In member function 'void Board::set_yards()':
+198	74	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] no matching function for call to 'sf::Sprite::setTexture(const sf::Texture*)'
+198	74	L:\GITHUB\Chinczyk\sources\Board.cpp	[Note] candidate is:
+50	0	C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Board.cpp	                 from sources/Board.cpp
+99	10	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Sprite.hpp	[Note] void sf::Sprite::setTexture(const sf::Texture&, bool)
+99	10	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Sprite.hpp	[Note] no known conversion for argument 1 from 'const sf::Texture*' to 'const sf::Texture&'
+28		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Board.o' failed
+
+25.01.2021 21:32:15: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Board.cpp	In member function 'void Board::set_yards()':
+198	110	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] no matching function for call to 'sf::Sprite::setTexture(const sf::Texture*, const IntRect&)'
+198	110	L:\GITHUB\Chinczyk\sources\Board.cpp	[Note] candidate is:
+50	0	C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Board.cpp	                 from sources/Board.cpp
+99	10	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Sprite.hpp	[Note] void sf::Sprite::setTexture(const sf::Texture&, bool)
+99	10	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Sprite.hpp	[Note] no known conversion for argument 1 from 'const sf::Texture*' to 'const sf::Texture&'
+28		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Board.o' failed
+
+25.01.2021 21:33:08: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Board.cpp	In member function 'void Board::set_yards()':
+198	81	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] no matching function for call to 'sf::Sprite::setTexture(const sf::Texture*, bool)'
+198	81	L:\GITHUB\Chinczyk\sources\Board.cpp	[Note] candidate is:
+50	0	C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Board.cpp	                 from sources/Board.cpp
+99	10	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Sprite.hpp	[Note] void sf::Sprite::setTexture(const sf::Texture&, bool)
+99	10	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Sprite.hpp	[Note] no known conversion for argument 1 from 'const sf::Texture*' to 'const sf::Texture&'
+28		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Board.o' failed
+
+25.01.2021 21:34:09: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+25.01.2021 21:34:29: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+25.01.2021 21:35:19: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+25.01.2021 21:36:26: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+25.01.2021 21:36:35: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+25.01.2021 21:37:52: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+25.01.2021 21:42:46: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Board.cpp	In member function 'void Board::draw(sf::RenderWindow&)':
+81	30	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] no matching function for call to 'sf::RenderWindow::draw(sf::Sprite [4])'
+81	30	L:\GITHUB\Chinczyk\sources\Board.cpp	[Note] candidates are:
+45	0	C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Board.cpp	                 from sources/Board.cpp
+236	10	C:\SFML\SFML-2.4.2\include\SFML\Graphics\RenderTarget.hpp	[Note] void sf::RenderTarget::draw(const sf::Drawable&, const sf::RenderStates&)
+236	10	C:\SFML\SFML-2.4.2\include\SFML\Graphics\RenderTarget.hpp	[Note] no known conversion for argument 1 from 'sf::Sprite [4]' to 'const sf::Drawable&'
+247	10	C:\SFML\SFML-2.4.2\include\SFML\Graphics\RenderTarget.hpp	[Note] void sf::RenderTarget::draw(const sf::Vertex*, std::size_t, sf::PrimitiveType, const sf::RenderStates&)
+247	10	C:\SFML\SFML-2.4.2\include\SFML\Graphics\RenderTarget.hpp	[Note] candidate expects 4 arguments, 1 provided
+28		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Board.o' failed
+
+25.01.2021 21:43:15: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+25.01.2021 21:44:10: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+25.01.2021 21:44:21: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+25.01.2021 21:48:27: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Pawn.h	In file included from L:/GITHUB/Chinczyk/header/Pawn.h
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+22	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+19	6	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] prototype for 'void Pawn::set_position()' does not match any in class 'Pawn'
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+16	7	L:\GITHUB\Chinczyk\header\Pawn.h	[Error] candidate is: void Pawn::set_position(Board&)
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+25.01.2021 21:48:51: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.h	In file included from L:/GITHUB/Chinczyk/header/Pawn.h
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+22	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\object\Game.o	Game.cpp:(.text+0x2ac): undefined reference to `Pawn::set_position(Board&)'
+		L:\GITHUB\Chinczyk\collect2.exe	[Error] ld returned 1 exit status
+25		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'bin/Chinol.exe' failed
+
+25.01.2021 21:49:07: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+25.01.2021 21:50:05: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+25.01.2021 21:51:20: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+25.01.2021 21:52:17: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::createPawns(sf::RenderWindow&, Board&)':
+36	19	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] 'class Pawn' has no member named 'setOnStart'
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+25.01.2021 21:52:29: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Pawn.h	In file included from L:/GITHUB/Chinczyk/header/Pawn.h
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+22	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+25.01.2021 22:03:41: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\header\MainMenu.h	                 from L:/GITHUB/Chinczyk/header/MainMenu.h
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\header\MainMenu.h	                 from L:/GITHUB/Chinczyk/header/MainMenu.h
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+22	18	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In file included from sources/MainMenu.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In constructor 'MainMenu::MainMenu(float, float)':
+16	28	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+23	29	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+29	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+35	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+41	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::MoveUp()':
+64	48	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+66	46	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::MoveDown()':
+74	48	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+76	46	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::CheckCursorFocus(float, float)':
+91	49	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+93	47	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+94	4	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Error] 'Cursor' was not declared in this scope
+95	8	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Error] 'cursor' was not declared in this scope
+95	34	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Error] 'sf::Cursor' has not been declared
+96	8	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Error] 'window' was not declared in this scope
+37		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/MainMenu.o' failed
+
+25.01.2021 22:04:32: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+22	18	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\main.cpp	In file included from sources/main.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\main.cpp	In function 'int main()':
+13	2	L:\GITHUB\Chinczyk\sources\main.cpp	[Error] 'Cursor' was not declared in this scope
+57	8	L:\GITHUB\Chinczyk\sources\main.cpp	[Error] 'cursor' was not declared in this scope
+57	34	L:\GITHUB\Chinczyk\sources\main.cpp	[Error] 'sf::Cursor' has not been declared
+58	15	L:\GITHUB\Chinczyk\sources\main.cpp	[Error] 'class sf::RenderWindow' has no member named 'setMouseCursor'
+34		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/main.o' failed
+
+25.01.2021 22:04:37: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+22	18	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\main.cpp	In file included from sources/main.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\main.cpp	In function 'int main()':
+25	1	L:\GITHUB\Chinczyk\sources\main.cpp	[Error] 'Cursor' was not declared in this scope
+57	8	L:\GITHUB\Chinczyk\sources\main.cpp	[Error] 'cursor' was not declared in this scope
+57	34	L:\GITHUB\Chinczyk\sources\main.cpp	[Error] 'sf::Cursor' has not been declared
+58	15	L:\GITHUB\Chinczyk\sources\main.cpp	[Error] 'class sf::RenderWindow' has no member named 'setMouseCursor'
+34		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/main.o' failed
+
+25.01.2021 22:06:15: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+22	18	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\main.cpp	In file included from sources/main.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\header\MainMenu.h	                 from L:/GITHUB/Chinczyk/header/MainMenu.h
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\header\MainMenu.h	                 from L:/GITHUB/Chinczyk/header/MainMenu.h
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+22	18	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In file included from sources/MainMenu.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In constructor 'MainMenu::MainMenu(float, float)':
+16	28	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+23	29	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+29	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+35	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+41	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::MoveUp()':
+64	48	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+66	46	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::MoveDown()':
+74	48	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+76	46	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::CheckCursorFocus(float, float)':
+91	49	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+93	47	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+94	4	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Error] 'window' was not declared in this scope
+94	30	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Error] 'sf::Cursor' has not been declared
+37		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/MainMenu.o' failed
+
+25.01.2021 22:06:23: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\header\MainMenu.h	                 from L:/GITHUB/Chinczyk/header/MainMenu.h
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\header\MainMenu.h	                 from L:/GITHUB/Chinczyk/header/MainMenu.h
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+22	18	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In file included from sources/MainMenu.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In constructor 'MainMenu::MainMenu(float, float)':
+16	28	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+23	29	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+29	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+35	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+41	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::MoveUp()':
+64	48	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+66	46	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::MoveDown()':
+74	48	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+76	46	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::CheckCursorFocus(float, float)':
+91	49	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+93	47	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+94	4	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Error] 'window' was not declared in this scope
+94	26	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Error] 'Cursor' has not been declared
+37		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/MainMenu.o' failed
+
+25.01.2021 22:06:29: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\header\MainMenu.h	                 from L:/GITHUB/Chinczyk/header/MainMenu.h
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\header\MainMenu.h	                 from L:/GITHUB/Chinczyk/header/MainMenu.h
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+22	18	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In file included from sources/MainMenu.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In constructor 'MainMenu::MainMenu(float, float)':
+16	28	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+23	29	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+29	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+35	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+41	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::MoveUp()':
+64	48	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+66	46	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::MoveDown()':
+74	48	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+76	46	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::CheckCursorFocus(float, float)':
+91	49	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+93	47	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+94	4	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Error] 'window' was not declared in this scope
+94	26	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Error] 'Wait' was not declared in this scope
+37		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/MainMenu.o' failed
+
+25.01.2021 22:06:55: Appending to log...
+
+5	22	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Error] Cursor.hpp: No such file or directory
+			compilation terminated.
+37		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/MainMenu.o' failed
+
+25.01.2021 22:14:57: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+22	18	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\main.cpp	In file included from sources/main.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	22	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Error] Cursor.hpp: No such file or directory
+			compilation terminated.
+37		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/MainMenu.o' failed
+
+25.01.2021 22:15:01: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\header\MainMenu.h	                 from L:/GITHUB/Chinczyk/header/MainMenu.h
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\header\MainMenu.h	                 from L:/GITHUB/Chinczyk/header/MainMenu.h
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+22	18	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In file included from sources/MainMenu.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In constructor 'MainMenu::MainMenu(float, float)':
+16	28	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+23	29	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+29	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+35	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+41	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::MoveUp()':
+64	48	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+66	46	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::MoveDown()':
+74	48	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+76	46	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::CheckCursorFocus(float, float)':
+91	49	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+93	47	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+94	4	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Error] 'window' was not declared in this scope
+94	26	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Error] 'Cursor' has not been declared
+37		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/MainMenu.o' failed
+
+25.01.2021 22:15:07: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\header\MainMenu.h	                 from L:/GITHUB/Chinczyk/header/MainMenu.h
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\header\MainMenu.h	                 from L:/GITHUB/Chinczyk/header/MainMenu.h
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+22	18	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In file included from sources/MainMenu.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In constructor 'MainMenu::MainMenu(float, float)':
+16	28	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+23	29	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+29	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+35	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+41	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::MoveUp()':
+64	48	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+66	46	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::MoveDown()':
+74	48	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+76	46	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::CheckCursorFocus(float, float)':
+91	49	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+93	47	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]

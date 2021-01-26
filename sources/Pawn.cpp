@@ -16,7 +16,7 @@ void Pawn::draw(RenderWindow &window)
 	window.draw(pawnFigure);
 }
 
-void Pawn::set_position(Board &board)
+void Pawn::setOnStart()
 {
 	pawnFigure.setPosition(startingPosition);
 }

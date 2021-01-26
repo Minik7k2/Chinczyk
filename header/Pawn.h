@@ -13,18 +13,19 @@ public:
 	~Pawn();
 
 	void draw(RenderWindow &window);
-	void set_position(Board &board);
+	void setOnStart();
 	void set_color(int color);
 	void scaleDown();
 	void scaleUp();
-	int pawnColor;
 	Vector2f startingPosition;
-	bool is_inYard = true;
 	
+	bool isInHome = false;
 	Sprite pawnFigure;
 
 private:
 	
+	int fieldGroup; //0=yard, 1=path, 2=homeway, 3=home
+	int pawnColor;
 	Texture pawnTexture;
 	void loadTexture();
 	

@@ -30,10 +30,10 @@ void Game::createPawns(RenderWindow &window, Board &board)
 {
 	for(int i=0;i<4;i++){
 		for(int j=0;j<4;j++){
-			Vector2f pos = board.boardPiece[board.playersYards[(i*4)+j][0]][board.playersYards[(i*4)+j][1]].getPosition();
+			Vector2f pos = board.getPosition(board.playersYards[(i*4)+j]);
 			pawnsArr[i][j].set_color(i);
-				pawnsArr[i][j].startingPosition = Vector2f(pos.x, pos.y-20);
-			pawnsArr[i][j].set_position(board);
+			pawnsArr[i][j].startingPosition = Vector2f(pos.x, pos.y-20);
+			pawnsArr[i][j].setOnStart();
 			//cout << endl << board.boardPiece[2][9].getPosition().y;
 			pawnsArr[i][j].draw(window);
 		}

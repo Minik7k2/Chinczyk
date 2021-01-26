@@ -4,10 +4,10 @@ Name=Chinol
 Type=1
 Ver=2
 ObjFiles=
-Includes=C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header;L:\GITHUB\Chinczyk\header
+Includes=C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\header;L:\GITHUB\Chinczyk\header;header\
 Libs=
 PrivateResource=
-ResourceIncludes=C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources;L:\GITHUB\Chinczyk\textures
+ResourceIncludes=C:\Users\J.A.R.V.I.S-NEXT-GEN\Desktop\Chinczyk-main\sources;L:\GITHUB\Chinczyk\textures;sources\
 MakeIncludes=
 Compiler=
 CppCompiler=
@@ -27,8 +27,8 @@ CommandLine=
 Folders=font,header,sources
 IncludeVersionInfo=0
 SupportXPThemes=0
-CompilerSet=0
-CompilerSettings=0000000000000000000000000
+CompilerSet=1
+CompilerSettings=0000000000000000001000000
 UnitCount=11
 
 [VersionInfo]
@@ -71,7 +71,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit3]
-FileName=header\Board.hpp
+FileName=header\Board.h
 CompileCpp=1
 Folder=header
 Compile=1
@@ -81,7 +81,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit4]
-FileName=header\Game.hpp
+FileName=header\Game.h
 CompileCpp=1
 Folder=header
 Compile=1
@@ -131,7 +131,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit9]
-FileName=header\MainMenu.hpp
+FileName=header\MainMenu.h
 CompileCpp=1
 Folder=header
 Compile=1
@@ -141,7 +141,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit10]
-FileName=header\Pawn.h
+FileName=header\Cube.hpp
 CompileCpp=1
 Folder=header
 Compile=1
@@ -151,7 +151,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit11]
-FileName=sources\Pawn.cpp
+FileName=sources\Cube.cpp
 CompileCpp=1
 Folder=sources
 Compile=1

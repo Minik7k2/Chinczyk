@@ -209,4 +209,5 @@ void Board::set_yards()
 
 Board::~Board()
 {
+	cout<<"Umiera board"<<endl;
 }

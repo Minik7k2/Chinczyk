@@ -27,8 +27,8 @@ CommandLine=
 Folders=font,header,sources
 IncludeVersionInfo=0
 SupportXPThemes=0
-CompilerSet=0
-CompilerSettings=0000000000000000000000000
+CompilerSet=1
+CompilerSettings=0000000000000000001000000
 UnitCount=11
 
 [VersionInfo]
@@ -141,7 +141,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit10]
-FileName=header\Cube.h
+FileName=header\Cube.hpp
 CompileCpp=1
 Folder=header
 Compile=1

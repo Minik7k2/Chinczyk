@@ -141,4 +141,5 @@ void Board::draw(RenderWindow &window)
 
 Board::~Board()
 {
+	cout<<"Umiera board"<<endl;
 }

@@ -22,7 +22,7 @@ class Board
 		int sizeOfPiece;
 		
 		Sprite boardPiece[ROW_NUMBER_OF_PIECES][COLUMN_NUMBER_OF_PIECES];
-		Font font;
+		Font zfont;
 		Text logo;
 		Text menu;
 		Texture fields;

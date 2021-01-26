@@ -1,22 +1,53 @@
 #include <SFML/Graphics.hpp>
-#include "Cube.h"
+#include <iostream>
+#include "Cube.hpp"
 
 using namespace sf;
+using namespace std;
 
-Cube::Cube(float size, float position_x,float positon_y)
+Cube::Cube(float x,float y)
 {
-	rectangle = RectangleShape(Vector2f(size, size));
-	rectangle.setFillColor(Color::Black);
-	rectangle.setPosition(position_x,positon_y);
+	this->position_x = x;
+	this->position_y = y;
+	
+	if(this->loadtexture() == true)
+	{	
+		cout<<"dzia³";
+	}
+	else
+	{
+		cout<<"nie";
+	}
+}
+
+bool Cube::loadtexture()
+{
+	texture_cube->loadFromFile("../textures/cube.png");
+	for (int i=0;i<=5;i++)
+	{
+		cube_arr[i].setTexture(*texture_cube);
+		cube_arr[i].setTextureRect(IntRect(0, i*50, 50, 50));
+	}
+	
+	return true;
 }
 
 void Cube::draw(RenderWindow &window)
 {
-	window.draw(rectangle);
+	window.draw(cube_arr[throw_cube()]);
+ 	cout<<random<<endl;
 }
 
-/*int Cube::throw_cube()
+int Cube::throw_cube()
 {
-	
-	return rand()%6 + 1;
-}*/
+	random = rand()%6 + 1;
+	cube_arr[random-1].setPosition(Vector2f(position_x, position_y));
+	return random-1;
+}
+
+Cube::~Cube()
+{
+	delete(this->texture_cube);
+	delete[] cube_arr;
+	cout<<"Umiera kostka"<<endl;
+}

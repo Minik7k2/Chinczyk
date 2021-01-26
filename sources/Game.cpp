@@ -2,6 +2,8 @@
 #include <SFML/Graphics.hpp>
 #include "Game.hpp"
 #include "Board.hpp"
+#include "Cube.hpp"
+#include <windows.h>
 
 using namespace std;
 using namespace sf;
@@ -21,9 +23,14 @@ bool Game::check_isRun()
  	return isRun;
 }
 
-void Game::draw(RenderWindow &window, Board &board)
+void Game::draw(RenderWindow &window)
 {
-	board.draw(window);
+	Board *board = new Board(window);
+	Cube *cube = new Cube(219,580);
+	board->draw(window);
+	cube->draw(window);
+	Sleep(250);
+	delete(cube);
 }
 
 void Game::createPawns(RenderWindow &window, Board &board)

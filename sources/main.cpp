@@ -68,8 +68,7 @@ int main()
 		if(game.check_isRun() == true)
 		{
 			window.clear();
-			Board board(window);
-			game.draw(window, board);
+			game.draw(window);
 			game.createPawns(window, board);
 			
 		}

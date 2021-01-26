@@ -43625,3 +43625,887 @@ Compilation results...
 - Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
 - Output Size: 1,88435459136963 MiB
 - Compilation Time: 0,53s
+
+26.01.2021 22:25:25: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:4:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.hpp:12:1: error: expected unqualified-id before '<<' token
+ <<<<<<<< HEAD:header/Board.hpp
+ ^
+L:/GITHUB/Chinczyk/header/Board.hpp:40:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.hpp:44:1: error: expected unqualified-id before '==' token
+ ========
+ ^
+L:/GITHUB/Chinczyk/header/Board.hpp:47:1: error: expected unqualified-id before '>>' token
+ >>>>>>>> Pawn:header/Board.h
+ ^
+L:/GITHUB/Chinczyk/header/Board.hpp:50:25: error: redeclaration of 'int Board::pathElements [48][4]'
+   int pathElements[48][4]; //[id][0=x, 1=y, 2=kolor_pola, 3=typ_pola]
+                         ^
+L:/GITHUB/Chinczyk/header/Board.hpp:20:24: note: previous declaration 'int Board::pathElements [48][4]'
+  int pathElements[48][4]; //[id][0=x, 1=y, 2=kolor_pola, 3=typ_pola]
+                        ^
+L:/GITHUB/Chinczyk/header/Board.hpp:51:25: error: redeclaration of 'int Board::playersYards [16][4]'
+   int playersYards[16][4]; //[id][0=x, 1=y, 2=kolor_pola, 3=typ_pola]
+                         ^
+L:/GITHUB/Chinczyk/header/Board.hpp:21:24: note: previous declaration 'int Board::playersYards [16][4]'
+  int playersYards[16][4]; //[id][0=x, 1=y, 2=kolor_pola, 3=typ_pola]
+                        ^
+L:/GITHUB/Chinczyk/header/Board.hpp:52:24: error: redeclaration of 'int Board::playersHomes [4][5]'
+   int playersHomes[4][5];
+                        ^
+L:/GITHUB/Chinczyk/header/Board.hpp:24:23: note: previous declaration 'int Board::playersHomes [4][4]'
+  int playersHomes[4][4]; //[id][0=x, 1=y, 2=kolor_pola, 3=typ_pola]
+                       ^
+L:/GITHUB/Chinczyk/header/Board.hpp:53:3: error: 'Board::~Board()' cannot be overloaded
+   ~Board();
+   ^
+L:/GITHUB/Chinczyk/header/Board.hpp:15:2: error: with 'Board::~Board()'
+  ~Board();
+  ^
+L:/GITHUB/Chinczyk/header/Board.hpp:56:7: error: redeclaration of 'int Board::sizeOfPiece'
+   int sizeOfPiece;
+       ^
+L:/GITHUB/Chinczyk/header/Board.hpp:28:6: note: previous declaration 'int Board::sizeOfPiece'
+  int sizeOfPiece;
+      ^
+L:/GITHUB/Chinczyk/header/Board.hpp:58:66: error: redeclaration of 'sf::Sprite Board::boardPiece [17][17]'
+   Sprite boardPiece[ROW_NUMBER_OF_PIECES][COLUMN_NUMBER_OF_PIECES];
+                                                                  ^
+L:/GITHUB/Chinczyk/header/Board.hpp:25:69: note: previous declaration 'sf::Sprite Board::boardPiece [17][17]'
+  sf::Sprite boardPiece[ROW_NUMBER_OF_PIECES][COLUMN_NUMBER_OF_PIECES];
+                                                                     ^
+L:/GITHUB/Chinczyk/header/Board.hpp:60:8: error: redeclaration of 'sf::Text Board::logo'
+   Text logo;
+        ^
+L:/GITHUB/Chinczyk/header/Board.hpp:38:11: note: previous declaration 'sf::Text Board::logo'
+  sf::Text logo;
+           ^
+L:/GITHUB/Chinczyk/header/Board.hpp:61:8: error: redeclaration of 'sf::Text Board::menu'
+   Text menu;
+        ^
+L:/GITHUB/Chinczyk/header/Board.hpp:39:11: note: previous declaration 'sf::Text Board::menu'
+  sf::Text menu;
+           ^
+L:/GITHUB/Chinczyk/header/Board.hpp:62:11: error: redeclaration of 'sf::Texture Board::fields'
+   Texture fields;
+           ^
+L:/GITHUB/Chinczyk/header/Board.hpp:41:14: note: previous declaration 'sf::Texture Board::fields'
+  sf::Texture fields;
+              ^
+L:/GITHUB/Chinczyk/header/Board.hpp:63:24: error: redeclaration of 'sf::Sprite Board::fieldsArr [4][6]'
+   Sprite fieldsArr[4][6]; //[0=zwykle_pola, 1=start, 2=pre_home, 3=home]
+                        ^
+L:/GITHUB/Chinczyk/header/Board.hpp:42:27: note: previous declaration 'sf::Sprite Board::fieldsArr [4][6]'
+  sf::Sprite fieldsArr[4][6]; //[0=zwykle_pola, 1=start, 2=pre_home, 3=home]
+                           ^
+L:/GITHUB/Chinczyk/header/Board.hpp:40:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:5:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Pawn.hpp:36:20: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool ableToMove = true;
+                    ^
+sources/Game.cpp: In member function 'void Game::draw(sf::RenderWindow&, Board&)':
+sources/Game.cpp:26:9: error: declaration of 'Board* board' shadows a parameter
+  Board *board = new Board(window.getSize().x, window.getSize().y, window);
+         ^
+sources/Game.cpp:26:73: error: no matching function for call to 'Board::Board(unsigned int, unsigned int, sf::RenderWindow&)'
+  Board *board = new Board(window.getSize().x, window.getSize().y, window);
+                                                                         ^
+sources/Game.cpp:26:73: note: candidates are:
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:4:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.hpp:10:7: note: Board::Board()
+ class Board
+       ^
+L:/GITHUB/Chinczyk/header/Board.hpp:10:7: note:   candidate expects 0 arguments, 3 provided
+L:/GITHUB/Chinczyk/header/Board.hpp:10:7: note: Board::Board(const Board&)
+L:/GITHUB/Chinczyk/header/Board.hpp:10:7: note:   candidate expects 1 argument, 3 provided
+sources/Game.cpp:27:2: error: 'Cube' was not declared in this scope
+  Cube *cube = new Cube(219,580);
+  ^
+sources/Game.cpp:27:8: error: 'cube' was not declared in this scope
+  Cube *cube = new Cube(219,580);
+        ^
+sources/Game.cpp:27:19: error: expected type-specifier before 'Cube'
+  Cube *cube = new Cube(219,580);
+                   ^
+sources/Game.cpp:29:11: error: 'Sleep' was not declared in this scope
+  Sleep(250);
+           ^
+sources/Game.cpp:30:13: error: type '<type error>' argument given to 'delete', expected pointer
+  delete(cube);
+             ^
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:4:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.hpp: In member function 'void Game::createPawns(sf::RenderWindow&, Board&)':
+L:/GITHUB/Chinczyk/header/Board.hpp:21:24: error: 'int Board::playersYards [16][4]' is private
+  int playersYards[16][4]; //[id][0=x, 1=y, 2=kolor_pola, 3=typ_pola]
+                        ^
+sources/Game.cpp:37:43: error: within this context
+    Vector2f pos = board.getPosition(board.playersYards[(i*4)+j]);
+                                           ^
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:4:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.hpp:19:15: error: 'sf::Vector2f Board::getPosition(int*)' is private
+  sf::Vector2f getPosition(int* field);
+               ^
+sources/Game.cpp:37:64: error: within this context
+    Vector2f pos = board.getPosition(board.playersYards[(i*4)+j]);
+                                                                ^
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:4:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.hpp:22:32: error: 'int Board::playersStartingPoints [4][4]' is private
+  int playersStartingPoints[4][4];
+                                ^
+sources/Game.cpp:40:59: error: within this context
+    pawnsArr[i][j].startingPoint = board.getPosition(board.playersStartingPoints[i]);
+                                                           ^
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:4:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.hpp:19:15: error: 'sf::Vector2f Board::getPosition(int*)' is private
+  sf::Vector2f getPosition(int* field);
+               ^
+sources/Game.cpp:40:83: error: within this context
+    pawnsArr[i][j].startingPoint = board.getPosition(board.playersStartingPoints[i]);
+                                                                                   ^
+L:\GITHUB\Chinczyk\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 29
+- Warnings: 3
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,88435459136963 MiB
+- Compilation Time: 1,14s
+
+26.01.2021 22:25:38: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:4:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.hpp:40:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.hpp:47:3: error: 'Pawn' does not name a type
+   Pawn:header/Board.h
+   ^
+L:/GITHUB/Chinczyk/header/Board.hpp:50:25: error: redeclaration of 'int Board::pathElements [48][4]'
+   int pathElements[48][4]; //[id][0=x, 1=y, 2=kolor_pola, 3=typ_pola]
+                         ^
+L:/GITHUB/Chinczyk/header/Board.hpp:20:24: note: previous declaration 'int Board::pathElements [48][4]'
+  int pathElements[48][4]; //[id][0=x, 1=y, 2=kolor_pola, 3=typ_pola]
+                        ^
+L:/GITHUB/Chinczyk/header/Board.hpp:51:25: error: redeclaration of 'int Board::playersYards [16][4]'
+   int playersYards[16][4]; //[id][0=x, 1=y, 2=kolor_pola, 3=typ_pola]
+                         ^
+L:/GITHUB/Chinczyk/header/Board.hpp:21:24: note: previous declaration 'int Board::playersYards [16][4]'
+  int playersYards[16][4]; //[id][0=x, 1=y, 2=kolor_pola, 3=typ_pola]
+                        ^
+L:/GITHUB/Chinczyk/header/Board.hpp:52:24: error: redeclaration of 'int Board::playersHomes [4][5]'
+   int playersHomes[4][5];
+                        ^
+L:/GITHUB/Chinczyk/header/Board.hpp:24:23: note: previous declaration 'int Board::playersHomes [4][4]'
+  int playersHomes[4][4]; //[id][0=x, 1=y, 2=kolor_pola, 3=typ_pola]
+                       ^
+L:/GITHUB/Chinczyk/header/Board.hpp:53:3: error: 'Board::~Board()' cannot be overloaded
+   ~Board();
+   ^
+L:/GITHUB/Chinczyk/header/Board.hpp:15:2: error: with 'Board::~Board()'
+  ~Board();
+  ^
+L:/GITHUB/Chinczyk/header/Board.hpp:56:7: error: redeclaration of 'int Board::sizeOfPiece'
+   int sizeOfPiece;
+       ^
+L:/GITHUB/Chinczyk/header/Board.hpp:28:6: note: previous declaration 'int Board::sizeOfPiece'
+  int sizeOfPiece;
+      ^
+L:/GITHUB/Chinczyk/header/Board.hpp:58:66: error: redeclaration of 'sf::Sprite Board::boardPiece [17][17]'
+   Sprite boardPiece[ROW_NUMBER_OF_PIECES][COLUMN_NUMBER_OF_PIECES];
+                                                                  ^
+L:/GITHUB/Chinczyk/header/Board.hpp:25:69: note: previous declaration 'sf::Sprite Board::boardPiece [17][17]'
+  sf::Sprite boardPiece[ROW_NUMBER_OF_PIECES][COLUMN_NUMBER_OF_PIECES];
+                                                                     ^
+L:/GITHUB/Chinczyk/header/Board.hpp:60:8: error: redeclaration of 'sf::Text Board::logo'
+   Text logo;
+        ^
+L:/GITHUB/Chinczyk/header/Board.hpp:38:11: note: previous declaration 'sf::Text Board::logo'
+  sf::Text logo;
+           ^
+L:/GITHUB/Chinczyk/header/Board.hpp:61:8: error: redeclaration of 'sf::Text Board::menu'
+   Text menu;
+        ^
+L:/GITHUB/Chinczyk/header/Board.hpp:39:11: note: previous declaration 'sf::Text Board::menu'
+  sf::Text menu;
+           ^
+L:/GITHUB/Chinczyk/header/Board.hpp:62:11: error: redeclaration of 'sf::Texture Board::fields'
+   Texture fields;
+           ^
+L:/GITHUB/Chinczyk/header/Board.hpp:41:14: note: previous declaration 'sf::Texture Board::fields'
+  sf::Texture fields;
+              ^
+L:/GITHUB/Chinczyk/header/Board.hpp:63:24: error: redeclaration of 'sf::Sprite Board::fieldsArr [4][6]'
+   Sprite fieldsArr[4][6]; //[0=zwykle_pola, 1=start, 2=pre_home, 3=home]
+                        ^
+L:/GITHUB/Chinczyk/header/Board.hpp:42:27: note: previous declaration 'sf::Sprite Board::fieldsArr [4][6]'
+  sf::Sprite fieldsArr[4][6]; //[0=zwykle_pola, 1=start, 2=pre_home, 3=home]
+                           ^
+L:/GITHUB/Chinczyk/header/Board.hpp:40:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:5:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Pawn.hpp:36:20: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool ableToMove = true;
+                    ^
+sources/Game.cpp: In member function 'void Game::draw(sf::RenderWindow&, Board&)':
+sources/Game.cpp:26:9: error: declaration of 'Board* board' shadows a parameter
+  Board *board = new Board(window.getSize().x, window.getSize().y, window);
+         ^
+sources/Game.cpp:27:2: error: 'Cube' was not declared in this scope
+  Cube *cube = new Cube(219,580);
+  ^
+sources/Game.cpp:27:8: error: 'cube' was not declared in this scope
+  Cube *cube = new Cube(219,580);
+        ^
+sources/Game.cpp:27:19: error: expected type-specifier before 'Cube'
+  Cube *cube = new Cube(219,580);
+                   ^
+sources/Game.cpp:29:11: error: 'Sleep' was not declared in this scope
+  Sleep(250);
+           ^
+sources/Game.cpp:30:13: error: type '<type error>' argument given to 'delete', expected pointer
+  delete(cube);
+             ^
+L:\GITHUB\Chinczyk\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 18
+- Warnings: 3
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,88435459136963 MiB
+- Compilation Time: 0,92s
+
+26.01.2021 22:25:45: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:4:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.hpp:40:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.hpp:40:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:5:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Pawn.hpp:36:20: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool ableToMove = true;
+                    ^
+sources/Game.cpp: In member function 'void Game::draw(sf::RenderWindow&, Board&)':
+sources/Game.cpp:26:9: error: declaration of 'Board* board' shadows a parameter
+  Board *board = new Board(window.getSize().x, window.getSize().y, window);
+         ^
+sources/Game.cpp:26:73: error: no matching function for call to 'Board::Board(unsigned int, unsigned int, sf::RenderWindow&)'
+  Board *board = new Board(window.getSize().x, window.getSize().y, window);
+                                                                         ^
+sources/Game.cpp:26:73: note: candidates are:
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:4:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.hpp:14:2: note: Board::Board(sf::RenderWindow&)
+  Board(sf::RenderWindow &window);
+  ^
+L:/GITHUB/Chinczyk/header/Board.hpp:14:2: note:   candidate expects 1 argument, 3 provided
+L:/GITHUB/Chinczyk/header/Board.hpp:10:7: note: Board::Board(const Board&)
+ class Board
+       ^
+L:/GITHUB/Chinczyk/header/Board.hpp:10:7: note:   candidate expects 1 argument, 3 provided
+sources/Game.cpp:27:2: error: 'Cube' was not declared in this scope
+  Cube *cube = new Cube(219,580);
+  ^
+sources/Game.cpp:27:8: error: 'cube' was not declared in this scope
+  Cube *cube = new Cube(219,580);
+        ^
+sources/Game.cpp:27:19: error: expected type-specifier before 'Cube'
+  Cube *cube = new Cube(219,580);
+                   ^
+sources/Game.cpp:29:11: error: 'Sleep' was not declared in this scope
+  Sleep(250);
+           ^
+sources/Game.cpp:30:13: error: type '<type error>' argument given to 'delete', expected pointer
+  delete(cube);
+             ^
+L:\GITHUB\Chinczyk\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 7
+- Warnings: 3
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,88435459136963 MiB
+- Compilation Time: 0,95s
+
+26.01.2021 22:26:08: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:4:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.hpp:40:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.hpp:40:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:5:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Pawn.hpp:36:20: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool ableToMove = true;
+                    ^
+sources/Game.cpp:24:6: error: prototype for 'void Game::draw(sf::RenderWindow&, Board*)' does not match any in class 'Game'
+ void Game::draw(RenderWindow &window, Board *board)
+      ^
+In file included from sources/Game.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Game.hpp:16:8: error: candidate is: void Game::draw(sf::RenderWindow&, Board&)
+   void draw(RenderWindow &window, Board &board);
+        ^
+L:\GITHUB\Chinczyk\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 2
+- Warnings: 3
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,88435459136963 MiB
+- Compilation Time: 1,03s
+
+26.01.2021 22:26:37: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:4:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.hpp:40:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.hpp:40:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:5:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Pawn.hpp:36:20: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool ableToMove = true;
+                    ^
+sources/Game.cpp:24:6: error: prototype for 'void Game::draw(sf::RenderWindow&)' does not match any in class 'Game'
+ void Game::draw(RenderWindow &window)
+      ^
+In file included from sources/Game.cpp:3:0:
+L:/GITHUB/Chinczyk/header/Game.hpp:16:8: error: candidate is: void Game::draw(sf::RenderWindow&, Board&)
+   void draw(RenderWindow &window, Board &board);
+        ^
+L:\GITHUB\Chinczyk\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 2
+- Warnings: 3
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,88435459136963 MiB
+- Compilation Time: 0,91s
+
+26.01.2021 22:26:50: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:4:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.hpp:40:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.hpp:40:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:5:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Pawn.hpp:36:20: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool ableToMove = true;
+                    ^
+sources/Game.cpp: In member function 'void Game::draw(sf::RenderWindow&)':
+sources/Game.cpp:26:73: error: no matching function for call to 'Board::Board(unsigned int, unsigned int, sf::RenderWindow&)'
+  Board *board = new Board(window.getSize().x, window.getSize().y, window);
+                                                                         ^
+sources/Game.cpp:26:73: note: candidates are:
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:4:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.hpp:14:2: note: Board::Board(sf::RenderWindow&)
+  Board(sf::RenderWindow &window);
+  ^
+L:/GITHUB/Chinczyk/header/Board.hpp:14:2: note:   candidate expects 1 argument, 3 provided
+L:/GITHUB/Chinczyk/header/Board.hpp:10:7: note: Board::Board(const Board&)
+ class Board
+       ^
+L:/GITHUB/Chinczyk/header/Board.hpp:10:7: note:   candidate expects 1 argument, 3 provided
+sources/Game.cpp:27:2: error: 'Cube' was not declared in this scope
+  Cube *cube = new Cube(219,580);
+  ^
+sources/Game.cpp:27:8: error: 'cube' was not declared in this scope
+  Cube *cube = new Cube(219,580);
+        ^
+sources/Game.cpp:27:19: error: expected type-specifier before 'Cube'
+  Cube *cube = new Cube(219,580);
+                   ^
+sources/Game.cpp:29:11: error: 'Sleep' was not declared in this scope
+  Sleep(250);
+           ^
+sources/Game.cpp:30:13: error: type '<type error>' argument given to 'delete', expected pointer
+  delete(cube);
+             ^
+L:\GITHUB\Chinczyk\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 6
+- Warnings: 3
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,88435459136963 MiB
+- Compilation Time: 0,95s
+
+26.01.2021 22:27:12: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:4:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.hpp:40:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.hpp:40:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:5:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Pawn.hpp:36:20: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool ableToMove = true;
+                    ^
+sources/Game.cpp: In member function 'void Game::draw(sf::RenderWindow&)':
+sources/Game.cpp:27:2: error: 'Cube' was not declared in this scope
+  Cube *cube = new Cube(219,580);
+  ^
+sources/Game.cpp:27:8: error: 'cube' was not declared in this scope
+  Cube *cube = new Cube(219,580);
+        ^
+sources/Game.cpp:27:19: error: expected type-specifier before 'Cube'
+  Cube *cube = new Cube(219,580);
+                   ^
+sources/Game.cpp:29:11: error: 'Sleep' was not declared in this scope
+  Sleep(250);
+           ^
+sources/Game.cpp:30:13: error: type '<type error>' argument given to 'delete', expected pointer
+  delete(cube);
+             ^
+L:\GITHUB\Chinczyk\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 5
+- Warnings: 3
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,88435459136963 MiB
+- Compilation Time: 0,94s
+
+26.01.2021 22:27:27: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:4:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.hpp:40:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.hpp:40:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:5:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Pawn.hpp:36:20: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool ableToMove = true;
+                    ^
+In file included from sources/Game.cpp:5:0:
+L:/GITHUB/Chinczyk/header/Cube.hpp:17:16: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   bool isRun = true;
+                ^
+L:/GITHUB/Chinczyk/header/Cube.hpp:22:39: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   Texture *texture_cube = new Texture();
+                                       ^
+L:/GITHUB/Chinczyk/header/Cube.hpp:23:35: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   Sprite *cube_arr = new Sprite [6];
+                                   ^
+sources/Game.cpp: In member function 'void Game::draw(sf::RenderWindow&)':
+sources/Game.cpp:30:11: error: 'Sleep' was not declared in this scope
+  Sleep(250);
+           ^
+L:\GITHUB\Chinczyk\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 6
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,88435459136963 MiB
+- Compilation Time: 0,91s
+
+26.01.2021 22:27:42: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:4:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.hpp:40:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.hpp:40:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:5:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Pawn.hpp:36:20: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool ableToMove = true;
+                    ^
+In file included from sources/Game.cpp:5:0:
+L:/GITHUB/Chinczyk/header/Cube.hpp:17:16: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   bool isRun = true;
+                ^
+L:/GITHUB/Chinczyk/header/Cube.hpp:22:39: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   Texture *texture_cube = new Texture();
+                                       ^
+L:/GITHUB/Chinczyk/header/Cube.hpp:23:35: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   Sprite *cube_arr = new Sprite [6];
+                                   ^
+g++.exe object/Board.o object/Game.o object/main.o object/MainMenu.o object/Pawn.o object/Cube.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+object/main.o:main.cpp:(.text+0x481): undefined reference to `Game::draw(sf::RenderWindow&, Board&)'
+collect2.exe: error: ld returned 1 exit status
+L:\GITHUB\Chinczyk\Makefile.win:25: recipe for target 'bin/Chinol.exe' failed
+mingw32-make.exe: *** [bin/Chinol.exe] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 6
+- Compilation Time: 2,61s
+
+26.01.2021 22:28:21: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/main.cpp -o object/main.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:4:0,
+                 from sources/main.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.hpp:40:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.hpp:40:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:5:0,
+                 from sources/main.cpp:3:
+L:/GITHUB/Chinczyk/header/Pawn.hpp:36:20: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool ableToMove = true;
+                    ^
+In file included from sources/main.cpp:4:0:
+L:/GITHUB/Chinczyk/header/MainMenu.hpp:26:16: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   bool isRun = true;
+                ^
+g++.exe object/Board.o object/Game.o object/main.o object/MainMenu.o object/Pawn.o object/Cube.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 4
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,97900867462158 MiB
+- Compilation Time: 1,95s
+
+26.01.2021 22:28:53: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:4:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.hpp:40:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.hpp:40:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:5:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Pawn.hpp:36:20: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool ableToMove = true;
+                    ^
+In file included from sources/Game.cpp:5:0:
+L:/GITHUB/Chinczyk/header/Cube.hpp:17:16: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   bool isRun = true;
+                ^
+L:/GITHUB/Chinczyk/header/Cube.hpp:22:39: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   Texture *texture_cube = new Texture();
+                                       ^
+L:/GITHUB/Chinczyk/header/Cube.hpp:23:35: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   Sprite *cube_arr = new Sprite [6];
+                                   ^
+sources/Game.cpp: In member function 'void Game::draw(sf::RenderWindow&)':
+sources/Game.cpp:31:8: error: request for member 'draw' in 'board', which is of pointer type 'Board*' (maybe you meant to use '->' ?)
+  board.draw(window);
+        ^
+L:\GITHUB\Chinczyk\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 6
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,97900867462158 MiB
+- Compilation Time: 1,49s
+
+26.01.2021 22:29:05: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:4:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.hpp:40:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.hpp:40:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:5:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Pawn.hpp:36:20: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool ableToMove = true;
+                    ^
+In file included from sources/Game.cpp:5:0:
+L:/GITHUB/Chinczyk/header/Cube.hpp:17:16: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   bool isRun = true;
+                ^
+L:/GITHUB/Chinczyk/header/Cube.hpp:22:39: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   Texture *texture_cube = new Texture();
+                                       ^
+L:/GITHUB/Chinczyk/header/Cube.hpp:23:35: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   Sprite *cube_arr = new Sprite [6];
+                                   ^
+sources/Game.cpp: In member function 'void Game::draw(sf::RenderWindow&)':
+sources/Game.cpp:30:8: error: request for member 'draw' in 'board', which is of pointer type 'Board*' (maybe you meant to use '->' ?)
+  board.draw(window);
+        ^
+L:\GITHUB\Chinczyk\Makefile.win:31: recipe for target 'object/Game.o' failed
+mingw32-make.exe: *** [object/Game.o] Error 1
+
+Compilation results...
+--------
+- Errors: 1
+- Warnings: 6
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,97900867462158 MiB
+- Compilation Time: 1,48s
+
+26.01.2021 22:29:13: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: L:\GITHUB\Chinczyk\Chinol.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: L:\GITHUB\Chinczyk\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "L:\GITHUB\Chinczyk\Makefile.win" all
+
+g++.exe -c sources/Game.cpp -o object/Game.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header" 
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:4:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Board.hpp:40:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
+                                               ^
+L:/GITHUB/Chinczyk/header/Board.hpp:40:47: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+In file included from L:/GITHUB/Chinczyk/header/Game.hpp:5:0,
+                 from sources/Game.cpp:3:
+L:/GITHUB/Chinczyk/header/Pawn.hpp:36:20: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  bool ableToMove = true;
+                    ^
+In file included from sources/Game.cpp:5:0:
+L:/GITHUB/Chinczyk/header/Cube.hpp:17:16: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   bool isRun = true;
+                ^
+L:/GITHUB/Chinczyk/header/Cube.hpp:22:39: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   Texture *texture_cube = new Texture();
+                                       ^
+L:/GITHUB/Chinczyk/header/Cube.hpp:23:35: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   Sprite *cube_arr = new Sprite [6];
+                                   ^
+g++.exe object/Board.o object/Game.o object/main.o object/MainMenu.o object/Pawn.o object/Cube.o -o bin/Chinol.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 6
+- Output Filename: L:\GITHUB\Chinczyk\bin\Chinol.exe
+- Output Size: 1,97900867462158 MiB
+- Compilation Time: 2,44s

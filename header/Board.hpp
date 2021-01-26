@@ -9,7 +9,7 @@ using namespace sf;
 
 class Board
 {
-<<<<<<<< HEAD:header/Board.hpp
+
 public:
 	Board(sf::RenderWindow &window);
 	~Board();
@@ -41,26 +41,6 @@ private:
 	sf::Texture fields;
 	sf::Sprite fieldsArr[4][6]; //[0=zwykle_pola, 1=start, 2=pre_home, 3=home]
 	void loadTextures();
-========
-	public:
-		Board(float width, float height, RenderWindow &window);
->>>>>>>> Pawn:header/Board.h
-	
-		void draw(RenderWindow &window);
-		int pathElements[48][4]; //[id][0=x, 1=y, 2=kolor_pola, 3=typ_pola]
-		int playersYards[16][4]; //[id][0=x, 1=y, 2=kolor_pola, 3=typ_pola]
-		int playersHomes[4][5];
-		~Board();
-
-	private:
-		int sizeOfPiece;
-		
-		Sprite boardPiece[ROW_NUMBER_OF_PIECES][COLUMN_NUMBER_OF_PIECES];
-		Font zfont;
-		Text logo;
-		Text menu;
-		Texture fields;
-		Sprite fieldsArr[4][6]; //[0=zwykle_pola, 1=start, 2=pre_home, 3=home]
 };
 
 

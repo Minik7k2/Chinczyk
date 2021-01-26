@@ -13,7 +13,7 @@ class Game
 		Game(bool = false);
 		void set_isRun();
 		bool check_isRun();
-		void draw(RenderWindow &window, Board &board);
+		void draw(RenderWindow &window);
 		Pawn pawnsArr[4][4]; // [player][pawn]
 		void createPawns(RenderWindow &window, Board &board);
 		~Game();

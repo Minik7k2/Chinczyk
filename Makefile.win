@@ -1,17 +1,17 @@
 # Project: Chinol
 # Makefile created by Dev-C++ 5.11
 
-CPP      = g++.exe -D__DEBUG__
-CC       = gcc.exe -D__DEBUG__
+CPP      = g++.exe
+CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = object/Board.o object/Game.o object/main.o object/MainMenu.o object/Cube.o
-LINKOBJ  = object/Board.o object/Game.o object/main.o object/MainMenu.o object/Cube.o
-LIBS     = -L"C:/Program Files/Dev-Cpp/MinGW64/lib" -L"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/Program Files/Dev-Cpp/SFML-2.4.2/lib" -static-libgcc -lsfml-graphics -lsfml-window -lsfml-audio -lsfml-system -lopengl32 -g3
-INCS     = -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"header/"
-CXXINCS  = -I"C:/Program Files/Dev-Cpp/MinGW64/include" -I"C:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files/Dev-Cpp/SFML-2.4.2/include" -I"header/"
+OBJ      = object/Board.o object/Game.o object/main.o object/MainMenu.o object/Pawn.o object/Cube.o
+LINKOBJ  = object/Board.o object/Game.o object/main.o object/MainMenu.o object/Pawn.o object/Cube.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/SFML/SFML-2.4.2/lib" -static-libgcc -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"L:/GITHUB/Chinczyk/header"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/SFML/SFML-2.4.2/include" -I"L:/GITHUB/Chinczyk/header"
 BIN      = bin/Chinol.exe
-CXXFLAGS = $(CXXINCS) -g3
-CFLAGS   = $(INCS) -g3
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
 RM       = rm.exe -f
 
 .PHONY: all all-before all-after clean clean-custom
@@ -35,6 +35,9 @@ object/main.o: sources/main.cpp
 
 object/MainMenu.o: sources/MainMenu.cpp
 	$(CPP) -c sources/MainMenu.cpp -o object/MainMenu.o $(CXXFLAGS)
+
+object/Pawn.o: sources/Pawn.cpp
+	$(CPP) -c sources/Pawn.cpp -o object/Pawn.o $(CXXFLAGS)
 
 object/Cube.o: sources/Cube.cpp
 	$(CPP) -c sources/Cube.cpp -o object/Cube.o $(CXXFLAGS)

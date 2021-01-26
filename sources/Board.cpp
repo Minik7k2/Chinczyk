@@ -50,13 +50,11 @@ void Board::set_boardGrid(RenderWindow &window)
 					boardPiece[i][j] = fieldsArr[playersHomes[k][3]][playersHomes[k][2]];
 					break;
 				}
-				boardPiece[i][j] = fieldsArr[0][0];
 			}
 			
 			boardPiece[i][j].setPosition(Vector2f(i*sizeOfPiece, j*sizeOfPiece));
 		}
 	}
-	draw(window);
 }
 
 void Board::loadTextures()
@@ -76,12 +74,15 @@ fields.loadFromFile("../textures/field.png");
 void Board::draw(RenderWindow &window)
 {
 	for (int i = 0; i < ROW_NUMBER_OF_PIECES; i++)
-	{
 		for (int j = 0; j < COLUMN_NUMBER_OF_PIECES; j++)
-			window.draw(boardPiece[i][j]);
-	}
+			if(boardPiece[i][j].getTextureRect() != fieldsArr[0][0].getTextureRect())
+				window.draw(boardPiece[i][j]);
 }
 
+Vector2f Board::getPosition(int* field)
+{
+	return boardPiece[field[0]][field[1]].getPosition();
+}
 
 
 void Board::set_pathElements()
@@ -130,6 +131,7 @@ void Board::set_pathElements()
 		}
 		
 	}
+	
 }
 
 void Board::set_safeFields()
@@ -147,6 +149,8 @@ void Board::set_startingPoints()
 	{
 		pathElements[(i*12)][2] = i+2;
 		pathElements[(i*12)][3] = 1;
+		playersStartingPoints[i][0] = pathElements[(i*12)][0];
+		playersStartingPoints[i][1] = pathElements[(i*12)][1];
 	}
 }
 

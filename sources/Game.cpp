@@ -1,9 +1,7 @@
 #include <iostream>
-#include "SFML/Graphics.hpp" 
-#include "Game.h"
-#include "Board.h"
-#include "Cube.hpp"
-#include "windows.h"
+#include <SFML/Graphics.hpp>
+#include "Game.hpp"
+#include "Board.hpp"
 
 using namespace std;
 using namespace sf;
@@ -23,13 +21,29 @@ bool Game::check_isRun()
  	return isRun;
 }
 
-void Game::draw(RenderWindow &window)
+void Game::draw(RenderWindow &window, Board &board)
 {
-	Board *board = new Board(window.getSize().x, window.getSize().y, window);
-	Cube *cube = new Cube(219,580);
-	cube->draw(window);
-	Sleep(250);
-	delete(cube);
+	board.draw(window);
+}
+
+void Game::createPawns(RenderWindow &window, Board &board)
+{
+	for(int i=0;i<4;i++){
+		for(int j=0;j<4;j++){
+			Vector2f pos = board.getPosition(board.playersYards[(i*4)+j]);
+			pawnsArr[i][j].set_color(i);
+			pawnsArr[i][j].startingPosition = Vector2f(pos.x, pos.y-20);
+			pawnsArr[i][j].startingPoint = board.getPosition(board.playersStartingPoints[i]);
+			pawnsArr[i][j].setOnStart();
+			//cout << endl << board.boardPiece[2][9].getPosition().y;
+		}
+	}
+		pawnsArr[0][1].move(6, board);
+		pawnsArr[0][1].move(2, board);
+		pawnsArr[0][1].move(28, board);
+		for(int i=0;i<4;i++)
+			for(int j=0;j<4;j++)
+				pawnsArr[i][j].draw(window);
 }
 
 Game::~Game()

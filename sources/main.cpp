@@ -1,7 +1,7 @@
-#include "SFML/Graphics.hpp" 	
+#include <SFML/Graphics.hpp>	
 #include <iostream>
-#include "Game.h"
-#include "MainMenu.h"
+#include "Game.hpp"
+#include "MainMenu.hpp"
 
 using namespace sf;
 using namespace std;
@@ -9,6 +9,7 @@ using namespace std;
 
 int main()
 {
+	
 	srand(time(NULL));
 	setlocale(LC_ALL,"");
 	
@@ -60,17 +61,17 @@ int main()
 		    		break;
 				}
 			}
-			
 			if(event.type == Event::Closed)
-			{
 				window.close();
-			}
 		}
-		
+
 		if(game.check_isRun() == true)
 		{
 			window.clear();
-			game.draw(window);
+			Board board(window);
+			game.draw(window, board);
+			game.createPawns(window, board);
+			
 		}
 		else
 		{
@@ -87,4 +88,5 @@ int main()
 	    	frame=0;
 		}
 	}
+	
 }

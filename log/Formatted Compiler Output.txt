@@ -8854,3 +8854,46 @@
 22	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
 4	0	L:\GITHUB\Chinczyk\sources\main.cpp	In file included from sources/main.cpp
 26	16	L:\GITHUB\Chinczyk\header\MainMenu.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 18:17:22: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\header\MainMenu.h	                 from L:/GITHUB/Chinczyk/header/MainMenu.h
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\header\MainMenu.h	                 from L:/GITHUB/Chinczyk/header/MainMenu.h
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+22	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In file included from sources/MainMenu.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In constructor 'MainMenu::MainMenu(float, float)':
+16	28	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+23	29	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+29	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+35	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+41	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::MoveUp()':
+64	48	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+66	46	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::MoveDown()':
+74	48	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+76	46	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::CheckCursorFocus(float, float)':
+91	49	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+93	47	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+
+26.01.2021 18:28:29: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\header\MainMenu.h	                 from L:/GITHUB/Chinczyk/header/MainMenu.h
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.h	In file included from L:/GITHUB/Chinczyk/header/Game.h
+3		L:\GITHUB\Chinczyk\header\MainMenu.h	                 from L:/GITHUB/Chinczyk/header/MainMenu.h
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+22	19	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In file included from sources/MainMenu.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11

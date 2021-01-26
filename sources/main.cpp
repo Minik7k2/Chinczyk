@@ -65,11 +65,11 @@ int main()
 				window.close();
 		}
 
-		
 		if(game.check_isRun() == true)
 		{
 			window.clear();
-			Board board(window.getSize().x, window.getSize().y, window);
+			Board board(window);
+			game.createPawns(window, board);
 			//game.draw(window, board);
 		}
 		else

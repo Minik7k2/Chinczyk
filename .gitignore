@@ -1,0 +1,11 @@
+
+Chinol.layout
+bin/Chinol.exe
+Chinol.layout
+log/Formatted Compiler Output.txt
+log/Raw Build Output.txt
+object/Game.o
+bin/Chinol.exe
+log/Formatted Compiler Output.txt
+log/Raw Build Output.txt
+Makefile.win

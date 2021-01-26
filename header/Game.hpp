@@ -2,6 +2,8 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
 #include "Board.h"
+#include "Pawn.h"
+
 
 using namespace sf;
 
@@ -12,9 +14,12 @@ class Game
 		void set_isRun();
 		bool check_isRun();
 		void draw(RenderWindow &window, Board &board);
+		Pawn pawnsArr[4][4]; // [player][pawn]
+		void createPawns(RenderWindow &window, Board &board);
 		~Game();
 		
 	private:
 		bool isRun;
+		
 		
 };

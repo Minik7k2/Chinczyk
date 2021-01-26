@@ -6,21 +6,86 @@
 using namespace std;
 using namespace sf;
 
-Board::Board(float width, float height, RenderWindow &window)
+Board::Board(RenderWindow &window)
 {
-	int directions[12] = {0,1,0,2,0,2,3,2,3,1,3,1};
 	sizeOfPiece = 50;
 	
-	fields.loadFromFile("../textures/field.png");
+	loadTextures();
 	
-	for(int i=0; i<4; i++){
-		for(int j=0; j<6;j++){
+	set_pathElements();
+	set_safeFields();
+	set_startingPoints();
+	set_homes();
+	set_yards();
+	
+	set_boardGrid(window);
+}
+
+void Board::set_boardGrid(RenderWindow &window) 
+{
+	for (int i = 0; i < ROW_NUMBER_OF_PIECES; i++)
+	{
+		for (int j = 0; j < COLUMN_NUMBER_OF_PIECES; j++)
+		{
+			for(int k=0;k<48;k++)
+			{
+				if(i==pathElements[k][0] && j==pathElements[k][1])
+				{
+					boardPiece[i][j] = fieldsArr[pathElements[k][3]][pathElements[k][2]];
+					break;
+				}else if(k<16 && i==playersYards[k][0] && j==playersYards[k][1])
+				{
+					boardPiece[i][j] = fieldsArr[playersYards[k][3]][playersYards[k][2]];
+					break;
+				}else if(k<16 && i==playersHomeWays[k][0] && j==playersHomeWays[k][1])
+				{
+					boardPiece[i][j] = fieldsArr[playersHomeWays[k][3]][playersHomeWays[k][2]];
+					break;
+				}else if(k<4 && i==playersHomes[k][0] && j==playersHomes[k][1])
+				{
+					boardPiece[i][j] = fieldsArr[playersHomes[k][3]][playersHomes[k][2]];
+					break;
+				}else if(k<4 && i==playersHomes[k][0] && j==playersHomes[k][1])
+				{
+					boardPiece[i][j] = fieldsArr[playersHomes[k][3]][playersHomes[k][2]];
+					break;
+				}
+				boardPiece[i][j] = fieldsArr[0][0];
+			}
+			
+			boardPiece[i][j].setPosition(Vector2f(i*sizeOfPiece, j*sizeOfPiece));
+		}
+	}
+	draw(window);
+}
+
+void Board::loadTextures()
+{
+fields.loadFromFile("../textures/field.png");
+	
+	for(int i=0; i<4; i++)
+	{
+		for(int j=0; j<6;j++)
+		{
 			fieldsArr[i][j].setTexture(fields);
 			fieldsArr[i][j].setTextureRect(IntRect(i*50, j*50, 50, 50));
 		}
 	}
-	
-	//setting up path elements
+}
+
+void Board::draw(RenderWindow &window)
+{
+	for (int i = 0; i < ROW_NUMBER_OF_PIECES; i++)
+	{
+		for (int j = 0; j < COLUMN_NUMBER_OF_PIECES; j++)
+			window.draw(boardPiece[i][j]);
+	}
+}
+
+
+
+void Board::set_pathElements()
+{
 	int startingPoint[3] = {3, 6}; 
 	
 	pathElements[0][0] = startingPoint[0];
@@ -65,22 +130,57 @@ Board::Board(float width, float height, RenderWindow &window)
 		}
 		
 	}
-	
-	//setting up starting points
+}
+
+void Board::set_safeFields()
+{
+	for(int i=0; i<4; i++)
+	{
+		pathElements[(i*12)+6][2] = 1;
+		pathElements[(i*12)+6][3] = 1;
+	}
+}
+
+void Board::set_startingPoints()
+{
 	for(int i=0; i<4; i++)
 	{
 		pathElements[(i*12)][2] = i+2;
 		pathElements[(i*12)][3] = 1;
 	}
-	
-	//setting up pre homes & homes
+}
+
+void Board::set_homes()
+{
 	for(int i=0; i<4; i++)
 	{
-		pathElements[((i*12)-3) < 0 ? 48-3 : (i*12)-3][2] = i+2;
-		pathElements[((i*12)-3) < 0 ? 48-3 : (i*12)-3][3] = 2;
+		int d = ((i*12)-3) < 0 ? 48-3 : (i*12)-3;
+		pathElements[d][2] = i+2;
+		pathElements[d][3] = 2;
+		for(int j=0; j<5;j++)
+		{
+			int y = (pathElements[d][1]<8) ? j+1 : ((pathElements[d][1]!=8) ? -j-1 : 0);
+			int x = (pathElements[d][0]<8) ? j+1 : ((pathElements[d][0]!=8) ? -j-1 : 0);
+			if(j<4)
+			{
+				playersHomeWays[(i*4)+j][0] = pathElements[d][0] + x;
+				playersHomeWays[(i*4)+j][1] = pathElements[d][1] + y;
+				playersHomeWays[(i*4)+j][2] = i+2;
+				playersHomeWays[(i*4)+j][3] = 0;
+			}
+			else
+			{
+				playersHomes[i][0] = pathElements[d][0] + x;
+				playersHomes[i][1] = pathElements[d][1] + y;
+				playersHomes[i][2] = i+2;
+				playersHomes[i][3] = 3;
+			}
+		}
 	}
-	
-	//setting up yards
+} 
+
+void Board::set_yards()
+{
 	for(int i=0; i<4;i++)
 	{
 		for(int j=0; j<2;j++){
@@ -103,41 +203,9 @@ Board::Board(float width, float height, RenderWindow &window)
 			}
 		}
 	}
-	
-	
-	for (int i = 0; i < ROW_NUMBER_OF_PIECES; i++)
-	{
-		for (int j = 0; j < COLUMN_NUMBER_OF_PIECES; j++){
-			for(int k=0;k<48;k++)
-			{
-				if(i==pathElements[k][0] && j==pathElements[k][1]){
-					boardPiece[i][j] = fieldsArr[pathElements[k][3]][pathElements[k][2]];
-					break;
-				}
-				else if(k<16 && i==playersYards[k][0] && j==playersYards[k][1]){
-					boardPiece[i][j] = fieldsArr[playersYards[k][3]][playersYards[k][2]];
-					break;
-				}
-					boardPiece[i][j] = fieldsArr[0][0];
-			}
-			
-			boardPiece[i][j].setPosition(Vector2f(i*sizeOfPiece, j*sizeOfPiece));
-			window.draw(boardPiece[i][j]);
-		}
-	}
-	
-	
 }
+	
 
-
-void Board::draw(RenderWindow &window)
-{
-	for (int i = 0; i < ROW_NUMBER_OF_PIECES; i++)
-	{
-		for (int j = 0; j < COLUMN_NUMBER_OF_PIECES; j++)
-			window.draw(boardPiece[i][j]);
-	}
-}
 
 Board::~Board()
 {

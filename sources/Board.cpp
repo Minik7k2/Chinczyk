@@ -1,6 +1,6 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
-#include "Board.h"
+#include "Board.hpp"
 #include <string>
 
 using namespace std;
@@ -131,6 +131,7 @@ void Board::set_pathElements()
 		}
 		
 	}
+	
 }
 
 void Board::set_safeFields()
@@ -148,6 +149,8 @@ void Board::set_startingPoints()
 	{
 		pathElements[(i*12)][2] = i+2;
 		pathElements[(i*12)][3] = 1;
+		playersStartingPoints[i][0] = pathElements[(i*12)][0];
+		playersStartingPoints[i][1] = pathElements[(i*12)][1];
 	}
 }
 

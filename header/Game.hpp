@@ -1,8 +1,8 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 #include <iostream>
-#include "Board.h"
-#include "Pawn.h"
+#include "Board.hpp"
+#include "Pawn.hpp"
 
 
 using namespace sf;

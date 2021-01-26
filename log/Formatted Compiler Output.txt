@@ -9629,3 +9629,2112 @@
 36	47	L:\GITHUB\Chinczyk\header\Board.h	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
 3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
 22	18	L:\GITHUB\Chinczyk\header\Pawn.h	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 18:41:34: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+4	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Error] Board.h: No such file or directory
+			compilation terminated.
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+26.01.2021 18:41:42: Appending to log...
+
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+4	19	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Error] Board.h: No such file or directory
+			compilation terminated.
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+26.01.2021 18:41:54: Appending to log...
+
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+2	12	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] extra tokens at end of #include directive
+2	10	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Error] empty filename in #include
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	18	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+26.01.2021 18:41:58: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	18	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	22	L:\GITHUB\Chinczyk\sources\main.cpp	[Error] MainMenu.h: No such file or directory
+			compilation terminated.
+34		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/main.o' failed
+
+26.01.2021 18:42:03: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\sources\main.cpp	In file included from sources/main.cpp
+3	18	L:\GITHUB\Chinczyk\header\MainMenu.hpp	[Error] Game.h: No such file or directory
+			compilation terminated.
+34		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/main.o' failed
+
+26.01.2021 18:42:09: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+22	18	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\main.cpp	In file included from sources/main.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\header\MainMenu.hpp	                 from L:/GITHUB/Chinczyk/header/MainMenu.hpp
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\header\MainMenu.hpp	                 from L:/GITHUB/Chinczyk/header/MainMenu.hpp
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+22	18	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In file included from sources/MainMenu.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In constructor 'MainMenu::MainMenu(float, float)':
+16	28	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+23	29	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+29	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+35	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+41	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::MoveUp()':
+64	48	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+66	46	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::MoveDown()':
+74	48	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+76	46	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::CheckCursorFocus(float, float)':
+91	49	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+93	47	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+22	18	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 19:18:53: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+31	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\header\Pawn.hpp	In member function 'void Pawn::checkIfAbleToMove()':
+19	34	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Error] return-statement with a value, in function returning 'void' [-fpermissive]
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	At global scope:
+40	6	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] prototype for 'void Pawn::move()' does not match any in class 'Pawn'
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+17	7	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Error] candidate is: void Pawn::move(int)
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+26.01.2021 19:19:09: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+31	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	6	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] prototype for 'void Pawn::move()' does not match any in class 'Pawn'
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+17	7	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Error] candidate is: void Pawn::move(int)
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+26.01.2021 19:31:39: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+33	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\header\Pawn.hpp	In member function 'void Game::createPawns(sf::RenderWindow&, Board&)':
+28	11	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Error] 'sf::Vector2f Pawn::startingPosition' is private
+35	19	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] within this context
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+26.01.2021 19:31:57: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+33	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+33	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 19:37:55: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+33	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 19:38:11: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+33	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::createPawns(sf::RenderWindow&, Board&)':
+41	28	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] 'class sf::Sprite' has no member named 'highlightOn'
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+26.01.2021 19:38:32: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+33	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 19:39:01: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+33	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::createPawns(sf::RenderWindow&, Board&)':
+41	17	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] expected unqualified-id before '.' token
+41	45	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] 'pawnColor' was not declared in this scope
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+26.01.2021 19:39:03: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+33	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::createPawns(sf::RenderWindow&, Board&)':
+41	17	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] 'class Pawn' has no member named 'setTextureRect'
+41	44	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] 'pawnColor' was not declared in this scope
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+26.01.2021 19:39:16: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+33	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::createPawns(sf::RenderWindow&, Board&)':
+41	17	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] 'class Pawn' has no member named 'setTextureRect'
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+32	6	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Error] 'int Pawn::pawnColor' is private
+41	59	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] within this context
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+26.01.2021 19:39:36: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+33	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\header\Pawn.hpp	In member function 'void Game::createPawns(sf::RenderWindow&, Board&)':
+32	6	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Error] 'int Pawn::pawnColor' is private
+41	70	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] within this context
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+26.01.2021 19:39:53: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+33	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 19:40:13: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+33	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 19:40:57: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+33	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 19:42:22: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+33	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 19:43:27: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+33	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+33	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 19:43:42: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+33	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 19:50:11: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+33	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 19:53:08: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+33	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 19:54:57: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+33	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 19:55:35: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+33	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+33	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::highlightOn()':
+44	7	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] no matching function for call to 'Pawn::draw()'
+44	7	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Note] candidate is:
+14	6	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Note] void Pawn::draw(sf::RenderWindow&)
+14	6	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Note] candidate expects 1 argument, 0 provided
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+26.01.2021 19:56:57: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+35	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::createPawns(sf::RenderWindow&, Board&)':
+34	26	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] no match for 'operator=' (operand types are 'sf::RenderWindow' and 'sf::RenderWindow*')
+34	26	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] candidate is:
+47	0	C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+44	25	C:\SFML\SFML-2.4.2\include\SFML\Graphics\RenderWindow.hpp	[Note] sf::RenderWindow& sf::RenderWindow::operator=(const sf::RenderWindow&)
+44	25	C:\SFML\SFML-2.4.2\include\SFML\Graphics\RenderWindow.hpp	[Note] no known conversion for argument 1 from 'sf::RenderWindow*' to 'const sf::RenderWindow&'
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+26.01.2021 19:57:13: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+35	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::createPawns(sf::RenderWindow&, Board&)':
+34	26	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] no match for 'operator=' (operand types are 'sf::RenderWindow' and 'sf::RenderWindow*')
+34	26	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] candidate is:
+47	0	C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+44	25	C:\SFML\SFML-2.4.2\include\SFML\Graphics\RenderWindow.hpp	[Note] sf::RenderWindow& sf::RenderWindow::operator=(const sf::RenderWindow&)
+44	25	C:\SFML\SFML-2.4.2\include\SFML\Graphics\RenderWindow.hpp	[Note] no known conversion for argument 1 from 'sf::RenderWindow*' to 'const sf::RenderWindow&'
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+26.01.2021 19:57:38: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+35	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	0	C:\SFML\SFML-2.4.2\include\SFML\System\FileInputStream.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/System/FileInputStream.hpp
+35		C:\SFML\SFML-2.4.2\include\SFML\System.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+		C:\SFML\SFML-2.4.2\include\SFML\System\NonCopyable.hpp	In member function 'sf::Window& sf::Window::operator=(const sf::Window&)':
+79	18	C:\SFML\SFML-2.4.2\include\SFML\System\NonCopyable.hpp	[Error] 'sf::NonCopyable& sf::NonCopyable::operator=(const sf::NonCopyable&)' is private
+42	0	C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+57	23	C:\SFML\SFML-2.4.2\include\SFML\Window\Window.hpp	[Error] within this context
+47	0	C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+		C:\SFML\SFML-2.4.2\include\SFML\Graphics\RenderWindow.hpp	In member function 'sf::RenderWindow& sf::RenderWindow::operator=(const sf::RenderWindow&)':
+44	25	C:\SFML\SFML-2.4.2\include\SFML\Graphics\RenderWindow.hpp	[Note] synthesized method 'sf::Window& sf::Window::operator=(const sf::Window&)' first required here
+34	0	C:\SFML\SFML-2.4.2\include\SFML\System\FileInputStream.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/System/FileInputStream.hpp
+35		C:\SFML\SFML-2.4.2\include\SFML\System.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+		C:\SFML\SFML-2.4.2\include\SFML\System\NonCopyable.hpp	In member function 'sf::RenderTarget& sf::RenderTarget::operator=(const sf::RenderTarget&)':
+79	18	C:\SFML\SFML-2.4.2\include\SFML\System\NonCopyable.hpp	[Error] 'sf::NonCopyable& sf::NonCopyable::operator=(const sf::NonCopyable&)' is private
+45	0	C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+51	25	C:\SFML\SFML-2.4.2\include\SFML\Graphics\RenderTarget.hpp	[Error] within this context
+47	0	C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+		C:\SFML\SFML-2.4.2\include\SFML\Graphics\RenderWindow.hpp	In member function 'sf::RenderWindow& sf::RenderWindow::operator=(const sf::RenderWindow&)':
+44	25	C:\SFML\SFML-2.4.2\include\SFML\Graphics\RenderWindow.hpp	[Note] synthesized method 'sf::RenderTarget& sf::RenderTarget::operator=(const sf::RenderTarget&)' first required here
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::createPawns(sf::RenderWindow&, Board&)':
+34	26	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] synthesized method 'sf::RenderWindow& sf::RenderWindow::operator=(const sf::RenderWindow&)' first required here
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+26.01.2021 19:57:48: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+35	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::createPawns(sf::RenderWindow&, Board&)':
+34	28	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] no match for 'operator*' (operand type is 'sf::RenderWindow')
+34	28	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] candidates are:
+32	0	C:\SFML\SFML-2.4.2\include\SFML\System\Clock.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Clock.hpp
+33		C:\SFML\SFML-2.4.2\include\SFML\System.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+292	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] sf::Time sf::operator*(sf::Time, float)
+292	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] candidate expects 2 arguments, 1 provided
+304	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] sf::Time sf::operator*(sf::Time, sf::Int64)
+304	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] candidate expects 2 arguments, 1 provided
+316	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] sf::Time sf::operator*(float, sf::Time)
+316	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] candidate expects 2 arguments, 1 provided
+328	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] sf::Time sf::operator*(sf::Int64, sf::Time)
+328	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] candidate expects 2 arguments, 1 provided
+250	0	C:\SFML\SFML-2.4.2\include\SFML\System\Vector2.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Vector2.hpp
+48		C:\SFML\SFML-2.4.2\include\SFML\System.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+104	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector2.inl	[Note] template<class T> sf::Vector2<T> sf::operator*(const sf::Vector2<T>&, T)
+104	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector2.inl	[Note] template argument deduction/substitution failed:
+34	29	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] 'sf::RenderWindow' is not derived from 'const sf::Vector2<T>'
+250	0	C:\SFML\SFML-2.4.2\include\SFML\System\Vector2.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Vector2.hpp
+48		C:\SFML\SFML-2.4.2\include\SFML\System.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+112	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector2.inl	[Note] template<class T> sf::Vector2<T> sf::operator*(T, const sf::Vector2<T>&)
+112	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector2.inl	[Note] template argument deduction/substitution failed:
+34	29	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] candidate expects 2 arguments, 1 provided
+252	0	C:\SFML\SFML-2.4.2\include\SFML\System\Vector3.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Vector3.hpp
+49		C:\SFML\SFML-2.4.2\include\SFML\System.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+109	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector3.inl	[Note] template<class T> sf::Vector3<T> sf::operator*(const sf::Vector3<T>&, T)
+109	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector3.inl	[Note] template argument deduction/substitution failed:
+34	29	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] 'sf::RenderWindow' is not derived from 'const sf::Vector3<T>'
+252	0	C:\SFML\SFML-2.4.2\include\SFML\System\Vector3.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Vector3.hpp
+49		C:\SFML\SFML-2.4.2\include\SFML\System.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+117	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector3.inl	[Note] template<class T> sf::Vector3<T> sf::operator*(T, const sf::Vector3<T>&)
+117	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector3.inl	[Note] template argument deduction/substitution failed:
+34	29	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] candidate expects 2 arguments, 1 provided
+33	0	C:\SFML\SFML-2.4.2\include\SFML\Graphics\RenderStates.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/Graphics/RenderStates.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics\Drawable.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/Drawable.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics\Shape.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/Shape.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics\CircleShape.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/CircleShape.hpp
+34		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+376	29	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Transform.hpp	[Note] sf::Transform sf::operator*(const sf::Transform&, const sf::Transform&)
+376	29	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Transform.hpp	[Note] candidate expects 2 arguments, 1 provided
+404	28	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Transform.hpp	[Note] sf::Vector2f sf::operator*(const sf::Transform&, const Vector2f&)
+404	28	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Transform.hpp	[Note] candidate expects 2 arguments, 1 provided
+32	0	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Vertex.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/Graphics/Vertex.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics\VertexArray.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/VertexArray.hpp
+34		C:\SFML\SFML-2.4.2\include\SFML\Graphics\Shape.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/Shape.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics\CircleShape.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/CircleShape.hpp
+34		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+175	25	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Color.hpp	[Note] sf::Color sf::operator*(const sf::Color&, const sf::Color&)
+175	25	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Color.hpp	[Note] candidate expects 2 arguments, 1 provided
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+26.01.2021 19:58:13: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+35	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+35	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In constructor 'Pawn::Pawn()':
+9	1	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] uninitialized reference member in 'class sf::RenderWindow&' [-fpermissive]
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+24	16	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Note] 'sf::RenderWindow& Pawn::window' should be initialized
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::highlightOn()':
+44	7	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] no matching function for call to 'Pawn::draw()'
+44	7	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Note] candidate is:
+14	6	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Note] void Pawn::draw(sf::RenderWindow&)
+14	6	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Note] candidate expects 1 argument, 0 provided
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+26.01.2021 19:58:23: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+34	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::highlightOn()':
+44	7	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] no matching function for call to 'Pawn::draw()'
+44	7	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Note] candidate is:
+14	6	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Note] void Pawn::draw(sf::RenderWindow&)
+14	6	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Note] candidate expects 1 argument, 0 provided
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+26.01.2021 19:59:02: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+34	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+34	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 20:02:52: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+34	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::loadTexture()':
+30	35	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] no matching function for call to 'sf::Sprite::setTexture(sf::Texture*&)'
+30	35	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Note] candidate is:
+50	0	C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+99	10	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Sprite.hpp	[Note] void sf::Sprite::setTexture(const sf::Texture&, bool)
+99	10	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Sprite.hpp	[Note] no known conversion for argument 1 from 'sf::Texture*' to 'const sf::Texture&'
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+26.01.2021 20:03:02: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+34	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 20:03:15: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+34	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 20:03:44: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+34	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	29	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::loadTexture()':
+30	35	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] no matching function for call to 'sf::Sprite::setTexture(sf::Texture*&)'
+30	35	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Note] candidate is:
+50	0	C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+99	10	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Sprite.hpp	[Note] void sf::Sprite::setTexture(const sf::Texture&, bool)
+99	10	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Sprite.hpp	[Note] no known conversion for argument 1 from 'sf::Texture*' to 'const sf::Texture&'
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+26.01.2021 20:03:59: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+34	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	29	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::loadTexture()':
+30	35	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] no matching function for call to 'sf::Sprite::setTexture(sf::Texture*&)'
+30	35	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Note] candidate is:
+50	0	C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+99	10	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Sprite.hpp	[Note] void sf::Sprite::setTexture(const sf::Texture&, bool)
+99	10	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Sprite.hpp	[Note] no known conversion for argument 1 from 'sf::Texture*' to 'const sf::Texture&'
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+26.01.2021 20:04:53: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+34	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	29	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::loadTexture()':
+30	36	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] request for member 'getTexture' in '((Pawn*)this)->Pawn::pawnTexture', which is of pointer type 'sf::Texture*' (maybe you meant to use '->' ?)
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+26.01.2021 20:05:05: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+34	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	29	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::loadTexture()':
+30	37	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] 'class sf::Texture' has no member named 'getTexture'
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+26.01.2021 20:08:03: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+22	27	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	29	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::draw(sf::RenderWindow&)':
+16	24	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] no matching function for call to 'sf::RenderWindow::draw(sf::Sprite*&)'
+16	24	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Note] candidates are:
+45	0	C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+236	10	C:\SFML\SFML-2.4.2\include\SFML\Graphics\RenderTarget.hpp	[Note] void sf::RenderTarget::draw(const sf::Drawable&, const sf::RenderStates&)
+236	10	C:\SFML\SFML-2.4.2\include\SFML\Graphics\RenderTarget.hpp	[Note] no known conversion for argument 1 from 'sf::Sprite*' to 'const sf::Drawable&'
+247	10	C:\SFML\SFML-2.4.2\include\SFML\Graphics\RenderTarget.hpp	[Note] void sf::RenderTarget::draw(const sf::Vertex*, std::size_t, sf::PrimitiveType, const sf::RenderStates&)
+247	10	C:\SFML\SFML-2.4.2\include\SFML\Graphics\RenderTarget.hpp	[Note] candidate expects 4 arguments, 1 provided
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::loadTexture()':
+30	13	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] request for member 'setTexture' in '((Pawn*)this)->Pawn::pawnFigure', which is of pointer type 'sf::Sprite*' (maybe you meant to use '->' ?)
+30	37	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] 'class sf::Texture' has no member named 'getTexture'
+31	13	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] request for member 'setTextureRect' in '((Pawn*)this)->Pawn::pawnFigure', which is of pointer type 'sf::Sprite*' (maybe you meant to use '->' ?)
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::setOnStart()':
+36	13	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] request for member 'setPosition' in '((Pawn*)this)->Pawn::pawnFigure', which is of pointer type 'sf::Sprite*' (maybe you meant to use '->' ?)
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::highlightOn(sf::RenderWindow&)':
+42	13	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] request for member 'setTextureRect' in '((Pawn*)this)->Pawn::pawnFigure', which is of pointer type 'sf::Sprite*' (maybe you meant to use '->' ?)
+43	13	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] request for member 'move' in '((Pawn*)this)->Pawn::pawnFigure', which is of pointer type 'sf::Sprite*' (maybe you meant to use '->' ?)
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::highlightOff()':
+48	13	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] request for member 'setTextureRect' in '((Pawn*)this)->Pawn::pawnFigure', which is of pointer type 'sf::Sprite*' (maybe you meant to use '->' ?)
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+26.01.2021 20:08:15: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+22	27	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	29	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::loadTexture()':
+30	13	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] request for member 'setTexture' in '((Pawn*)this)->Pawn::pawnFigure', which is of pointer type 'sf::Sprite*' (maybe you meant to use '->' ?)
+30	37	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] 'class sf::Texture' has no member named 'getTexture'
+31	13	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] request for member 'setTextureRect' in '((Pawn*)this)->Pawn::pawnFigure', which is of pointer type 'sf::Sprite*' (maybe you meant to use '->' ?)
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::setOnStart()':
+36	13	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] request for member 'setPosition' in '((Pawn*)this)->Pawn::pawnFigure', which is of pointer type 'sf::Sprite*' (maybe you meant to use '->' ?)
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::highlightOn(sf::RenderWindow&)':
+42	13	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] request for member 'setTextureRect' in '((Pawn*)this)->Pawn::pawnFigure', which is of pointer type 'sf::Sprite*' (maybe you meant to use '->' ?)
+43	13	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] request for member 'move' in '((Pawn*)this)->Pawn::pawnFigure', which is of pointer type 'sf::Sprite*' (maybe you meant to use '->' ?)
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::highlightOff()':
+48	13	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] request for member 'setTextureRect' in '((Pawn*)this)->Pawn::pawnFigure', which is of pointer type 'sf::Sprite*' (maybe you meant to use '->' ?)
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+26.01.2021 20:09:19: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+22	27	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+34	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+35	29	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::draw(sf::RenderWindow&)':
+16	24	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] no matching function for call to 'sf::RenderWindow::draw(sf::Sprite*&)'
+16	24	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Note] candidates are:
+45	0	C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+236	10	C:\SFML\SFML-2.4.2\include\SFML\Graphics\RenderTarget.hpp	[Note] void sf::RenderTarget::draw(const sf::Drawable&, const sf::RenderStates&)
+236	10	C:\SFML\SFML-2.4.2\include\SFML\Graphics\RenderTarget.hpp	[Note] no known conversion for argument 1 from 'sf::Sprite*' to 'const sf::Drawable&'
+247	10	C:\SFML\SFML-2.4.2\include\SFML\Graphics\RenderTarget.hpp	[Note] void sf::RenderTarget::draw(const sf::Vertex*, std::size_t, sf::PrimitiveType, const sf::RenderStates&)
+247	10	C:\SFML\SFML-2.4.2\include\SFML\Graphics\RenderTarget.hpp	[Note] candidate expects 4 arguments, 1 provided
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::loadTexture()':
+27	18	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] request for member 'loadFromFile' in '((Pawn*)this)->Pawn::pawnTexture', which is of pointer type 'sf::Texture*' (maybe you meant to use '->' ?)
+30	13	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] request for member 'setTexture' in '((Pawn*)this)->Pawn::pawnFigure', which is of pointer type 'sf::Sprite*' (maybe you meant to use '->' ?)
+31	13	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] request for member 'setTextureRect' in '((Pawn*)this)->Pawn::pawnFigure', which is of pointer type 'sf::Sprite*' (maybe you meant to use '->' ?)
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::setOnStart()':
+36	13	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] request for member 'setPosition' in '((Pawn*)this)->Pawn::pawnFigure', which is of pointer type 'sf::Sprite*' (maybe you meant to use '->' ?)
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::highlightOn(sf::RenderWindow&)':
+42	13	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] request for member 'setTextureRect' in '((Pawn*)this)->Pawn::pawnFigure', which is of pointer type 'sf::Sprite*' (maybe you meant to use '->' ?)
+43	13	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] request for member 'move' in '((Pawn*)this)->Pawn::pawnFigure', which is of pointer type 'sf::Sprite*' (maybe you meant to use '->' ?)
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::highlightOff()':
+48	13	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] request for member 'setTextureRect' in '((Pawn*)this)->Pawn::pawnFigure', which is of pointer type 'sf::Sprite*' (maybe you meant to use '->' ?)
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+26.01.2021 20:09:35: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+34	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 20:14:51: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Board.cpp	In member function 'void Board::set_startingPoints()':
+151	3	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] 'playerStartingPoints' was not declared in this scope
+28		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Board.o' failed
+
+26.01.2021 20:15:38: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Board.cpp	In member function 'void Board::set_startingPoints()':
+151	3	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] 'playerStartingPoints' was not declared in this scope
+28		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Board.o' failed
+
+26.01.2021 20:17:15: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Board.cpp	In member function 'void Board::set_startingPoints()':
+151	3	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] 'playerStartingPoints' was not declared in this scope
+28		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Board.o' failed
+
+26.01.2021 20:17:44: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Board.cpp	In member function 'void Board::set_startingPoints()':
+151	3	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] 'playerStartingPoints' was not declared in this scope
+28		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Board.o' failed
+
+26.01.2021 20:18:03: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+34	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\header\Pawn.hpp	In member function 'void Game::createPawns(sf::RenderWindow&, Board&)':
+27	11	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Error] 'sf::Vector2f Pawn::startingPoint' is private
+37	19	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] within this context
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+26.01.2021 20:18:17: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+35	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+35	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 20:19:45: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+35	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 20:20:24: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+35	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 20:24:47: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 20:25:22: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 20:26:06: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 20:58:39: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::createPawns(sf::RenderWindow&, Board&)':
+34	20	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] 'board' cannot be used as a member pointer, since it is of type 'Board'
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+26.01.2021 20:58:44: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::createPawns(sf::RenderWindow&, Board&)':
+34	20	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] 'board' cannot be used as a member pointer, since it is of type 'Board'
+34	28	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] no match for 'operator*' (operand type is 'Board')
+34	28	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] candidates are:
+32	0	C:\SFML\SFML-2.4.2\include\SFML\System\Clock.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Clock.hpp
+33		C:\SFML\SFML-2.4.2\include\SFML\System.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+292	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] sf::Time sf::operator*(sf::Time, float)
+292	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] candidate expects 2 arguments, 1 provided
+304	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] sf::Time sf::operator*(sf::Time, sf::Int64)
+304	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] candidate expects 2 arguments, 1 provided
+316	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] sf::Time sf::operator*(float, sf::Time)
+316	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] candidate expects 2 arguments, 1 provided
+328	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] sf::Time sf::operator*(sf::Int64, sf::Time)
+328	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] candidate expects 2 arguments, 1 provided
+250	0	C:\SFML\SFML-2.4.2\include\SFML\System\Vector2.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Vector2.hpp
+48		C:\SFML\SFML-2.4.2\include\SFML\System.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+104	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector2.inl	[Note] template<class T> sf::Vector2<T> sf::operator*(const sf::Vector2<T>&, T)
+104	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector2.inl	[Note] template argument deduction/substitution failed:
+34	29	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] 'Board' is not derived from 'const sf::Vector2<T>'
+250	0	C:\SFML\SFML-2.4.2\include\SFML\System\Vector2.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Vector2.hpp
+48		C:\SFML\SFML-2.4.2\include\SFML\System.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+112	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector2.inl	[Note] template<class T> sf::Vector2<T> sf::operator*(T, const sf::Vector2<T>&)
+112	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector2.inl	[Note] template argument deduction/substitution failed:
+34	29	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] candidate expects 2 arguments, 1 provided
+252	0	C:\SFML\SFML-2.4.2\include\SFML\System\Vector3.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Vector3.hpp
+49		C:\SFML\SFML-2.4.2\include\SFML\System.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+109	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector3.inl	[Note] template<class T> sf::Vector3<T> sf::operator*(const sf::Vector3<T>&, T)
+109	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector3.inl	[Note] template argument deduction/substitution failed:
+34	29	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] 'Board' is not derived from 'const sf::Vector3<T>'
+252	0	C:\SFML\SFML-2.4.2\include\SFML\System\Vector3.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Vector3.hpp
+49		C:\SFML\SFML-2.4.2\include\SFML\System.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+117	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector3.inl	[Note] template<class T> sf::Vector3<T> sf::operator*(T, const sf::Vector3<T>&)
+117	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector3.inl	[Note] template argument deduction/substitution failed:
+34	29	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] candidate expects 2 arguments, 1 provided
+33	0	C:\SFML\SFML-2.4.2\include\SFML\Graphics\RenderStates.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/Graphics/RenderStates.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics\Drawable.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/Drawable.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics\Shape.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/Shape.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics\CircleShape.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/CircleShape.hpp
+34		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+376	29	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Transform.hpp	[Note] sf::Transform sf::operator*(const sf::Transform&, const sf::Transform&)
+376	29	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Transform.hpp	[Note] candidate expects 2 arguments, 1 provided
+404	28	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Transform.hpp	[Note] sf::Vector2f sf::operator*(const sf::Transform&, const Vector2f&)
+404	28	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Transform.hpp	[Note] candidate expects 2 arguments, 1 provided
+32	0	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Vertex.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/Graphics/Vertex.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics\VertexArray.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/VertexArray.hpp
+34		C:\SFML\SFML-2.4.2\include\SFML\Graphics\Shape.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/Shape.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics\CircleShape.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/CircleShape.hpp
+34		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+175	25	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Color.hpp	[Note] sf::Color sf::operator*(const sf::Color&, const sf::Color&)
+175	25	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Color.hpp	[Note] candidate expects 2 arguments, 1 provided
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+26.01.2021 20:58:57: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::createPawns(sf::RenderWindow&, Board&)':
+34	20	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] 'board' cannot be used as a member pointer, since it is of type 'Board'
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+26.01.2021 20:59:15: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+23	21	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	21	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Error] no matching function for call to 'Board::Board()'
+23	21	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Note] candidates are:
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+11	2	L:\GITHUB\Chinczyk\header\Board.hpp	[Note] Board::Board(sf::RenderWindow&)
+11	2	L:\GITHUB\Chinczyk\header\Board.hpp	[Note] candidate expects 1 argument, 0 provided
+8	7	L:\GITHUB\Chinczyk\header\Board.hpp	[Note] Board::Board(const Board&)
+8	7	L:\GITHUB\Chinczyk\header\Board.hpp	[Note] candidate expects 1 argument, 0 provided
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::createPawns(sf::RenderWindow&, Board&)':
+34	20	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] 'board' cannot be used as a member pointer, since it is of type 'Board'
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+26.01.2021 20:59:33: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+23	33	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	27	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Error] 'window' was not declared in this scope
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::createPawns(sf::RenderWindow&, Board&)':
+34	20	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] 'board' cannot be used as a member pointer, since it is of type 'Board'
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+26.01.2021 21:22:11: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::createPawns(sf::RenderWindow&, Board&)':
+34	19	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] 'class Pawn' has no member named 'board'
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+26.01.2021 21:22:16: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::changeFieldGroup(int)':
+54	15	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] 'i' was not declared in this scope
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	At global scope:
+57	38	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] no 'int Pawn::locationOnPath(Board&)' member function declared in class 'Pawn'
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+26.01.2021 21:22:22: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+57	38	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] no 'int Pawn::locationOnPath(Board&)' member function declared in class 'Pawn'
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+26.01.2021 21:22:28: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+57	26	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] no 'int Pawn::locationOnPath()' member function declared in class 'Pawn'
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+26.01.2021 21:22:33: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:22:59: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:23:28: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:26:54: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+17	39	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Error] expected ',' or '...' before 'path'
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+26.01.2021 21:27:07: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+17	42	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Error] expected ')' before 'path'
+17	39	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Error] expected ';' at end of member declaration
+17	42	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Error] 'path' does not name a type
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+26.01.2021 21:27:24: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+59	44	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] expected ',' or '...' before 'path'
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::move(int, int (*)[4])':
+69	35	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] 'path' was not declared in this scope
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+26.01.2021 21:27:31: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:29:49: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:30:27: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:31:10: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:31:36: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:32:31: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:32:53: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:33:04: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:33:52: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:34:48: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:35:01: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:35:34: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:36:12: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:36:33: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:37:06: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:37:21: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::move(int, Board&)':
+69	15	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] expected primary-expression before ';' token
+70	58	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] no matching function for call to 'sf::Sprite::setPosition(int [4])'
+70	58	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Note] candidates are:
+33	0	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Shape.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/Graphics/Shape.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics\CircleShape.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/CircleShape.hpp
+34		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+70	10	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Transformable.hpp	[Note] void sf::Transformable::setPosition(float, float)
+70	10	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Transformable.hpp	[Note] candidate expects 2 arguments, 1 provided
+84	10	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Transformable.hpp	[Note] void sf::Transformable::setPosition(const Vector2f&)
+84	10	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Transformable.hpp	[Note] no known conversion for argument 1 from 'int [4]' to 'const Vector2f& {aka const sf::Vector2<float>&}'
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+26.01.2021 21:37:37: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:37:48: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:38:47: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:39:48: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:40:24: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::move(int, Board&)':
+69	15	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] 'pathElements' was not declared in this scope
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+26.01.2021 21:40:32: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:40:51: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:41:08: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:41:37: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:41:51: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:42:04: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:42:26: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:42:42: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:42:59: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Board.cpp	In member function 'void Board::set_pathElements()':
+134	14	L:\GITHUB\Chinczyk\sources\Board.cpp	[Error] 'board' was not declared in this scope
+28		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Board.o' failed
+
+26.01.2021 21:43:07: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:43:29: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::move(int, Board&)':
+70	20	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] base operand of '->' has non-pointer type 'Board'
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+26.01.2021 21:43:48: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::move(int, Board*)':
+70	21	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] request for member 'pathElements' in 'board', which is of pointer type 'Board*' (maybe you meant to use '->' ?)
+71	32	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] request for member 'getPosition' in 'board', which is of pointer type 'Board*' (maybe you meant to use '->' ?)
+71	50	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] request for member 'pathElements' in 'board', which is of pointer type 'Board*' (maybe you meant to use '->' ?)
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+26.01.2021 21:43:53: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::move(int, Board*)':
+71	32	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] request for member 'getPosition' in 'board', which is of pointer type 'Board*' (maybe you meant to use '->' ?)
+71	50	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Error] request for member 'pathElements' in 'board', which is of pointer type 'Board*' (maybe you meant to use '->' ?)
+40		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Pawn.o' failed
+
+26.01.2021 21:44:01: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\object\Game.o	Game.cpp:(.text+0x2e7): undefined reference to `Pawn::move(int, Board&)'
+		L:\GITHUB\Chinczyk\object\Game.o	Game.cpp:(.text+0x305): undefined reference to `Pawn::move(int, Board&)'
+		L:\GITHUB\Chinczyk\collect2.exe	[Error] ld returned 1 exit status
+25		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'bin/Chinol.exe' failed
+
+26.01.2021 21:44:21: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\object\Game.o	Game.cpp:(.text+0x2e7): undefined reference to `Pawn::move(int, Board&)'
+		L:\GITHUB\Chinczyk\object\Game.o	Game.cpp:(.text+0x305): undefined reference to `Pawn::move(int, Board&)'
+		L:\GITHUB\Chinczyk\collect2.exe	[Error] ld returned 1 exit status
+25		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'bin/Chinol.exe' failed
+
+26.01.2021 21:44:46: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::createPawns(sf::RenderWindow&, Board&)':
+41	26	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] no match for 'operator*' (operand type is 'Board')
+41	26	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] candidates are:
+32	0	C:\SFML\SFML-2.4.2\include\SFML\System\Clock.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Clock.hpp
+33		C:\SFML\SFML-2.4.2\include\SFML\System.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+292	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] sf::Time sf::operator*(sf::Time, float)
+292	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] candidate expects 2 arguments, 1 provided
+304	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] sf::Time sf::operator*(sf::Time, sf::Int64)
+304	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] candidate expects 2 arguments, 1 provided
+316	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] sf::Time sf::operator*(float, sf::Time)
+316	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] candidate expects 2 arguments, 1 provided
+328	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] sf::Time sf::operator*(sf::Int64, sf::Time)
+328	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] candidate expects 2 arguments, 1 provided
+250	0	C:\SFML\SFML-2.4.2\include\SFML\System\Vector2.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Vector2.hpp
+48		C:\SFML\SFML-2.4.2\include\SFML\System.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+104	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector2.inl	[Note] template<class T> sf::Vector2<T> sf::operator*(const sf::Vector2<T>&, T)
+104	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector2.inl	[Note] template argument deduction/substitution failed:
+41	27	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] 'Board' is not derived from 'const sf::Vector2<T>'
+250	0	C:\SFML\SFML-2.4.2\include\SFML\System\Vector2.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Vector2.hpp
+48		C:\SFML\SFML-2.4.2\include\SFML\System.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+112	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector2.inl	[Note] template<class T> sf::Vector2<T> sf::operator*(T, const sf::Vector2<T>&)
+112	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector2.inl	[Note] template argument deduction/substitution failed:
+41	27	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] candidate expects 2 arguments, 1 provided
+252	0	C:\SFML\SFML-2.4.2\include\SFML\System\Vector3.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Vector3.hpp
+49		C:\SFML\SFML-2.4.2\include\SFML\System.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+109	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector3.inl	[Note] template<class T> sf::Vector3<T> sf::operator*(const sf::Vector3<T>&, T)
+109	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector3.inl	[Note] template argument deduction/substitution failed:
+41	27	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] 'Board' is not derived from 'const sf::Vector3<T>'
+252	0	C:\SFML\SFML-2.4.2\include\SFML\System\Vector3.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Vector3.hpp
+49		C:\SFML\SFML-2.4.2\include\SFML\System.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+117	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector3.inl	[Note] template<class T> sf::Vector3<T> sf::operator*(T, const sf::Vector3<T>&)
+117	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector3.inl	[Note] template argument deduction/substitution failed:
+41	27	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] candidate expects 2 arguments, 1 provided
+33	0	C:\SFML\SFML-2.4.2\include\SFML\Graphics\RenderStates.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/Graphics/RenderStates.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics\Drawable.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/Drawable.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics\Shape.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/Shape.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics\CircleShape.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/CircleShape.hpp
+34		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+376	29	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Transform.hpp	[Note] sf::Transform sf::operator*(const sf::Transform&, const sf::Transform&)
+376	29	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Transform.hpp	[Note] candidate expects 2 arguments, 1 provided
+404	28	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Transform.hpp	[Note] sf::Vector2f sf::operator*(const sf::Transform&, const Vector2f&)
+404	28	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Transform.hpp	[Note] candidate expects 2 arguments, 1 provided
+32	0	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Vertex.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/Graphics/Vertex.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics\VertexArray.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/VertexArray.hpp
+34		C:\SFML\SFML-2.4.2\include\SFML\Graphics\Shape.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/Shape.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics\CircleShape.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/CircleShape.hpp
+34		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+175	25	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Color.hpp	[Note] sf::Color sf::operator*(const sf::Color&, const sf::Color&)
+175	25	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Color.hpp	[Note] candidate expects 2 arguments, 1 provided
+42	26	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] no match for 'operator*' (operand type is 'Board')
+42	26	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] candidates are:
+32	0	C:\SFML\SFML-2.4.2\include\SFML\System\Clock.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Clock.hpp
+33		C:\SFML\SFML-2.4.2\include\SFML\System.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+292	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] sf::Time sf::operator*(sf::Time, float)
+292	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] candidate expects 2 arguments, 1 provided
+304	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] sf::Time sf::operator*(sf::Time, sf::Int64)
+304	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] candidate expects 2 arguments, 1 provided
+316	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] sf::Time sf::operator*(float, sf::Time)
+316	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] candidate expects 2 arguments, 1 provided
+328	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] sf::Time sf::operator*(sf::Int64, sf::Time)
+328	22	C:\SFML\SFML-2.4.2\include\SFML\System\Time.hpp	[Note] candidate expects 2 arguments, 1 provided
+250	0	C:\SFML\SFML-2.4.2\include\SFML\System\Vector2.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Vector2.hpp
+48		C:\SFML\SFML-2.4.2\include\SFML\System.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+104	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector2.inl	[Note] template<class T> sf::Vector2<T> sf::operator*(const sf::Vector2<T>&, T)
+104	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector2.inl	[Note] template argument deduction/substitution failed:
+42	27	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] 'Board' is not derived from 'const sf::Vector2<T>'
+250	0	C:\SFML\SFML-2.4.2\include\SFML\System\Vector2.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Vector2.hpp
+48		C:\SFML\SFML-2.4.2\include\SFML\System.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+112	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector2.inl	[Note] template<class T> sf::Vector2<T> sf::operator*(T, const sf::Vector2<T>&)
+112	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector2.inl	[Note] template argument deduction/substitution failed:
+42	27	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] candidate expects 2 arguments, 1 provided
+252	0	C:\SFML\SFML-2.4.2\include\SFML\System\Vector3.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Vector3.hpp
+49		C:\SFML\SFML-2.4.2\include\SFML\System.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+109	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector3.inl	[Note] template<class T> sf::Vector3<T> sf::operator*(const sf::Vector3<T>&, T)
+109	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector3.inl	[Note] template argument deduction/substitution failed:
+42	27	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] 'Board' is not derived from 'const sf::Vector3<T>'
+252	0	C:\SFML\SFML-2.4.2\include\SFML\System\Vector3.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/System/Vector3.hpp
+49		C:\SFML\SFML-2.4.2\include\SFML\System.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/System.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Window.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Window.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+117	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector3.inl	[Note] template<class T> sf::Vector3<T> sf::operator*(T, const sf::Vector3<T>&)
+117	19	C:\SFML\SFML-2.4.2\include\SFML\System\Vector3.inl	[Note] template argument deduction/substitution failed:
+42	27	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] candidate expects 2 arguments, 1 provided
+33	0	C:\SFML\SFML-2.4.2\include\SFML\Graphics\RenderStates.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/Graphics/RenderStates.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics\Drawable.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/Drawable.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics\Shape.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/Shape.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics\CircleShape.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/CircleShape.hpp
+34		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+376	29	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Transform.hpp	[Note] sf::Transform sf::operator*(const sf::Transform&, const sf::Transform&)
+376	29	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Transform.hpp	[Note] candidate expects 2 arguments, 1 provided
+404	28	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Transform.hpp	[Note] sf::Vector2f sf::operator*(const sf::Transform&, const Vector2f&)
+404	28	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Transform.hpp	[Note] candidate expects 2 arguments, 1 provided
+32	0	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Vertex.hpp	In file included from C:/SFML/SFML-2.4.2/include/SFML/Graphics/Vertex.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics\VertexArray.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/VertexArray.hpp
+34		C:\SFML\SFML-2.4.2\include\SFML\Graphics\Shape.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/Shape.hpp
+32		C:\SFML\SFML-2.4.2\include\SFML\Graphics\CircleShape.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics/CircleShape.hpp
+34		C:\SFML\SFML-2.4.2\include\SFML\Graphics.hpp	                 from C:/SFML/SFML-2.4.2/include/SFML/Graphics.hpp
+2		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+175	25	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Color.hpp	[Note] sf::Color sf::operator*(const sf::Color&, const sf::Color&)
+175	25	C:\SFML\SFML-2.4.2\include\SFML\Graphics\Color.hpp	[Note] candidate expects 2 arguments, 1 provided
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+26.01.2021 21:45:00: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::createPawns(sf::RenderWindow&, Board&)':
+41	31	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] no matching function for call to 'Pawn::move(int, Board&)'
+41	31	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] candidate is:
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+17	7	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Note] void Pawn::move(int, Board*)
+17	7	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Note] no known conversion for argument 2 from 'Board' to 'Board*'
+42	31	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] no matching function for call to 'Pawn::move(int, Board&)'
+42	31	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] candidate is:
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+17	7	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Note] void Pawn::move(int, Board*)
+17	7	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Note] no known conversion for argument 2 from 'Board' to 'Board*'
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+26.01.2021 21:45:10: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:46:15: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::createPawns(sf::RenderWindow&, Board&)':
+48	13	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] no matching function for call to 'Game::~Game()'
+48	13	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] candidate is:
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+19	3	L:\GITHUB\Chinczyk\header\Game.hpp	[Note] Game::~Game()
+19	3	L:\GITHUB\Chinczyk\header\Game.hpp	[Note] candidate expects 1 argument, 0 provided
+51	1	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] expected '}' at end of input
+51	1	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] expected '}' at end of input
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+26.01.2021 21:46:42: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::createPawns(sf::RenderWindow&, Board&)':
+48	13	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] expected primary-expression before 'bool'
+51	1	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] expected '}' at end of input
+51	1	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] expected '}' at end of input
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+26.01.2021 21:46:50: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::createPawns(sf::RenderWindow&, Board&)':
+48	13	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] no matching function for call to 'Game::~Game()'
+48	13	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] candidate is:
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+19	3	L:\GITHUB\Chinczyk\header\Game.hpp	[Note] Game::~Game()
+19	3	L:\GITHUB\Chinczyk\header\Game.hpp	[Note] candidate expects 1 argument, 0 provided
+51	1	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] expected '}' at end of input
+51	1	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] expected '}' at end of input
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+26.01.2021 21:47:03: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::createPawns(sf::RenderWindow&, Board&)':
+48	13	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] no matching function for call to 'Game::~Game()'
+48	13	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] candidate is:
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+19	3	L:\GITHUB\Chinczyk\header\Game.hpp	[Note] Game::~Game()
+19	3	L:\GITHUB\Chinczyk\header\Game.hpp	[Note] candidate expects 1 argument, 0 provided
+50	1	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] expected '}' at end of input
+50	1	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] expected '}' at end of input
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+26.01.2021 21:47:14: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:48:11: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:48:20: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:48:33: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:48:45: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:49:02: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:49:16: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:51:24: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::createPawns(sf::RenderWindow&, Board&)':
+41	44	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] no matching function for call to 'Pawn::move(int, int [48][4])'
+41	44	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] candidate is:
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+17	7	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Note] void Pawn::move(int, Board&)
+17	7	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Note] no known conversion for argument 2 from 'int [48][4]' to 'Board&'
+42	44	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] no matching function for call to 'Pawn::move(int, int [48][4])'
+42	44	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] candidate is:
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+17	7	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Note] void Pawn::move(int, Board&)
+17	7	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Note] no known conversion for argument 2 from 'int [48][4]' to 'Board&'
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+26.01.2021 21:51:45: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:51:59: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:52:20: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:52:29: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:52:48: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:53:41: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:54:03: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:54:41: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\main.cpp	In file included from sources/main.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:55:40: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\main.cpp	In file included from sources/main.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\header\MainMenu.hpp	                 from L:/GITHUB/Chinczyk/header/MainMenu.hpp
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\header\MainMenu.hpp	                 from L:/GITHUB/Chinczyk/header/MainMenu.hpp
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In file included from sources/MainMenu.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In constructor 'MainMenu::MainMenu(float, float)':
+16	28	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+23	29	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+29	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+35	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+41	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::MoveUp()':
+64	48	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+66	46	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::MoveDown()':
+74	48	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+76	46	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::CheckCursorFocus(float, float)':
+91	49	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+93	47	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:56:11: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:56:44: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\main.cpp	In file included from sources/main.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\header\MainMenu.hpp	                 from L:/GITHUB/Chinczyk/header/MainMenu.hpp
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\header\MainMenu.hpp	                 from L:/GITHUB/Chinczyk/header/MainMenu.hpp
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In file included from sources/MainMenu.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In constructor 'MainMenu::MainMenu(float, float)':
+16	28	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+23	29	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+29	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+35	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+41	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::MoveUp()':
+64	48	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+66	46	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::MoveDown()':
+74	48	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+76	46	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::CheckCursorFocus(float, float)':
+91	49	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+93	47	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 21:57:04: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+37	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11

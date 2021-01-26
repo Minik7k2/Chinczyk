@@ -1,8 +1,7 @@
-#include "SFML/Graphics.hpp" 	
+#include <SFML/Graphics.hpp>	
 #include <iostream>
-#include "Game.h"
-#include "MainMenu.h"
-#include "Board.h"
+#include "Game.hpp"
+#include "MainMenu.hpp"
 
 using namespace sf;
 using namespace std;
@@ -72,6 +71,7 @@ int main()
 			Board board(window);
 			game.draw(window, board);
 			game.createPawns(window, board);
+			
 		}
 		else
 		{

@@ -1,7 +1,7 @@
 #include <iostream>
-#include "SFML/Graphics.hpp" 
-#include "Game.h"
-#include "Board.h"
+#include <SFML/Graphics.hpp>
+#include "Game.hpp"
+#include "Board.hpp"
 
 using namespace std;
 using namespace sf;
@@ -33,11 +33,17 @@ void Game::createPawns(RenderWindow &window, Board &board)
 			Vector2f pos = board.getPosition(board.playersYards[(i*4)+j]);
 			pawnsArr[i][j].set_color(i);
 			pawnsArr[i][j].startingPosition = Vector2f(pos.x, pos.y-20);
+			pawnsArr[i][j].startingPoint = board.getPosition(board.playersStartingPoints[i]);
 			pawnsArr[i][j].setOnStart();
 			//cout << endl << board.boardPiece[2][9].getPosition().y;
-			pawnsArr[i][j].draw(window);
 		}
 	}
+		pawnsArr[0][1].move(6, board);
+		pawnsArr[0][1].move(2, board);
+		pawnsArr[0][1].move(28, board);
+		for(int i=0;i<4;i++)
+			for(int j=0;j<4;j++)
+				pawnsArr[i][j].draw(window);
 }
 
 Game::~Game()

@@ -71,7 +71,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit3]
-FileName=header\Board.h
+FileName=header\Board.hpp
 CompileCpp=1
 Folder=header
 Compile=1
@@ -81,7 +81,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit4]
-FileName=header\Game.h
+FileName=header\Game.hpp
 CompileCpp=1
 Folder=header
 Compile=1
@@ -131,7 +131,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit9]
-FileName=header\MainMenu.h
+FileName=header\MainMenu.hpp
 CompileCpp=1
 Folder=header
 Compile=1

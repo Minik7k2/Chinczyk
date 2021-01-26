@@ -1,8 +1,7 @@
 #include "SFML/Graphics.hpp" 	
 #include <iostream>
-#include "Game.h"
-#include "MainMenu.h"
-#include "Board.h"
+#include "Game.hpp"
+#include "MainMenu.hpp"
 
 using namespace sf;
 using namespace std;

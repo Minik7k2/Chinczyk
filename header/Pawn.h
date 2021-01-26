@@ -15,15 +15,16 @@ public:
 	void draw(RenderWindow &window);
 	void setOnStart();
 	void set_color(int color);
-	void scaleDown();
-	void scaleUp();
+	Vector2f startingPoint;
+	
 	Vector2f startingPosition;
 	
 	bool isInHome = false;
 	Sprite pawnFigure;
 
 private:
-	
+	void scaleDown();
+	void scaleUp();
 	int fieldGroup; //0=yard, 1=path, 2=homeway, 3=home
 	int pawnColor;
 	Texture pawnTexture;

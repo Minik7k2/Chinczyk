@@ -55,7 +55,6 @@ void Board::set_boardGrid(RenderWindow &window)
 			boardPiece[i][j].setPosition(Vector2f(i*sizeOfPiece, j*sizeOfPiece));
 		}
 	}
-	draw(window);
 }
 
 void Board::loadTextures()

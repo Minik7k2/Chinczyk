@@ -19,6 +19,7 @@ void Pawn::draw(RenderWindow &window)
 void Pawn::setOnStart()
 {
 	pawnFigure.setPosition(startingPosition);
+	fieldGroup = 0;
 }
 
 void Pawn::set_color(int color)
@@ -35,6 +36,7 @@ void Pawn::loadTexture()
 	pawnFigure.setTexture(pawnTexture);
 	pawnFigure.setTextureRect(IntRect(0, pawnColor*50, 50, 50));
 }
+
 
 Pawn::~Pawn()
 {

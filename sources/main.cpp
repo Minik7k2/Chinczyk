@@ -69,7 +69,7 @@ int main()
 		{
 			window.clear();
 			game.draw(window);
-			game.createPawns(window, board);
+			
 			
 		}
 		else

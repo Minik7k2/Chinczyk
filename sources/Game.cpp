@@ -27,10 +27,12 @@ void Game::draw(RenderWindow &window)
 {
 	Board *board = new Board(window);
 	Cube *cube = new Cube(219,580);
+	
 	board->draw(window);
 	cube->draw(window);
 	Sleep(250);
 	delete(cube);
+	createPawns(window, *board);
 }
 
 void Game::createPawns(RenderWindow &window, Board &board)

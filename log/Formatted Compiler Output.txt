@@ -12123,3 +12123,12 @@
 17	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
 22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
 23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+26.01.2021 22:37:07: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+3		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11

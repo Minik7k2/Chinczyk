@@ -67,7 +67,6 @@ void Pawn::move(int cubeOutput, Board &board)
 	}else if(fieldGroup == 1)
 	{
 		pathPosition = pathPosition + cubeOutput;
-		cout<<endl<<board.pathElements[6][0];
 		pawnFigure.setPosition(board.getPosition(board.pathElements[pathPosition]));
 	}
 }

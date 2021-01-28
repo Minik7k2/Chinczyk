@@ -20,7 +20,7 @@ Cube::Cube()
 bool Cube::loadtexture()
 {
 	texture_cube->loadFromFile("../textures/cube.png");
-	for (int i=0;i<=5;i++)
+	for (int i=0;i<=6;i++)
 	{
 		cube_arr[i].setTexture(*texture_cube);
 		cube_arr[i].setTextureRect(IntRect(0, i*50, 50, 50));
@@ -31,8 +31,7 @@ bool Cube::loadtexture()
 
 void Cube::draw(RenderWindow &window)
 {
-	window.draw(cube_arr[throw_cube()]);
- 	cout<<random<<endl;
+	window.draw(cube_arr[6]);
 }
 
 int Cube::throw_cube()
@@ -43,8 +42,7 @@ int Cube::throw_cube()
 
 void Cube::set_position(float x,float y)
 {
-	cube_arr[1].setPosition(Vector2f(x, y));
-	
+	cube_arr[6].setPosition(Vector2f(x, y));
 }
 
 Cube::~Cube()

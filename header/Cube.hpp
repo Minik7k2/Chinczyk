@@ -19,7 +19,7 @@ class Cube
 		int random;
 		
 		Texture *texture_cube = new Texture();
-		Sprite *cube_arr = new Sprite [6];
+		Sprite *cube_arr = new Sprite [7];
 };
 
 

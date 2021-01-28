@@ -1,15 +1,7 @@
 #include <iostream>
-<<<<<<< Updated upstream
-#include "SFML/Graphics.hpp" 
-#include "Game.h"
-#include "Board.h"
-#include "Cube.hpp"
-#include "windows.h"
-=======
 #include <SFML/Graphics.hpp>
 #include "Game.hpp"
 #include <windows.h>
->>>>>>> Stashed changes
 
 using namespace std;
 using namespace sf;
@@ -31,14 +23,8 @@ bool Game::check_isRun()
 
 void Game::draw(RenderWindow &window)
 {
-<<<<<<< Updated upstream
-	Board *board = new Board(window.getSize().x, window.getSize().y, window);
-	Cube *cube = new Cube(219,580);
-	cube->draw(window);
-	Sleep(250);
-	delete(cube);
-=======
 	board->draw(window);
+	cube->draw(window);
 	Sleep(250);
 }
 
@@ -60,14 +46,13 @@ void Game::createPawns(RenderWindow &window, Board &board)
 		for(int i=0;i<4;i++)
 			for(int j=0;j<4;j++)
 				pawnsArr[i][j].draw(window);
->>>>>>> Stashed changes
 }
 
 void Game::load_components(RenderWindow &window)
 {
 		board = new Board(window);
 		cube = new Cube();
-		this->createPawns(window, *board);
+		//this->createPawns(window, *board);
 }
 
 void Game::live_in_game(RenderWindow &window)
@@ -76,12 +61,15 @@ void Game::live_in_game(RenderWindow &window)
 	{
 		cout<<"Gracz"<<i<<endl;
 		
-		if(i == 3)// to bedzie switch i case hipotetycznie cwel wyrzucil 6
+		switch(i)
 		{
-			//if () sprawdz 6
-			i--;
-		}
-		
+			case 1:
+				cube->set_position(220,230);
+			break;		
+			case 2:
+				cube->set_position(220,530);
+			break;
+		}		
 		i++;
 	}
 }

@@ -26,11 +26,11 @@ void Game::draw(RenderWindow &window)
 {
 	Board *board = new Board(window);
 	Cube *cube = new Cube(219,580);
+	
 	createPlayers(window, *board);
 	board->draw(window);
-	cube->draw(window);
-	Sleep(250);
-	delete(cube);
+	
+	
 	for(int i=0; i<4; i++)
 		players[i].drawPawns(window);
 }

@@ -16,14 +16,14 @@ int main()
 	RenderWindow window(VideoMode(850, 850), "Ludo Master - Dominik K³odziñski & Maciej £aszewski", Style::Titlebar | Style::Close);
 	window.setActive(true);
     window.setVerticalSyncEnabled(true);
-
-	Game game;
+	Event event;
+	Game game(event);
 	MainMenu menu(window.getSize().x, window.getSize().y);
 
 	while (window.isOpen())
 	{
 		
-		Event event;
+		
 
 		while (window.pollEvent(event))
 		{

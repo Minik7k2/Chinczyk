@@ -5,18 +5,15 @@
 using namespace sf;
 using namespace std;
 
-Cube::Cube(float x,float y)
-{
-	this->position_x = x;
-	this->position_y = y;
-	
+Cube::Cube()
+{	
 	if(this->loadtexture() == true)
 	{	
-		cout<<"dzia³";
+		cout<<"Kostka wczytana"<<endl;
 	}
 	else
 	{
-		cout<<"nie";
+		cout<<"Kostka nie wczytana"<<endl;
 	}
 }
 
@@ -41,8 +38,13 @@ void Cube::draw(RenderWindow &window)
 int Cube::throw_cube()
 {
 	random = rand()%6 + 1;
-	cube_arr[random-1].setPosition(Vector2f(position_x, position_y));
-	return random-1;
+	return random;
+}
+
+void Cube::set_position(float x,float y)
+{
+	cube_arr[1].setPosition(Vector2f(x, y));
+	
 }
 
 Cube::~Cube()

@@ -72,28 +72,26 @@ void Pawn::move(int cubeOutput, Board &board)
 				pathPosition++;
 				if(pathPosition == ((pawnColor*12)-3<0 ? 48+((pawnColor*12)-3) : (pawnColor*12)-3)){
 					changeFieldGroup(2);
-					if(cubeOutput-i)
-					{
-						move(cubeOutput-i, board);
-					}
+					cubeOutput -= i;
+					homePosition = 0;
+					
 					break;
 				}
 			}
 		}
 		pawnFigure.setPosition(board.getPosition(board.pathElements[pathPosition]));
-	}else if(fieldGroup == 2)
+	}
+	if(fieldGroup == 2 && cubeOutput > 0)
 	{
-		if(homePosition == -1) homePosition = 0;
 		if(homePosition + cubeOutput < 4)
 		{
-			for(int i=0; i<cubeOutput; i++)
-			{
-				homePosition++;
-				cout<<endl<<homePosition<<"<----";
+				homePosition += (homePosition == 0) ? cubeOutput-1 : cubeOutput;
 				pawnFigure.setPosition(board.getPosition(board.playersHomeWays[(pawnColor*4)+homePosition]));
-			}
+			
 		}else if(homePosition + cubeOutput == 4)
 		{
+			homePosition = -1;
+			ableToMove = false;
 			pawnFigure.setPosition(board.getPosition(board.playersHomes[pawnColor]));
 		}
 	}

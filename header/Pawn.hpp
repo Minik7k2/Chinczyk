@@ -25,14 +25,14 @@ public:
 	Vector2f startingPosition;
 	Vector2f startingPoint;
 	~Pawn();
-
+int fieldGroup;
 private:
 	
 	
 	
 	void scaleDown();
 	void scaleUp();
-	int fieldGroup; //0=yard, 1=path, 2=homeway, 3=home
+	 //0=yard, 1=path, 2=homeway, 3=home
 	int pawnColor;
 	bool ableToMove = true;
 	Texture pawnTexture;

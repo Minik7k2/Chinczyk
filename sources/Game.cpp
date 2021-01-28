@@ -44,20 +44,11 @@ void Game::createPawns(RenderWindow &window, Board &board)
 			pawnsArr[i][j].startingPosition = Vector2f(pos.x, pos.y-20);
 			pawnsArr[i][j].startingPoint = board.getPosition(board.playersStartingPoints[i]);
 			pawnsArr[i][j].setOnStart();
-			//cout << endl << board.boardPiece[2][9].getPosition().y;
+			
 		}
 	}
-		pawnsArr[3][1].move(6, board);
-		pawnsArr[3][1].move(6, board);
-		pawnsArr[3][1].move(6, board);
-		pawnsArr[3][1].move(6, board);
-		pawnsArr[3][1].move(6, board);
-		pawnsArr[3][1].move(6, board);
-		pawnsArr[3][1].move(6, board);
-		pawnsArr[3][1].move(6, board);
-		pawnsArr[3][1].move(6, board);
-		pawnsArr[3][1].move(2, board);
-		//pawnsArr[1][1].move(2, board);
+		
+		
 		for(int i=0;i<4;i++)
 			for(int j=0;j<4;j++)
 				pawnsArr[i][j].draw(window);

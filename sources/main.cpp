@@ -13,8 +13,6 @@ int main()
 	srand(time(NULL));
 	setlocale(LC_ALL,"");
 	
-	unsigned frame=0;
-	
 	RenderWindow window(VideoMode(850, 850), "Ludo Master - Dominik K³odziñski & Maciej £aszewski", Style::Titlebar | Style::Close);
 	window.setActive(true);
     window.setVerticalSyncEnabled(true);
@@ -24,7 +22,6 @@ int main()
 
 	while (window.isOpen())
 	{
-		frame++;
 		
 		Event event;
 
@@ -80,12 +77,6 @@ int main()
 	
 
 		window.display();
-		
-		if(!(frame%60))
-	    {
-	    	//cout<<frame<<" FPS"<<endl;
-	    	frame=0;
-		}
 	}
 	
 }

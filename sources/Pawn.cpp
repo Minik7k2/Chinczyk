@@ -1,5 +1,6 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
+#include <windows.h>
 #include "Pawn.hpp"
 #include <string>
 
@@ -54,21 +55,49 @@ void Pawn::changeFieldGroup(int x)
 	fieldGroup = x;
 }
 
-
-
 void Pawn::move(int cubeOutput, Board &board)
 {
-	if(fieldGroup == 0)
+	if(fieldGroup == 0 && cubeOutput==6)
 	{
 		changeFieldGroup(1);
 		pawnFigure.setPosition(startingPoint);
-		pathPosition = 0; // zeby sprawdzic ktory to -> pathElements[(playerID*14)+pathPosition]
+		pathPosition = pawnColor*12; // zeby sprawdzic ktory to -> pathElements[(color*14)+pathPosition]
 		
 	}else if(fieldGroup == 1)
 	{
-		pathPosition = pathPosition + cubeOutput;
+		if(pathPosition+cubeOutput >=48)
+			pathPosition = pathPosition + cubeOutput - 48;
+		else{
+			for(int i=1; i<=cubeOutput; i++){
+				pathPosition++;
+				if(pathPosition == ((pawnColor*12)-3<0 ? 48+((pawnColor*12)-3) : (pawnColor*12)-3)){
+					changeFieldGroup(2);
+					if(cubeOutput-i)
+					{
+						move(cubeOutput-i, board);
+					}
+					break;
+				}
+			}
+		}
 		pawnFigure.setPosition(board.getPosition(board.pathElements[pathPosition]));
+	}else if(fieldGroup == 2)
+	{
+		if(homePosition == -1) homePosition = 0;
+		if(homePosition + cubeOutput < 4)
+		{
+			for(int i=0; i<cubeOutput; i++)
+			{
+				homePosition++;
+				cout<<endl<<homePosition<<"<----";
+				pawnFigure.setPosition(board.getPosition(board.playersHomeWays[(pawnColor*4)+homePosition]));
+			}
+		}else if(homePosition + cubeOutput == 4)
+		{
+			pawnFigure.setPosition(board.getPosition(board.playersHomes[pawnColor]));
+		}
 	}
+	
 }
 
 

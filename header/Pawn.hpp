@@ -20,6 +20,7 @@ public:
 	void highlightOff();
 	void highlightOn();
 	int pathPosition;
+	int homePosition = -1;
 	Sprite pawnFigure;
 	Vector2f startingPosition;
 	Vector2f startingPoint;

@@ -43,13 +43,17 @@ void Game::createPawns(RenderWindow &window, Board &board)
 			pawnsArr[i][j].set_color(i);
 			pawnsArr[i][j].startingPosition = Vector2f(pos.x, pos.y-20);
 			pawnsArr[i][j].startingPoint = board.getPosition(board.playersStartingPoints[i]);
+			cout<<endl<<board.playersStartingPoints[1][1];
 			pawnsArr[i][j].setOnStart();
 			//cout << endl << board.boardPiece[2][9].getPosition().y;
 		}
 	}
-		pawnsArr[0][1].move(6, board);
-		pawnsArr[0][1].move(2, board);
-		pawnsArr[0][1].move(28, board);
+		pawnsArr[3][1].move(6, board);
+		pawnsArr[3][1].move(42, board);
+		pawnsArr[3][1].move(3, board);
+		//pawnsArr[3][1].move(2, board);
+		pawnsArr[3][1].move(1, board);
+		//pawnsArr[1][1].move(2, board);
 		for(int i=0;i<4;i++)
 			for(int j=0;j<4;j++)
 				pawnsArr[i][j].draw(window);

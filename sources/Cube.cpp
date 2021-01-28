@@ -12,11 +12,11 @@ Cube::Cube(float x,float y)
 	
 	if(this->loadtexture() == true)
 	{	
-		cout<<"dzia³";
+		//cout<<"dzia³";
 	}
 	else
 	{
-		cout<<"nie";
+		//cout<<"nie";
 	}
 }
 
@@ -49,5 +49,5 @@ Cube::~Cube()
 {
 	delete(this->texture_cube);
 	delete[] cube_arr;
-	cout<<"Umiera kostka"<<endl;
+	//cout<<"Umiera kostka"<<endl;
 }

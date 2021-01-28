@@ -2,7 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
 #include "Board.hpp"
-#include "Pawn.hpp"
+#include "Player.hpp"
 
 
 using namespace sf;
@@ -14,8 +14,8 @@ class Game
 		void set_isRun();
 		bool check_isRun();
 		void draw(RenderWindow &window);
-		Pawn pawnsArr[4][4]; // [player][pawn]
-		void createPawns(RenderWindow &window, Board &board);
+		Player players[4]; // [player][pawn]
+		void createPlayers(RenderWindow &window, Board &board);
 		~Game();
 		
 	private:

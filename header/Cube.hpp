@@ -7,7 +7,7 @@ using namespace sf;
 class Cube
 {
 	public:
-		Cube(float positon_x,float position_x);
+		Cube(float positon_x = 0,float position_x = 0);
 		bool loadtexture();
 		void draw(RenderWindow &window);
 		int throw_cube();

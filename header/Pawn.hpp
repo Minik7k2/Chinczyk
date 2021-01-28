@@ -15,7 +15,6 @@ public:
 	void setOnStart();
 	void set_color(int color);
 	void move(int cubeOutput, Board &board);
-	void changeFieldGroup(int groupIndex);
 	bool checkIfAbleToMove(int cubeOutput);
 	void highlightOff();
 	void highlightOn();
@@ -24,17 +23,16 @@ public:
 	Sprite pawnFigure;
 	Vector2f startingPosition;
 	Vector2f startingPoint;
-	int pawnColor;
+	
 	~Pawn();
-int fieldGroup;
+
 private:
 	
-	
-	
+	void changeFieldGroup(int groupIndex);
 	void scaleDown();
 	void scaleUp();
-	 //0=yard, 1=path, 2=homeway, 3=home
-	
+	int fieldGroup;//0=yard, 1=path, 2=homeway
+	int pawnColor;
 	bool ableToMove = false;
 	Texture pawnTexture;
 	void loadTexture();

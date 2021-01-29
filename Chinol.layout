@@ -1,12 +1,12 @@
 [Editor_4]
 CursorCol=1
 CursorRow=93
-TopLine=94
+TopLine=1
 LeftChar=1
 [Editor_8]
-CursorCol=16
-CursorRow=26
-TopLine=4
+CursorCol=25
+CursorRow=14
+TopLine=1
 LeftChar=1
 [Editors]
 Order=3,5,7,6,11,2,4,12
@@ -17,15 +17,9 @@ CursorRow=20
 TopLine=1
 LeftChar=1
 [Editor_5]
-<<<<<<< Updated upstream
 CursorCol=20
 CursorRow=1
 TopLine=16
-=======
-CursorCol=2
-CursorRow=35
-TopLine=10
->>>>>>> Stashed changes
 LeftChar=1
 [Editor_6]
 CursorCol=3
@@ -43,14 +37,14 @@ CursorRow=42
 TopLine=12
 LeftChar=1
 [Editor_9]
-CursorCol=10
-CursorRow=16
+CursorCol=24
+CursorRow=14
 TopLine=1
 LeftChar=1
 [Editor_10]
-CursorCol=30
-CursorRow=52
-TopLine=28
+CursorCol=29
+CursorRow=38
+TopLine=31
 LeftChar=1
 [Editor_11]
 CursorCol=1
@@ -61,4 +55,14 @@ LeftChar=1
 CursorCol=7
 CursorRow=8
 TopLine=10
+LeftChar=1
+[Editor_13]
+CursorCol=30
+CursorRow=16
+TopLine=1
+LeftChar=1
+[Editor_14]
+CursorCol=29
+CursorRow=1
+TopLine=1
 LeftChar=1

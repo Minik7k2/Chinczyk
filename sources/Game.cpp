@@ -23,55 +23,100 @@ bool Game::check_isRun()
 
 void Game::draw(RenderWindow &window)
 {
+	
+	window.clear();
 	board->draw(window);
-	cube->draw(window);
-	Sleep(250);
+	cube->draw(window, cubeOutput-1);
+	for(int i=0; i<4; i++)
+		players[i].drawPawns(window);
 }
 
-void Game::createPawns(RenderWindow &window, Board &board)
+void Game::createPlayers(RenderWindow &window, Board &board)
 {
-	for(int i=0;i<4;i++){
-		for(int j=0;j<4;j++){
-			Vector2f pos = board.getPosition(board.playersYards[(i*4)+j]);
-			pawnsArr[i][j].set_color(i);
-			pawnsArr[i][j].startingPosition = Vector2f(pos.x, pos.y-20);
-			pawnsArr[i][j].startingPoint = board.getPosition(board.playersStartingPoints[i]);
-			pawnsArr[i][j].setOnStart();
-			//cout << endl << board.boardPiece[2][9].getPosition().y;
-		}
+	for(int i=0; i<4; i++)
+	{
+		players[i].setPlayerColor(i);
+		for(int j=0; j<4; j++)
+			players[i].setPawns(board);
 	}
-		pawnsArr[0][1].move(6, board);
-		pawnsArr[0][1].move(2, board);
-		pawnsArr[0][1].move(28, board);
-		for(int i=0;i<4;i++)
-			for(int j=0;j<4;j++)
-				pawnsArr[i][j].draw(window);
+	
 }
 
 void Game::load_components(RenderWindow &window)
 {
 		board = new Board(window);
 		cube = new Cube();
+		createPlayers(window, *board);
 		//this->createPawns(window, *board);
 }
 
-void Game::live_in_game(RenderWindow &window)
+void Game::live_in_game(RenderWindow &window, Vector2f mousePos)
 {
-	for (int i=1;i<=4;)
+	if(round == 0)
 	{
-		cout<<"Gracz"<<i<<endl;
-		
-		switch(i)
-		{
-			case 1:
-				cube->set_position(220,230);
-			break;		
-			case 2:
-				cube->set_position(220,530);
-			break;
-		}		
-		i++;
+		playerTurn = 0;
+		round++;
 	}
+	else
+	{
+		if(mousePos.x >= cube->get_position().x && mousePos.x <= cube->get_position().x+50 && mousePos.y >= cube->get_position().y && mousePos.y <= cube->get_position().y+50)
+		{
+			cubeOutput = cube->throw_cube();
+			cout<<"Kostka "<<cubeOutput<<endl;
+		}
+		else
+		{
+			cout<<"Tura: "<<round<<endl;
+			if(cubeOutput <= 5)
+			{
+				for(int j=0;j<4;j++)
+				{
+					
+				}
+			}
+			else if(cubeOutput == 6)
+			{
+				for(int j=0;j<4;j++)
+				{
+				
+				}
+			}
+			else
+			{
+				if (playerTurn == 3)
+				{
+					playerTurn = 0;
+				}
+				else		
+				{
+					playerTurn++;				
+				}
+			}
+			round++;
+		}
+	}
+
+		
+	switch(playerTurn)
+	{
+		case 0:
+			cube->set_position(225,225);
+			cout<<"Gracz "<<playerTurn<<" wyrzuci³ "<<cubeOutput<<endl;		
+		break;		
+		case 1:
+			cube->set_position(575,225);
+			cout<<"Gracz "<<playerTurn<<" wyrzuci³ "<<cubeOutput<<endl;
+		break;
+		case 2:
+			cube->set_position(575,575);
+			cout<<"Gracz "<<playerTurn<<" wyrzuci³ "<<cubeOutput<<endl;
+		break;
+		case 3:
+			cube->set_position(225,575);
+			cout<<"Gracz "<<playerTurn<<" wyrzuci³ "<<cubeOutput<<endl;
+		break;
+	}
+
 }
 
 Game::~Game()

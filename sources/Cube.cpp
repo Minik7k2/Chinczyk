@@ -9,11 +9,11 @@ Cube::Cube()
 {	
 	if(this->loadtexture() == true)
 	{	
-		cout<<"Kostka wczytana"<<endl;
+		//cout<<"Kostka wczytana"<<endl;
 	}
 	else
 	{
-		cout<<"Kostka nie wczytana"<<endl;
+		//cout<<"Kostka nie wczytana"<<endl;
 	}
 }
 
@@ -29,20 +29,24 @@ bool Cube::loadtexture()
 	return true;
 }
 
-void Cube::draw(RenderWindow &window)
+void Cube::draw(RenderWindow &window, int x)
 {
-	window.draw(cube_arr[6]);
+	window.draw(cube_arr[x]);
 }
 
 int Cube::throw_cube()
 {
-	random = rand()%6 + 1;
-	return random;
+	return rand()%6 + 1;
 }
 
 void Cube::set_position(float x,float y)
 {
-	cube_arr[6].setPosition(Vector2f(x, y));
+	for(int i=0; i<7; i++)
+		cube_arr[i].setPosition(Vector2f(x, y));
+}
+Vector2f Cube::get_position()
+{
+		return cube_arr[6].getPosition();
 }
 
 Cube::~Cube()

@@ -104,6 +104,7 @@ void MainMenu::MenuAction(RenderWindow *window, MainMenu *menu, Game *game)
 			cout << "Play button has been pressed" << endl;
 			game->set_isRun();
 			game->load_components(*window);
+			game->live_in_game(*window, Vector2f(0,0));	
 			menu->set_isRun();
 		}			
 		break;

@@ -9,9 +9,10 @@ class Cube
 	public:
 		Cube();
 		bool loadtexture();
-		void draw(RenderWindow &window);
+		void draw(RenderWindow &window, int x);
 		int throw_cube();
 		void set_position(float positon_x,float position_x);
+		Vector2f get_position();
 		~Cube();
 		
 	private:

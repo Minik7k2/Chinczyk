@@ -1,5 +1,5 @@
 #include <iostream>
-#include <SFML/Graphics.hpp>
+#include "SFML/Graphics.hpp" 
 #include "MainMenu.hpp"
 #include "Game.hpp"
 
@@ -13,32 +13,32 @@ MainMenu::MainMenu(float width, float height)
 		// handle error
 	}
 	logo.setFont(font);
-	logo.setColor(Color::White);
+	logo.setFillColor(Color::White);
 	logo.setString("LUDO MASTER");
 	logo.setCharacterSize(61);
 	logo.setOrigin(logo.getLocalBounds().width/2, logo.getLocalBounds().height/2);
 	logo.setPosition(Vector2f(width / 2, height / (MAX_NUMBER_OF_ITEMS + 1) * 0.5));
 	
 	menu[0].setFont(font);
-	menu[0].setColor(Color::Red);
+	menu[0].setFillColor(Color::Red);
 	menu[0].setString("Play");
 	menu[0].setOrigin(menu[0].getLocalBounds().width/2, menu[0].getLocalBounds().height/2);
 	menu[0].setPosition(Vector2f(width / 2, height / (MAX_NUMBER_OF_ITEMS + 1) * 1.5));
 
 	menu[1].setFont(font);
-	menu[1].setColor(Color::White);
+	menu[1].setFillColor(Color::White);
 	menu[1].setString("Options");
 	menu[1].setOrigin(menu[1].getLocalBounds().width/2, menu[1].getLocalBounds().height/2);
 	menu[1].setPosition(Vector2f(width / 2, height / (MAX_NUMBER_OF_ITEMS + 1) * 2));
 	
 	menu[2].setFont(font);
-	menu[2].setColor(Color::White);
+	menu[2].setFillColor(Color::White);
 	menu[2].setString("Authors");
 	menu[2].setOrigin(menu[2].getLocalBounds().width/2, menu[2].getLocalBounds().height/2);
 	menu[2].setPosition(Vector2f(width / 2, height / (MAX_NUMBER_OF_ITEMS + 1) * 2.5));
 
 	menu[3].setFont(font);
-	menu[3].setColor(Color::White);
+	menu[3].setFillColor(Color::White);
 	menu[3].setString("Exit");
 	menu[3].setOrigin(menu[3].getLocalBounds().width/2, menu[3].getLocalBounds().height/2);
 	menu[3].setPosition(Vector2f(width / 2, height / (MAX_NUMBER_OF_ITEMS + 1) * 3));
@@ -57,6 +57,26 @@ void MainMenu::draw(RenderWindow &window)
 	}
 }
 
+void MainMenu::MoveUp()
+{
+	if (selectedItemIndex - 1 >= 0)
+	{
+		menu[selectedItemIndex].setFillColor(Color::White);
+		selectedItemIndex--;
+		menu[selectedItemIndex].setFillColor(Color::Red);
+	}
+}
+
+void MainMenu::MoveDown()
+{
+	if (selectedItemIndex + 1 < MAX_NUMBER_OF_ITEMS)
+	{
+		menu[selectedItemIndex].setFillColor(Color::White);
+		selectedItemIndex++;
+		menu[selectedItemIndex].setFillColor(Color::Red);
+	}
+}
+
 void MainMenu::CheckCursorFocus(float m_x, float m_y)
 {
 	Vector2f mousePosition(m_x, m_y);
@@ -68,9 +88,9 @@ void MainMenu::CheckCursorFocus(float m_x, float m_y)
 		
 		if ((mousePosition.y >= (menuTextPos.y-(textHeight/2))) && (mousePosition.y <= (menuTextPos.y+textHeight/2)) && (mousePosition.x >= (menuTextPos.x-textWidth/2)) && (mousePosition.x <= (menuTextPos.x+textWidth/2)))
 		{
-			menu[selectedItemIndex].setColor(Color::White);
+			menu[selectedItemIndex].setFillColor(Color::White);
 			selectedItemIndex = i;
-			menu[selectedItemIndex].setColor(Color::Red);
+			menu[selectedItemIndex].setFillColor(Color::Red);
 		}
 	}
 	
@@ -83,6 +103,7 @@ void MainMenu::MenuAction(RenderWindow *window, MainMenu *menu, Game *game)
 		{
 			cout << "Play button has been pressed" << endl;
 			game->set_isRun();
+			game->load_components(*window);
 			menu->set_isRun();
 		}			
 		break;

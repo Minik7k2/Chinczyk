@@ -9,3 +9,4 @@ bin/Chinol.exe
 log/Formatted Compiler Output.txt
 log/Raw Build Output.txt
 Makefile.win
+Chinol.exe

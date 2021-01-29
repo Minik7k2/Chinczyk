@@ -1,6 +1,7 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 #include "Game.hpp"
+#include "MenuInfo.hpp"
 
 #define MAX_NUMBER_OF_ITEMS 4
 
@@ -12,11 +13,9 @@ class MainMenu
 		MainMenu(float width, float height);
 	
 		void draw(RenderWindow &window);
-		void MoveUp();
-		void MoveDown();
 		void CheckCursorFocus(float m_x, float m_y);
 		int GetPressedItem() { return selectedItemIndex; }
-		void MenuAction(RenderWindow *window, MainMenu *menu, Game *game);
+		void MenuAction(RenderWindow *window, MainMenu *menu, Game *game, MenuInfo *project, MenuInfo *authors);
 		bool set_isRun();
 		bool check_isRun();
 		~MainMenu();
@@ -26,6 +25,7 @@ class MainMenu
 		bool isRun = true;
 		Font font;
 		Text menu[MAX_NUMBER_OF_ITEMS];
-		Text logo;
+		Sprite logo;
+		Texture logoTxt;
 
 };

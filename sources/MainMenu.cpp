@@ -12,36 +12,34 @@ MainMenu::MainMenu(float width, float height)
 	{
 		// handle error
 	}
-	logo.setFont(font);
-	logo.setFillColor(Color::White);
-	logo.setString("LUDO MASTER");
-	logo.setCharacterSize(61);
+	logoTxt.loadFromFile("../textures/logo.png");
+	logo.setTexture(logoTxt);
 	logo.setOrigin(logo.getLocalBounds().width/2, logo.getLocalBounds().height/2);
-	logo.setPosition(Vector2f(width / 2, height / (MAX_NUMBER_OF_ITEMS + 1) * 0.5));
+	logo.setPosition(Vector2f(width / 2, height / (MAX_NUMBER_OF_ITEMS + 1) * 1));
 	
 	menu[0].setFont(font);
-	menu[0].setFillColor(Color::Red);
-	menu[0].setString("Play");
+	menu[0].setFillColor(Color::White);
+	menu[0].setString("Graj");
 	menu[0].setOrigin(menu[0].getLocalBounds().width/2, menu[0].getLocalBounds().height/2);
-	menu[0].setPosition(Vector2f(width / 2, height / (MAX_NUMBER_OF_ITEMS + 1) * 1.5));
+	menu[0].setPosition(Vector2f(width / 2, height / (MAX_NUMBER_OF_ITEMS + 1) * 2));
 
 	menu[1].setFont(font);
 	menu[1].setFillColor(Color::White);
-	menu[1].setString("Options");
+	menu[1].setString("O projekcie");
 	menu[1].setOrigin(menu[1].getLocalBounds().width/2, menu[1].getLocalBounds().height/2);
-	menu[1].setPosition(Vector2f(width / 2, height / (MAX_NUMBER_OF_ITEMS + 1) * 2));
+	menu[1].setPosition(Vector2f(width / 2, height / (MAX_NUMBER_OF_ITEMS + 1) * 2.5));
 	
 	menu[2].setFont(font);
 	menu[2].setFillColor(Color::White);
-	menu[2].setString("Authors");
+	menu[2].setString("Autorzy");
 	menu[2].setOrigin(menu[2].getLocalBounds().width/2, menu[2].getLocalBounds().height/2);
-	menu[2].setPosition(Vector2f(width / 2, height / (MAX_NUMBER_OF_ITEMS + 1) * 2.5));
+	menu[2].setPosition(Vector2f(width / 2, height / (MAX_NUMBER_OF_ITEMS + 1) * 3));
 
 	menu[3].setFont(font);
 	menu[3].setFillColor(Color::White);
-	menu[3].setString("Exit");
+	menu[3].setString("Wyjœcie");
 	menu[3].setOrigin(menu[3].getLocalBounds().width/2, menu[3].getLocalBounds().height/2);
-	menu[3].setPosition(Vector2f(width / 2, height / (MAX_NUMBER_OF_ITEMS + 1) * 3));
+	menu[3].setPosition(Vector2f(width / 2, height / (MAX_NUMBER_OF_ITEMS + 1) * 3.5));	
 
 	selectedItemIndex = -1;
 }
@@ -57,26 +55,6 @@ void MainMenu::draw(RenderWindow &window)
 	}
 }
 
-void MainMenu::MoveUp()
-{
-	if (selectedItemIndex - 1 >= 0)
-	{
-		menu[selectedItemIndex].setFillColor(Color::White);
-		selectedItemIndex--;
-		menu[selectedItemIndex].setFillColor(Color::Red);
-	}
-}
-
-void MainMenu::MoveDown()
-{
-	if (selectedItemIndex + 1 < MAX_NUMBER_OF_ITEMS)
-	{
-		menu[selectedItemIndex].setFillColor(Color::White);
-		selectedItemIndex++;
-		menu[selectedItemIndex].setFillColor(Color::Red);
-	}
-}
-
 void MainMenu::CheckCursorFocus(float m_x, float m_y)
 {
 	Vector2f mousePosition(m_x, m_y);
@@ -88,20 +66,22 @@ void MainMenu::CheckCursorFocus(float m_x, float m_y)
 		
 		if ((mousePosition.y >= (menuTextPos.y-(textHeight/2))) && (mousePosition.y <= (menuTextPos.y+textHeight/2)) && (mousePosition.x >= (menuTextPos.x-textWidth/2)) && (mousePosition.x <= (menuTextPos.x+textWidth/2)))
 		{
-			menu[selectedItemIndex].setFillColor(Color::White);
+			
 			selectedItemIndex = i;
 			menu[selectedItemIndex].setFillColor(Color::Red);
+			break;
 		}
+			menu[selectedItemIndex].setFillColor(Color::White);
+			selectedItemIndex = -1;
 	}
 	
 }
-void MainMenu::MenuAction(RenderWindow *window, MainMenu *menu, Game *game)
+void MainMenu::MenuAction(RenderWindow *window, MainMenu *menu, Game *game, MenuInfo *project, MenuInfo *authors)
 {
 	switch (menu->GetPressedItem())
 	{
 		case 0:
 		{
-			cout << "Play button has been pressed" << endl;
 			game->set_isRun();
 			game->load_components(*window);
 			game->live_in_game(*window, Vector2f(0,0));	
@@ -110,11 +90,11 @@ void MainMenu::MenuAction(RenderWindow *window, MainMenu *menu, Game *game)
 		break;
 		
 		case 1:
-			cout << "Option button has been pressed" << endl;
+			project->set_isRun();
 		break;
 		
 		case 2:
-			cout << "Authors button has been pressed" << endl;
+			authors->set_isRun();
 		break;
 		
 		case 3:

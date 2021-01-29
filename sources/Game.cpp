@@ -21,10 +21,10 @@ bool Game::check_isRun()
  	return isRun;
 }
 
-void Game::draw(RenderWindow &window)
+void Game::draw(RenderWindow &window, Sprite &bg)
 {
-	
 	window.clear();
+	window.draw(bg);
 	board->draw(window);
 	cube->draw(window, cubeOutput-1);
 	for(int i=0; i<4; i++)
@@ -59,7 +59,7 @@ void Game::live_in_game(RenderWindow &window, Vector2f mousePos)
 	}
 	else
 	{
-		if (playerTurn == 3)
+		if (playerTurn > 3)
 		{
 			playerTurn = 0;
 		}
@@ -132,11 +132,12 @@ void Game::live_in_game(RenderWindow &window, Vector2f mousePos)
 						{
 							players[playerTurn].playerPawns[i].highlightOff();
 						}
-						Sleep(2000);
+						Sleep(100);
 						cubeOutput = 7;
 					}
 				}
 			}
+			cout<<"-------------------------"<<endl;
 			round++;
 	}
 

@@ -37,7 +37,7 @@ void Player::setPawns(Board &board)
 	for(int i=0;i<4;i++){
 			Vector2f pos = board.getPosition(board.playersYards[(playerColor*4)+i]);
 			playerPawns[i].startingPosition = Vector2f(pos.x, pos.y-20);
-			playerPawns[i].startingPoint = board.getPosition(board.playersStartingPoints[i]);
+			playerPawns[i].startingPoint = board.getPosition(board.playersStartingPoints[playerColor]);
 			playerPawns[i].setOnStart();
 	}
 }

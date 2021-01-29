@@ -14,7 +14,7 @@ class Game
 		Game(bool = false);
 		void set_isRun();
 		bool check_isRun();
-		void draw(RenderWindow &window);
+		void draw(RenderWindow &window, Sprite &bg);
 		Player players[4]; // [player][pawn]
 		void createPlayers(RenderWindow &window, Board &board);
 		void load_components(RenderWindow &window);

@@ -55,6 +55,7 @@ void Pawn::changeFieldGroup(int x)
 
 bool Pawn::checkIfAbleToMove(int cubeOutput)
 {
+	ableToMove = false;
 	switch(fieldGroup)
 	{
 		case 0:
@@ -65,7 +66,7 @@ bool Pawn::checkIfAbleToMove(int cubeOutput)
 			break;
 		case 1:
 		{
-			if(((pawnColor*12)-4<0 ? 48+((pawnColor*12)-4)<pathPosition : (pawnColor*12)-4>pathPosition) && (cubeOutput >= 5))
+			if(((pawnColor*12)-3<0 ? 48+((pawnColor*12)-3)<pathPosition : (pawnColor*12)-3>pathPosition) && (cubeOutput > 5))
 			{
 				ableToMove = false;
 				return ableToMove;
@@ -83,6 +84,9 @@ bool Pawn::checkIfAbleToMove(int cubeOutput)
 				return ableToMove;
 			}
 		}
+		break;
+		case 3:
+			return ableToMove;
 		break;
 	}
 	return ableToMove;
@@ -144,6 +148,7 @@ void Pawn::move(int cubeOutput, Board &board)
 						//cout<<"HELLO";
 						pawnFigure.setPosition(board.getPosition(board.playersHomes[pawnColor]));
 					}else if((0 + (cubeOutput-1)) == 4){
+						fieldGroup = 3;
 						pawnFigure.setPosition(board.getPosition(board.playersHomes[pawnColor]));
 					}
 			}

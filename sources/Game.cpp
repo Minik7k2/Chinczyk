@@ -85,7 +85,7 @@ void Game::live_in_game(RenderWindow &window, Vector2f mousePos)
 					if(mousePos.x >= players[playerTurn].playerPawns[j].pawnFigure.getPosition().x && mousePos.x <= players[playerTurn].playerPawns[j].pawnFigure.getPosition().x+50 && mousePos.y >= players[playerTurn].playerPawns[j].pawnFigure.getPosition().y && mousePos.y <= players[playerTurn].playerPawns[j].pawnFigure.getPosition().y+50){
 						players[playerTurn].playerPawns[j].move(cubeOutput, *board);
 						for(int k=0;k<4;k++)
-							players[playerTurn].playerPawns[j].highlightOff();
+							players[playerTurn].playerPawns[k].highlightOff();
 						cout<<endl<<players[playerTurn].playerPawns[j].pawnFigure.getPosition().y<<" ----------------->";
 						if(cubeOutput !=6)
 							nextTurn = true;

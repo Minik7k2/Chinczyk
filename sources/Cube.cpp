@@ -7,10 +7,10 @@ using namespace std;
 
 Cube::Cube(float x,float y)
 {
-	this->position_x = x;
-	this->position_y = y;
+	position_x = x;
+	position_y = y;
 	
-	if(this->loadtexture() == true)
+	if(loadtexture() == true)
 	{	
 		//cout<<"dzia³";
 	}
@@ -30,6 +30,12 @@ bool Cube::loadtexture()
 	}
 	
 	return true;
+}
+
+void Cube::set_position(float x,float y)
+{
+	position_x = x;
+	position_y = y;
 }
 
 void Cube::draw(RenderWindow &window)

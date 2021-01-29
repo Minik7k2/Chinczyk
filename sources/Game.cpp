@@ -1,7 +1,6 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
 #include "Game.hpp"
-#include "Cube.hpp"
 #include <windows.h>
 
 using namespace std;
@@ -24,13 +23,9 @@ bool Game::check_isRun()
 
 void Game::draw(RenderWindow &window)
 {
-	Board *board = new Board(window);
-	Cube *cube = new Cube(219,580);
-	
-	createPlayers(window, *board);
 	board->draw(window);
-	
-	
+	cube->draw(window);
+	Sleep(250);
 	for(int i=0; i<4; i++)
 		players[i].drawPawns(window);
 }
@@ -44,6 +39,38 @@ void Game::createPlayers(RenderWindow &window, Board &board)
 			players[i].setPawns(board);
 	}
 	
+}
+
+void Game::load_components(RenderWindow &window)
+{
+		board = new Board(window);
+		cube = new Cube();
+		createPlayers(window, *board);
+		//this->createPawns(window, *board);
+}
+
+void Game::live_in_game(RenderWindow &window, Vector2f mousePos)
+{
+	for (int i=1;i<=4;)
+	{
+		nextTurn = false;
+		while(nextTurn == true)
+		{
+			cout<<endl<<"Gracz "<<i;
+			
+			switch(i)
+			{
+				case 1:
+					cube->set_position(225,225);
+				break;		
+				case 2:
+					cube->set_position(225,575);
+				break;
+			}		
+		}
+		
+		i++;
+	}
 }
 
 Game::~Game()

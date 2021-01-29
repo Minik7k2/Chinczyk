@@ -17,13 +17,23 @@ int main()
 	window.setActive(true);
     window.setVerticalSyncEnabled(true);
 	Event event;
-	Game game(event);
+	Game game;
 	MainMenu menu(window.getSize().x, window.getSize().y);
 
 	while (window.isOpen())
 	{
 		
-		
+		if(game.check_isRun() == true)
+		{
+			window.clear();
+			game.load_components(window);			
+			game.draw(window);
+		}
+		else
+		{
+			window.clear();
+			menu.draw(window);
+		}
 
 		while (window.pollEvent(event))
 		{
@@ -31,22 +41,6 @@ int main()
 			{	
 				switch (event.type)
 				{
-					case Event::KeyReleased:
-						switch (event.key.code)
-						{
-							case Keyboard::Up:
-								menu.MoveUp();
-							break;
-		
-							case Keyboard::Down:
-								menu.MoveDown();
-							break;
-		
-							case Keyboard::Return:
-								menu.MenuAction(&window, &menu, &game);
-							break;
-						}
-					break;
 					case Event::MouseMoved:
 		    			menu.CheckCursorFocus(event.mouseMove.x, event.mouseMove.y);
 					break;
@@ -57,22 +51,15 @@ int main()
 						}
 		    		break;
 				}
+			}else if(game.check_isRun() == true)
+			{
+				if(event.type == Event::MouseButtonPressed && event.mouseButton.button == Mouse::Left)
+				{
+					game.live_in_game(window, Vector2f(event.mouseButton.x, event.mouseButton.y) );
+				}
 			}
 			if(event.type == Event::Closed)
 				window.close();
-		}
-
-		if(game.check_isRun() == true)
-		{
-			window.clear();
-			game.draw(window);
-			
-			
-		}
-		else
-		{
-			window.clear();
-			menu.draw(window);
 		}
 	
 

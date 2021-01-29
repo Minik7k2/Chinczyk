@@ -57,26 +57,6 @@ void MainMenu::draw(RenderWindow &window)
 	}
 }
 
-void MainMenu::MoveUp()
-{
-	if (selectedItemIndex - 1 >= 0)
-	{
-		menu[selectedItemIndex].setColor(Color::White);
-		selectedItemIndex--;
-		menu[selectedItemIndex].setColor(Color::Red);
-	}
-}
-
-void MainMenu::MoveDown()
-{
-	if (selectedItemIndex + 1 < MAX_NUMBER_OF_ITEMS)
-	{
-		menu[selectedItemIndex].setColor(Color::White);
-		selectedItemIndex++;
-		menu[selectedItemIndex].setColor(Color::Red);
-	}
-}
-
 void MainMenu::CheckCursorFocus(float m_x, float m_y)
 {
 	Vector2f mousePosition(m_x, m_y);

@@ -12,6 +12,10 @@ Player::Player()
 
 void Player::setPlayerTurn(bool status)
 {
+	isPlayerTurn = status;
+}
+void Player::checkPawnsAbilityToMove(int cubeOutput)
+{
 	
 }
 

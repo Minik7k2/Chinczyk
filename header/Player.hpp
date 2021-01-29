@@ -17,14 +17,12 @@ class Player
 		void setPlayerTurn(bool status);
 		void setPlayerColor(int color);
 		void setPawns(Board &board);
+		void checkPawnsAbilityToMove(int cubeOutput);
 		
 		~Player();
 		
 	private:
 		bool isPlayerTurn = false;
-		
-		void checkPawnsAbilityToMove(int cubeOutput);
-		
 };
 
 

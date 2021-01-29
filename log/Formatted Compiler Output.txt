@@ -40665,3 +40665,1741 @@
 26	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
 4	0	L:\GITHUB\Chinczyk\sources\main.cpp	In file included from sources/main.cpp
 26	16	L:\GITHUB\Chinczyk\header\MainMenu.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 09:55:57: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Cube.cpp	In file included from sources/Cube.cpp
+18	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+21	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		C:\Program Files (x86)\Dev-Cpp\MinGW64\x86_64-w64-mingw32\bin\ld.exe	reopening bin/Chinol.exe: Permission denied
+			
+		C:\Program Files (x86)\Dev-Cpp\MinGW64\x86_64-w64-mingw32\bin\ld.exe	final link failed: Permission denied
+		L:\GITHUB\Chinczyk\collect2.exe	[Error] ld returned 1 exit status
+25		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'bin/Chinol.exe' failed
+
+29.01.2021 09:56:12: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+24	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+18	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+21	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+26	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+24	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+18	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+21	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\main.cpp	In file included from sources/main.cpp
+26	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\main.cpp	In file included from sources/main.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\header\MainMenu.hpp	                 from L:/GITHUB/Chinczyk/header/MainMenu.hpp
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\header\MainMenu.hpp	                 from L:/GITHUB/Chinczyk/header/MainMenu.hpp
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\header\MainMenu.hpp	                 from L:/GITHUB/Chinczyk/header/MainMenu.hpp
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+24	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\header\MainMenu.hpp	                 from L:/GITHUB/Chinczyk/header/MainMenu.hpp
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+18	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+21	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\header\MainMenu.hpp	In file included from L:/GITHUB/Chinczyk/header/MainMenu.hpp
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+26	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In file included from sources/MainMenu.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In constructor 'MainMenu::MainMenu(float, float)':
+16	28	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+23	29	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+29	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+35	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+41	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::CheckCursorFocus(float, float)':
+71	49	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+73	47	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+4		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::move(int, Board&)':
+134	20	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Warning] converting to non-pointer type 'int' from NULL [-Wconversion-null]
+3	0	L:\GITHUB\Chinczyk\sources\Cube.cpp	In file included from sources/Cube.cpp
+18	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+21	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+4		L:\GITHUB\Chinczyk\header\Player.hpp	                 from L:/GITHUB/Chinczyk/header/Player.hpp
+3		L:\GITHUB\Chinczyk\sources\Player.cpp	                 from sources/Player.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+3		L:\GITHUB\Chinczyk\sources\Player.cpp	                 from sources/Player.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Player.cpp	In file included from sources/Player.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+24	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:04:16: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+18	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+21	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+26	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::live_in_game(sf::RenderWindow&, sf::Vector2f)':
+72	5	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] duplicate case value
+66	5	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] previously used here
+76	20	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] switch quantity not an integer
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+29.01.2021 10:04:23: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+18	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+21	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+26	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::live_in_game(sf::RenderWindow&, sf::Vector2f)':
+76	20	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] switch quantity not an integer
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+29.01.2021 10:04:51: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+18	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+21	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+26	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::live_in_game(sf::RenderWindow&, sf::Vector2f)':
+76	13	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] 'Int' was not declared in this scope
+76	17	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] expected ')' before 'mousePos'
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+29.01.2021 10:13:45: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+18	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+21	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+26	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::live_in_game(sf::RenderWindow&, sf::Vector2f)':
+54	20	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] no matching function for call to 'Cube::draw(sf::RenderWindow&)'
+54	20	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] candidate is:
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+12	8	L:\GITHUB\Chinczyk\header\Cube.hpp	[Note] void Cube::draw(sf::RenderWindow&, int)
+12	8	L:\GITHUB\Chinczyk\header\Cube.hpp	[Note] candidate expects 2 arguments, 1 provided
+78	47	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] no matching function for call to 'Pawn::move(int&)'
+78	47	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] candidate is:
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+17	7	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Note] void Pawn::move(int, Board&)
+17	7	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Note] candidate expects 2 arguments, 1 provided
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+29.01.2021 10:13:51: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+18	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+21	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+26	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::live_in_game(sf::RenderWindow&, sf::Vector2f)':
+78	47	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] no matching function for call to 'Pawn::move(int&)'
+78	47	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] candidate is:
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+17	7	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Note] void Pawn::move(int, Board&)
+17	7	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Note] candidate expects 2 arguments, 1 provided
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+29.01.2021 10:14:14: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+18	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+21	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+26	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::live_in_game(sf::RenderWindow&, sf::Vector2f)':
+78	54	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] no matching function for call to 'Pawn::move(int&, Board*&)'
+78	54	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] candidate is:
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+17	7	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Note] void Pawn::move(int, Board&)
+17	7	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Note] no known conversion for argument 2 from 'Board*' to 'Board&'
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+29.01.2021 10:14:29: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+18	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+21	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+26	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Cube.cpp	In file included from sources/Cube.cpp
+18	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+21	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+4		L:\GITHUB\Chinczyk\header\Player.hpp	                 from L:/GITHUB/Chinczyk/header/Player.hpp
+3		L:\GITHUB\Chinczyk\sources\Player.cpp	                 from sources/Player.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+3		L:\GITHUB\Chinczyk\sources\Player.cpp	                 from sources/Player.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Player.cpp	In file included from sources/Player.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:15:51: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Cube.cpp	In file included from sources/Cube.cpp
+18	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+21	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:16:36: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+18	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+21	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+26	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::live_in_game(sf::RenderWindow&, sf::Vector2f)':
+58	48	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] no match for 'operator<<' (operand types are 'std::basic_ostream<char>' and 'sf::Vector2f {aka sf::Vector2<float>}')
+58	48	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] candidates are:
+39	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\iostream	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/iostream
+1		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+108	7	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+108	7	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] no known conversion for argument 1 from 'sf::Vector2f {aka sf::Vector2<float>}' to 'std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&) {aka std::basic_ostream<char>& (*)(std::basic_ostream<char>&)}'
+117	7	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]
+117	7	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] no known conversion for argument 1 from 'sf::Vector2f {aka sf::Vector2<float>}' to 'std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&) {aka std::basic_ios<char>& (*)(std::basic_ios<char>&)}'
+127	7	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+127	7	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] no known conversion for argument 1 from 'sf::Vector2f {aka sf::Vector2<float>}' to 'std::ios_base& (*)(std::ios_base&)'
+166	7	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+166	7	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] no known conversion for argument 1 from 'sf::Vector2f {aka sf::Vector2<float>}' to 'long int'
+170	7	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+170	7	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] no known conversion for argument 1 from 'sf::Vector2f {aka sf::Vector2<float>}' to 'long unsigned int'
+174	7	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+174	7	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] no known conversion for argument 1 from 'sf::Vector2f {aka sf::Vector2<float>}' to 'bool'
+609	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream
+39		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\iostream	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/iostream
+1		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+91	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\ostream.tcc	[Note] std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]
+91	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\ostream.tcc	[Note] no known conversion for argument 1 from 'sf::Vector2f {aka sf::Vector2<float>}' to 'short int'
+39	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\iostream	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/iostream
+1		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+181	7	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+181	7	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] no known conversion for argument 1 from 'sf::Vector2f {aka sf::Vector2<float>}' to 'short unsigned int'
+609	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream
+39		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\iostream	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/iostream
+1		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+105	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\ostream.tcc	[Note] std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]
+105	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\ostream.tcc	[Note] no known conversion for argument 1 from 'sf::Vector2f {aka sf::Vector2<float>}' to 'int'
+39	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\iostream	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/iostream
+1		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+192	7	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+192	7	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] no known conversion for argument 1 from 'sf::Vector2f {aka sf::Vector2<float>}' to 'unsigned int'
+201	7	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+201	7	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] no known conversion for argument 1 from 'sf::Vector2f {aka sf::Vector2<float>}' to 'long long int'
+205	7	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+205	7	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] no known conversion for argument 1 from 'sf::Vector2f {aka sf::Vector2<float>}' to 'long long unsigned int'
+220	7	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+220	7	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] no known conversion for argument 1 from 'sf::Vector2f {aka sf::Vector2<float>}' to 'double'
+224	7	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+224	7	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] no known conversion for argument 1 from 'sf::Vector2f {aka sf::Vector2<float>}' to 'float'
+232	7	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+232	7	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] no known conversion for argument 1 from 'sf::Vector2f {aka sf::Vector2<float>}' to 'long double'
+245	7	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+245	7	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] no known conversion for argument 1 from 'sf::Vector2f {aka sf::Vector2<float>}' to 'const void*'
+609	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream
+39		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\iostream	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/iostream
+1		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+119	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\ostream.tcc	[Note] std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]
+119	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\ostream.tcc	[Note] no known conversion for argument 1 from 'sf::Vector2f {aka sf::Vector2<float>}' to 'std::basic_ostream<char>::__streambuf_type* {aka std::basic_streambuf<char>*}'
+52	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\string	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/string
+40		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\locale_classes.h	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/locale_classes.h
+41		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\ios_base.h	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/bits/ios_base.h
+42		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ios	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ios
+38		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream
+39		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\iostream	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/iostream
+1		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+2772	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\basic_string.h	[Note] template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+2772	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\basic_string.h	[Note] template argument deduction/substitution failed:
+58	50	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] 'sf::Vector2f {aka sf::Vector2<float>}' is not derived from 'const std::basic_string<_CharT, _Traits, _Alloc>'
+39	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\iostream	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/iostream
+1		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+471	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+471	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] template argument deduction/substitution failed:
+58	50	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] deduced conflicting types for parameter '_CharT' ('char' and 'sf::Vector2<float>')
+39	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\iostream	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/iostream
+1		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+476	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+476	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] template argument deduction/substitution failed:
+58	50	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] cannot convert 'mousePos' (type 'sf::Vector2f {aka sf::Vector2<float>}') to type 'char'
+39	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\iostream	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/iostream
+1		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+482	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+482	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] template argument deduction/substitution failed:
+58	50	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] cannot convert 'mousePos' (type 'sf::Vector2f {aka sf::Vector2<float>}') to type 'char'
+39	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\iostream	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/iostream
+1		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+488	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+488	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] template argument deduction/substitution failed:
+58	50	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] cannot convert 'mousePos' (type 'sf::Vector2f {aka sf::Vector2<float>}') to type 'signed char'
+39	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\iostream	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/iostream
+1		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+493	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+493	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] template argument deduction/substitution failed:
+58	50	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] cannot convert 'mousePos' (type 'sf::Vector2f {aka sf::Vector2<float>}') to type 'unsigned char'
+39	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\iostream	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/iostream
+1		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+513	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+513	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] template argument deduction/substitution failed:
+58	50	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] mismatched types 'const _CharT*' and 'sf::Vector2<float>'
+609	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/ostream
+39		C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\iostream	                 from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/iostream
+1		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+321	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\ostream.tcc	[Note] template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+321	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\bits\ostream.tcc	[Note] template argument deduction/substitution failed:
+58	50	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] cannot convert 'mousePos' (type 'sf::Vector2f {aka sf::Vector2<float>}') to type 'const char*'
+39	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\iostream	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/iostream
+1		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+530	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+530	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] template argument deduction/substitution failed:
+58	50	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] cannot convert 'mousePos' (type 'sf::Vector2f {aka sf::Vector2<float>}') to type 'const char*'
+39	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\iostream	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/iostream
+1		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+543	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+543	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] template argument deduction/substitution failed:
+58	50	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] cannot convert 'mousePos' (type 'sf::Vector2f {aka sf::Vector2<float>}') to type 'const signed char*'
+39	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\iostream	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/iostream
+1		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+548	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+548	5	C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include\c++\ostream	[Note] template argument deduction/substitution failed:
+58	50	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] cannot convert 'mousePos' (type 'sf::Vector2f {aka sf::Vector2<float>}') to type 'const unsigned char*'
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+29.01.2021 10:16:43: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+18	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+21	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+26	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:17:10: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+18	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+21	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+26	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:17:30: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+18	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+21	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+26	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:20:44: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+18	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+21	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+27	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::live_in_game(sf::RenderWindow&, sf::Vector2f)':
+71	26	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] 'i' was not declared in this scope
+		L:\GITHUB\Chinczyk\sources\Game.cpp	At global scope:
+83	1	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] expected declaration before '}' token
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+29.01.2021 10:20:52: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+18	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+21	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+27	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+83	1	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] expected declaration before '}' token
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+29.01.2021 10:21:01: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+18	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+21	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+27	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:22:57: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+18	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+21	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+27	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:23:44: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+18	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+21	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+27	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:24:06: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Cube.cpp	In file included from sources/Cube.cpp
+18	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+21	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:31:51: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::live_in_game(sf::RenderWindow&, sf::Vector2f)':
+71	26	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] request for member 'getPosition' in '((Game*)this)->Game::cube', which is of pointer type 'Cube*' (maybe you meant to use '->' ?)
+71	64	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] request for member 'getPosition' in '((Game*)this)->Game::cube', which is of pointer type 'Cube*' (maybe you meant to use '->' ?)
+71	105	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] request for member 'getPosition' in '((Game*)this)->Game::cube', which is of pointer type 'Cube*' (maybe you meant to use '->' ?)
+71	143	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] request for member 'getPosition' in '((Game*)this)->Game::cube', which is of pointer type 'Cube*' (maybe you meant to use '->' ?)
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+29.01.2021 10:32:16: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::live_in_game(sf::RenderWindow&, sf::Vector2f)':
+71	27	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] 'class Cube' has no member named 'getPosition'
+71	66	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] 'class Cube' has no member named 'getPosition'
+71	108	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] 'class Cube' has no member named 'getPosition'
+71	147	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] 'class Cube' has no member named 'getPosition'
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+29.01.2021 10:32:49: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Cube.cpp	In file included from sources/Cube.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:33:17: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:35:36: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+24	6	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] prototype for 'void Game::draw(sf::RenderWindow&, int)' does not match any in class 'Game'
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+17	8	L:\GITHUB\Chinczyk\header\Game.hpp	[Error] candidate is: void Game::draw(sf::RenderWindow&)
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+29.01.2021 10:35:50: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\object\main.o	main.cpp:(.text+0x312): undefined reference to `Game::draw(sf::RenderWindow&)'
+		L:\GITHUB\Chinczyk\collect2.exe	[Error] ld returned 1 exit status
+25		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'bin/Chinol.exe' failed
+
+29.01.2021 10:37:19: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:37:49: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:38:39: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\main.cpp	In file included from sources/main.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\main.cpp	In file included from sources/main.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:40:15: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:40:39: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:43:00: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:43:30: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:43:56: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::draw(sf::RenderWindow&)':
+26	11	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] could not convert '250' from 'int' to 'sf::Time'
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+29.01.2021 10:44:04: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::draw(sf::RenderWindow&)':
+26	12	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] could not convert '2500' from 'int' to 'sf::Time'
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+29.01.2021 10:44:35: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:44:44: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:44:59: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:45:25: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:45:43: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:45:54: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:46:13: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\main.cpp	In file included from sources/main.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\main.cpp	In file included from sources/main.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\header\MainMenu.hpp	                 from L:/GITHUB/Chinczyk/header/MainMenu.hpp
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\header\MainMenu.hpp	                 from L:/GITHUB/Chinczyk/header/MainMenu.hpp
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\header\MainMenu.hpp	                 from L:/GITHUB/Chinczyk/header/MainMenu.hpp
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\header\MainMenu.hpp	                 from L:/GITHUB/Chinczyk/header/MainMenu.hpp
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\header\MainMenu.hpp	In file included from L:/GITHUB/Chinczyk/header/MainMenu.hpp
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In file included from sources/MainMenu.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In constructor 'MainMenu::MainMenu(float, float)':
+16	28	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+23	29	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+29	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+35	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+41	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::CheckCursorFocus(float, float)':
+71	49	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+73	47	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+4		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::move(int, Board&)':
+134	20	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Warning] converting to non-pointer type 'int' from NULL [-Wconversion-null]
+3	0	L:\GITHUB\Chinczyk\sources\Cube.cpp	In file included from sources/Cube.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+4		L:\GITHUB\Chinczyk\header\Player.hpp	                 from L:/GITHUB/Chinczyk/header/Player.hpp
+3		L:\GITHUB\Chinczyk\sources\Player.cpp	                 from sources/Player.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+3		L:\GITHUB\Chinczyk\sources\Player.cpp	                 from sources/Player.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Player.cpp	In file included from sources/Player.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:48:26: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:50:45: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:51:09: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:51:28: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		C:\Program Files (x86)\Dev-Cpp\MinGW64\x86_64-w64-mingw32\bin\ld.exe	cannot open output file bin/Chinol.exe: Permission denied
+		L:\GITHUB\Chinczyk\collect2.exe	[Error] ld returned 1 exit status
+25		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'bin/Chinol.exe' failed
+
+29.01.2021 10:51:35: Appending to log...
+
+3	0	L:\GITHUB\Chinczyk\sources\Board.cpp	In file included from sources/Board.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\main.cpp	                 from sources/main.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\main.cpp	In file included from sources/main.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\main.cpp	In file included from sources/main.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\header\MainMenu.hpp	                 from L:/GITHUB/Chinczyk/header/MainMenu.hpp
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\header\MainMenu.hpp	                 from L:/GITHUB/Chinczyk/header/MainMenu.hpp
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\header\MainMenu.hpp	                 from L:/GITHUB/Chinczyk/header/MainMenu.hpp
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\header\MainMenu.hpp	                 from L:/GITHUB/Chinczyk/header/MainMenu.hpp
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\header\MainMenu.hpp	In file included from L:/GITHUB/Chinczyk/header/MainMenu.hpp
+3		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	                 from sources/MainMenu.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In file included from sources/MainMenu.cpp
+26	16	L:\GITHUB\Chinczyk\header\MainMenu.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In constructor 'MainMenu::MainMenu(float, float)':
+16	28	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+23	29	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+29	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+35	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+41	31	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+		L:\GITHUB\Chinczyk\sources\MainMenu.cpp	In member function 'void MainMenu::CheckCursorFocus(float, float)':
+71	49	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+73	47	L:\GITHUB\Chinczyk\sources\MainMenu.cpp	[Warning] 'void sf::Text::setColor(const sf::Color&)' is deprecated (declared at C:/SFML/SFML-2.4.2/include/SFML/Graphics/Text.hpp:177) [-Wdeprecated-declarations]
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+4		L:\GITHUB\Chinczyk\sources\Pawn.cpp	                 from sources/Pawn.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\sources\Pawn.cpp	In file included from sources/Pawn.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Pawn.cpp	In member function 'void Pawn::move(int, Board&)':
+134	20	L:\GITHUB\Chinczyk\sources\Pawn.cpp	[Warning] converting to non-pointer type 'int' from NULL [-Wconversion-null]
+3	0	L:\GITHUB\Chinczyk\sources\Cube.cpp	In file included from sources/Cube.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Pawn.hpp	In file included from L:/GITHUB/Chinczyk/header/Pawn.hpp
+4		L:\GITHUB\Chinczyk\header\Player.hpp	                 from L:/GITHUB/Chinczyk/header/Player.hpp
+3		L:\GITHUB\Chinczyk\sources\Player.cpp	                 from sources/Player.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+3		L:\GITHUB\Chinczyk\sources\Player.cpp	                 from sources/Player.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Player.cpp	In file included from sources/Player.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:52:43: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:52:57: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:53:24: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:53:52: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+		L:\GITHUB\Chinczyk\sources\Game.cpp	In member function 'void Game::live_in_game(sf::RenderWindow&, sf::Vector2f)':
+87	47	L:\GITHUB\Chinczyk\sources\Game.cpp	[Error] no matching function for call to 'Pawn::draw()'
+87	47	L:\GITHUB\Chinczyk\sources\Game.cpp	[Note] candidate is:
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	7	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Note] void Pawn::draw(sf::RenderWindow&)
+14	7	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Note] candidate expects 1 argument, 0 provided
+31		L:\GITHUB\Chinczyk\Makefile.win	recipe for target 'object/Game.o' failed
+
+29.01.2021 10:53:58: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+
+29.01.2021 10:54:34: Appending to log...
+
+4	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+40	47	L:\GITHUB\Chinczyk\header\Board.hpp	[Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+4	0	L:\GITHUB\Chinczyk\header\Player.hpp	In file included from L:/GITHUB/Chinczyk/header/Player.hpp
+5		L:\GITHUB\Chinczyk\header\Game.hpp	                 from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+22	22	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+36	20	L:\GITHUB\Chinczyk\header\Pawn.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+5	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+14	33	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+25	23	L:\GITHUB\Chinczyk\header\Player.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+6	0	L:\GITHUB\Chinczyk\header\Game.hpp	In file included from L:/GITHUB/Chinczyk/header/Game.hpp
+3		L:\GITHUB\Chinczyk\sources\Game.cpp	                 from sources/Game.cpp
+19	16	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+22	39	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+23	35	L:\GITHUB\Chinczyk\header\Cube.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+3	0	L:\GITHUB\Chinczyk\sources\Game.cpp	In file included from sources/Game.cpp
+25	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+26	20	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11
+28	19	L:\GITHUB\Chinczyk\header\Game.hpp	[Warning] non-static data member initializers only available with -std=c++11 or -std=gnu++11

@@ -26,7 +26,8 @@ int main()
 		if(game.check_isRun() == true)
 		{
 			window.clear();
-			game.load_components(window);			
+			game.load_components(window);		
+			game.live_in_game(window, Vector2f(0,0) );	
 			game.draw(window);
 		}
 		else

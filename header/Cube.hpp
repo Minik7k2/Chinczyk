@@ -7,21 +7,20 @@ using namespace sf;
 class Cube
 {
 	public:
-		Cube(float positon_x = -50,float position_x = -50);
+		Cube();
 		bool loadtexture();
-		void draw(RenderWindow &window);
+		void draw(RenderWindow &window, int x);
 		int throw_cube();
-		void set_position(float x,float y);
+		void set_position(float positon_x,float position_x);
+		Vector2f get_position();
 		~Cube();
 		
 	private:
 		bool isRun = true;
 		int random;
-		float position_x;
-		float position_y;
 		
 		Texture *texture_cube = new Texture();
-		Sprite *cube_arr = new Sprite [6];
+		Sprite *cube_arr = new Sprite [7];
 };
 
 

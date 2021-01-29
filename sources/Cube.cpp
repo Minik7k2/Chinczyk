@@ -5,25 +5,22 @@
 using namespace sf;
 using namespace std;
 
-Cube::Cube(float x,float y)
-{
-	position_x = x;
-	position_y = y;
-	
-	if(loadtexture() == true)
+Cube::Cube()
+{	
+	if(this->loadtexture() == true)
 	{	
-		//cout<<"dzia³";
+		//cout<<"Kostka wczytana"<<endl;
 	}
 	else
 	{
-		//cout<<"nie";
+		//cout<<"Kostka nie wczytana"<<endl;
 	}
 }
 
 bool Cube::loadtexture()
 {
 	texture_cube->loadFromFile("../textures/cube.png");
-	for (int i=0;i<=5;i++)
+	for (int i=0;i<=6;i++)
 	{
 		cube_arr[i].setTexture(*texture_cube);
 		cube_arr[i].setTextureRect(IntRect(0, i*50, 50, 50));
@@ -32,28 +29,30 @@ bool Cube::loadtexture()
 	return true;
 }
 
-void Cube::set_position(float x,float y)
+void Cube::draw(RenderWindow &window, int x)
 {
-	position_x = x;
-	position_y = y;
-}
-
-void Cube::draw(RenderWindow &window)
-{
-	window.draw(cube_arr[throw_cube()]);
- 	cout<<random<<endl;
+	window.draw(cube_arr[x]);
 }
 
 int Cube::throw_cube()
 {
 	random = rand()%6 + 1;
-	cube_arr[random-1].setPosition(Vector2f(position_x, position_y));
-	return random-1;
+	return random;
+}
+
+void Cube::set_position(float x,float y)
+{
+	for(int i=0; i<7; i++)
+		cube_arr[i].setPosition(Vector2f(x, y));
+}
+Vector2f Cube::get_position()
+{
+		return cube_arr[6].getPosition();
 }
 
 Cube::~Cube()
 {
 	delete(this->texture_cube);
 	delete[] cube_arr;
-	//cout<<"Umiera kostka"<<endl;
+	cout<<"Umiera kostka"<<endl;
 }

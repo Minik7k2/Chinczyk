@@ -22,6 +22,8 @@ class Game
 		~Game();
 		
 	private:
+		int playerTurn = 0;
+		int cubeOutput = 7;
 		bool isRun;
 		bool nextTurn = false;
 		Board *board;

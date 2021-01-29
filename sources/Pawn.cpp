@@ -42,12 +42,10 @@ void Pawn::setOnStart()
 void Pawn::highlightOn()
 {
 	pawnFigure.setTextureRect(IntRect(50, pawnColor*50, 50, 50));
-	pawnFigure.move(0,-5);
 }
 void Pawn::highlightOff()
 {
 	pawnFigure.setTextureRect(IntRect(0, pawnColor*50, 50, 50));
-	pawnFigure.move(0,5);
 }
 
 void Pawn::changeFieldGroup(int x)

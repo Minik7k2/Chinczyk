@@ -59,41 +59,85 @@ void Game::live_in_game(RenderWindow &window, Vector2f mousePos)
 	}
 	else
 	{
+		if (playerTurn == 3)
+		{
+			playerTurn = 0;
+		}
+		
 		if(mousePos.x >= cube->get_position().x && mousePos.x <= cube->get_position().x+50 && mousePos.y >= cube->get_position().y && mousePos.y <= cube->get_position().y+50)
 		{
 			cubeOutput = cube->throw_cube();
 			cout<<"Kostka "<<cubeOutput<<endl;
 		}
-		else
-		{
 			cout<<"Tura: "<<round<<endl;
 			if(cubeOutput <= 5)
 			{
+				int users_in_move_cancel = 0; 
+			
 				for(int j=0;j<4;j++)
 				{
 					
+					if(players[playerTurn].playerPawns[j].checkIfAbleToMove(cubeOutput) == true)
+					{
+						players[playerTurn].playerPawns[j].highlightOn();
+					}
+					else
+					{
+						users_in_move_cancel++;
+					}
+				}
+
+				if (users_in_move_cancel == 4)
+				{
+					playerTurn++;
+					cubeOutput = 7;
+				}
+				else
+				{
+					for(int j=0;j<4;j++)
+					{
+						if(players[playerTurn].playerPawns[j].checkIfAbleToMove(cubeOutput) == true)
+						{
+							if(mousePos.x >= players[playerTurn].playerPawns[j].pawnFigure.getPosition().x && mousePos.x <= players[playerTurn].playerPawns[j].pawnFigure.getPosition().x+50 && mousePos.y >= players[playerTurn].playerPawns[j].pawnFigure.getPosition().y && mousePos.y <= players[playerTurn].playerPawns[j].pawnFigure.getPosition().y+50)
+							{
+								players[playerTurn].playerPawns[j].move(cubeOutput, *board);
+								
+								for(int k=0;k<4;k++)
+								{
+									players[playerTurn].playerPawns[k].highlightOff();
+								}
+								/** W tym miejscu if ktory sprawdza kolizje **/
+								playerTurn++;
+								cubeOutput = 7;
+							}
+						}
+					}
 				}
 			}
 			else if(cubeOutput == 6)
 			{
+				for(int i=0;i<4;i++)
+				{
+					players[playerTurn].playerPawns[i].highlightOn();
+				}
+				
 				for(int j=0;j<4;j++)
 				{
-				
-				}
-			}
-			else
-			{
-				if (playerTurn == 3)
-				{
-					playerTurn = 0;
-				}
-				else		
-				{
-					playerTurn++;				
+					if(mousePos.x >= players[playerTurn].playerPawns[j].pawnFigure.getPosition().x && mousePos.x <= players[playerTurn].playerPawns[j].pawnFigure.getPosition().x+50 && mousePos.y >= players[playerTurn].playerPawns[j].pawnFigure.getPosition().y && mousePos.y <= players[playerTurn].playerPawns[j].pawnFigure.getPosition().y+50)
+					{
+						cout<<"wybieram cie"<<endl;
+						players[playerTurn].playerPawns[j].move(cubeOutput, *board);
+					
+						for(int i=0;i<4;i++)
+						{
+							players[playerTurn].playerPawns[i].highlightOff();
+						}
+						Sleep(2000);
+						cubeOutput = 7;
+					}
 				}
 			}
 			round++;
-		}
 	}
 
 		
@@ -101,19 +145,19 @@ void Game::live_in_game(RenderWindow &window, Vector2f mousePos)
 	{
 		case 0:
 			cube->set_position(225,225);
-			cout<<"Gracz "<<playerTurn<<" wyrzuci³ "<<cubeOutput<<endl;		
+			cout<<"Gracz "<<playerTurn<<endl;		
 		break;		
 		case 1:
 			cube->set_position(575,225);
-			cout<<"Gracz "<<playerTurn<<" wyrzuci³ "<<cubeOutput<<endl;
+			cout<<"Gracz "<<playerTurn<<endl;
 		break;
 		case 2:
 			cube->set_position(575,575);
-			cout<<"Gracz "<<playerTurn<<" wyrzuci³ "<<cubeOutput<<endl;
+			cout<<"Gracz "<<playerTurn<<endl;
 		break;
 		case 3:
 			cube->set_position(225,575);
-			cout<<"Gracz "<<playerTurn<<" wyrzuci³ "<<cubeOutput<<endl;
+			cout<<"Gracz "<<playerTurn<<endl;
 		break;
 	}
 

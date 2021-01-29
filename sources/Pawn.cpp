@@ -159,6 +159,44 @@ void Pawn::move(int cubeOutput, Board &board)
 	}
 }
 
+void Pawn::scaleDown(int position)
+{
+	pawnFigure.scale(Vector2f(0.5, 0.5));
+	switch(position)
+	{
+		case 0:
+			pawnFigure.move(Vector2f(0, 15));
+			break;
+		case 1:
+			pawnFigure.move(Vector2f(25, 15));
+			break;
+		case 2:
+			pawnFigure.move(Vector2f(0, 40));
+			break;
+		case 3:
+			pawnFigure.move(25, 40);
+			break;
+	}
+}
+void Pawn::scaleUp(int position)
+{
+	pawnFigure.scale(Vector2f(2, 2));
+	switch(position)
+	{
+		case 0:
+			pawnFigure.move(Vector2f(0, -15));
+			break;
+		case 1:
+			pawnFigure.move(Vector2f(-25, -15));
+			break;
+		case 2:
+			pawnFigure.move(Vector2f(0, -40));
+			break;
+		case 3:
+			pawnFigure.move(-25, -40);
+			break;
+	}
+}
 
 Pawn::~Pawn()
 {

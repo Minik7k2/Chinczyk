@@ -23,14 +23,13 @@ public:
 	Sprite pawnFigure;
 	Vector2f startingPosition;
 	Vector2f startingPoint;
+	void scaleDown(int position);
+	void scaleUp(int position);
 	
 	~Pawn();
 
 private:
-	
 	void changeFieldGroup(int groupIndex);
-	void scaleDown();
-	void scaleUp();
 	int fieldGroup;//0=yard, 1=path, 2=homeway
 	int pawnColor;
 	bool ableToMove = false;

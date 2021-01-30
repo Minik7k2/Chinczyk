@@ -60,11 +60,32 @@ void Pawn::move(int cubeOutput, Board &board)
 {
 	if(fieldGroup == 0)
 	{
+<<<<<<< Updated upstream
 		changeFieldGroup(1);
 		pawnFigure.setPosition(startingPoint);
 		pathPosition = 0; // zeby sprawdzic ktory to -> pathElements[(playerID*14)+pathPosition]
 		
 	}else if(fieldGroup == 1)
+=======
+		case 0:
+			pawnFigure.move(Vector2f(0, 15));
+			break;
+		case 1:
+			pawnFigure.move(25, 40);
+			break;
+		case 2:
+			pawnFigure.move(Vector2f(25, 15));
+			break;
+		case 3:
+			pawnFigure.move(Vector2f(0, 40));
+			break;
+	}
+}
+void Pawn::scaleUp(int position)
+{
+	pawnFigure.scale(Vector2f(2, 2));
+	switch(position)
+>>>>>>> Stashed changes
 	{
 		pathPosition = pathPosition + cubeOutput;
 		pawnFigure.setPosition(board.getPosition(board.pathElements[pathPosition]));

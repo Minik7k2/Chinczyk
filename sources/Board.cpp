@@ -140,6 +140,7 @@ void Board::set_safeFields()
 	{
 		pathElements[(i*12)+6][2] = 1;
 		pathElements[(i*12)+6][3] = 1;
+		safeFields[i] = (i*12)+6;
 	}
 }
 
@@ -208,8 +209,6 @@ void Board::set_yards()
 		}
 	}
 }
-	
-
 
 Board::~Board()
 {

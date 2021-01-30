@@ -23,6 +23,7 @@ public:
 	Sprite pawnFigure;
 	Vector2f startingPosition;
 	Vector2f startingPoint;
+<<<<<<< Updated upstream
 	~Pawn();
 
 private:
@@ -32,6 +33,16 @@ private:
 	void scaleDown();
 	void scaleUp();
 	int fieldGroup; //0=yard, 1=path, 2=homeway, 3=home
+=======
+	void scaleDown(int position);
+	void scaleUp(int position);
+	int fieldGroup;//0=yard, 1=path, 2=homeway
+	
+	~Pawn();
+
+private:
+	void changeFieldGroup(int groupIndex);
+>>>>>>> Stashed changes
 	int pawnColor;
 	bool ableToMove = true;
 	Texture pawnTexture;
